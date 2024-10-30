@@ -1,4 +1,4 @@
-# Welcome to your Jupyter Book
+# 計算機実習A
 
 This is a small sample book to give you a feel for how book content is
 structured.
