@@ -76,3 +76,7 @@ TCP/IP
 | トランスポート層   | TCP, UDP                                |
 | インターネット層   | IP, ICMP, ARP, RARP                     |
 | リンク層           | Ethernet, Wi-Fi                         |
+
+## IPアドレス
+
+IP（Internet Protocol）
