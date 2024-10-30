@@ -1,22 +1,5 @@
 # ネットワークとインターネット
 
-## OSI参照モデルとTCP/IPモデル
-
-OSI参照モデル
-1. 物理層
-2. データリンク層
-3. ネットワーク層
-4. トランスポート層
-5. セッション層
-6. プレゼンテーション層
-7. アプリケーション層
-
-インターネット・プロトコル・スイート（TCP/IPモデル）
-1. リンク層
-2. インターネット層
-3. トランスポート層
-4. アプリケーション層
-
 ## LAN
 
 LAN（Local Area Network）
@@ -40,7 +23,7 @@ MAC（Media Access Control）アドレス：48ビットの識別番号
 
 転送速度は当初10Mbpsだったが、100Mbps、1Gbps、10Gbpsと進化
 
-### 無線LAN
+### 無線LAN 
 
 ## WAN
 
@@ -65,9 +48,24 @@ intra（内部） + net（ネットワーク）: 異なるネットワークを�
 
 プロトコルの制定機関：IETF（Internet Engineering Task Force）
 
-## プロトコル
+## OSI参照モデルとTCP/IPモデル
 
-プロトコル（protocol）
+OSI参照モデル
+1. 物理層
+2. データリンク層
+3. ネットワーク層
+4. トランスポート層
+5. セッション層
+6. プレゼンテーション層
+7. アプリケーション層
+
+インターネット・プロトコル・スイート（TCP/IPモデル）
+1. リンク層
+2. インターネット層
+3. トランスポート層
+4. アプリケーション層
+
+## プロトコル（protocol）
 
 TCP/IP
 | 層                 | プロトコル                              |
@@ -80,3 +78,74 @@ TCP/IP
 ## IPアドレス
 
 IP（Internet Protocol）
+
+## IPv4とIPv6
+IPv4：32ビットのアドレス
+IPv6：128ビットのアドレス
+
+JPNIC（Japan Network Information Center）：日本国内のIPv4アドレス、IPv6アドレス、AS番号の登録管理業務
+
+### IPv4
+ドット付き十進表記（dotted decimal notation）
+
+アドレスクラス：A, B, C, D, E
+
+
+### IPv6
+コロン付き16進記法（colon hexadecimal notation）
+
+### ドメイン名とDNS
+
+ドメイン名（domain name）
+
+DNS（Domain Name System）
+
+URL（Uniform Resource Locator）
+
+### ポート番号
+
+| ポート番号 | 用途          |
+| :--------- | :------------ |
+| 20         | FTPデータ転送 |
+
+## TCPとUDP
+
+TCP（Transmission Control Protocol）
+
+UDP（User Datagram Protocol）
+
+## 電子メール
+
+SMTP（Simple Mail Transfer Protocol）
+
+IMAP（Internet Message Access Protocol）
+
+POP3（Post Office Protocol version 3）
+
+## ウェブ
+
+HTTP（HyperText Transfer Protocol）
+
+HTTPS（HTTP Secure）
+
+### HTML
+
+HTML（HyperText Markup Language）
+
+### XML
+
+XML（eXtensible Markup Language）
+
+## ストリーミング
+
+ストリーミング（streaming）
+
+## FTP
+
+FTP（File Transfer Protocol）
+
+## TELNET
+
+あまり利用されなくなっている
+
+## セキュリティ
