@@ -70,4 +70,9 @@ intra（内部） + net（ネットワーク）: 異なるネットワークを�
 プロトコル（protocol）
 
 TCP/IP
-|
+| 層                 | プロトコル                              |
+| :----------------- | :-------------------------------------- |
+| アプリケーション層 | HTTP, SMTP, POP3, FTP, Telnet, SSH, DNS |
+| トランスポート層   | TCP, UDP                                |
+| インターネット層   | IP, ICMP, ARP, RARP                     |
+| リンク層           | Ethernet, Wi-Fi                         |
