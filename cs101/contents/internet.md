@@ -1,6 +1,17 @@
 # ネットワークとインターネット
 
-## LAN
+## 目次
+
+
+
+## ネットワークの分類
+
+- LAN（Local Area Network）
+- MAN（Metropolitan Area Network）
+- WAN（Wide Area Network）
+- インターネット
+
+### LAN
 
 LAN（Local Area Network）
 
@@ -11,9 +22,9 @@ LANのトポロジー：バス型、スター型、リング型
 
 スター型：ハブ
 
-### イーサネット（Ethernet）
+#### イーサネット（Ethernet）
 
-トポロジー：バス型とスター型、多くがスター型
+トポロジー：バス型とスター型
 
 OSI参照モデル：物理層、データリンク層
 
@@ -23,20 +34,30 @@ MAC（Media Access Control）アドレス：48ビットの識別番号
 
 転送速度は当初10Mbpsだったが、100Mbps、1Gbps、10Gbpsと進化
 
-### 無線LAN 
+#### 無線LAN 
 
-## WAN
+IEEE 802.11は広く普及している無線LAN関連規格の一つである
+
+Wi-Fiは無線LANの登録商標
+
+アクセスポイント（access point）
+
+Wi-Fiルータ
+
+### WAN
 
 WAN（Wide Area Network）
 
-インターネットサービスポロバイダ（ISP, Internet Service Provider）
+
+
+### インターネット
+
+インターネット接続事業者（Internet Service Provider、ISP）
 
 代表的なISP
 - au one net
 - J:COM
 - OCN
-
-## インターネット
 
 インターネット（the Internet）
 
@@ -48,7 +69,20 @@ intra（内部） + net（ネットワーク）: 異なるネットワークを�
 
 プロトコルの制定機関：IETF（Internet Engineering Task Force）
 
-## OSI参照モデルとTCP/IPモデル
+### ネットワーク機器
+
+- ハブ
+- リピータ
+- ブリッジ
+- スイッチ
+- ルータ
+- ゲートウェイ
+
+
+
+## プロトコル
+
+### OSI参照モデルとTCP/IPモデル
 
 OSI参照モデル
 1. 物理層
@@ -65,8 +99,6 @@ OSI参照モデル
 3. トランスポート層
 4. アプリケーション層
 
-## プロトコル（protocol）
-
 TCP/IP
 | 層                 | プロトコル                              |
 | :----------------- | :-------------------------------------- |
@@ -75,26 +107,25 @@ TCP/IP
 | インターネット層   | IP, ICMP, ARP, RARP                     |
 | リンク層           | Ethernet, Wi-Fi                         |
 
-## IPアドレス
+### IPアドレス
 
 IP（Internet Protocol）
 
-## IPv4とIPv6
 IPv4：32ビットのアドレス
 IPv6：128ビットのアドレス
 
 JPNIC（Japan Network Information Center）：日本国内のIPv4アドレス、IPv6アドレス、AS番号の登録管理業務
 
-### IPv4
+#### IPv4
 ドット付き十進表記（dotted decimal notation）
 
 アドレスクラス：A, B, C, D, E
 
 
-### IPv6
+#### IPv6
 コロン付き16進記法（colon hexadecimal notation）
 
-### ドメイン名とDNS
+#### ドメイン名とDNS
 
 ドメイン名（domain name）
 
@@ -102,19 +133,35 @@ DNS（Domain Name System）
 
 URL（Uniform Resource Locator）
 
-### ポート番号
+#### ポート番号
 
 | ポート番号 | 用途          |
 | :--------- | :------------ |
 | 20         | FTPデータ転送 |
+| 21         | FTP制御       |
+| 22         | SSH           |
+| 23         | Telnet        |
+| 25         | SMTP          |
+| 53         | DNS           |
+| 67         | DHCP          |
+| 80         | HTTP          |
+| 110        | POP3          |
+| 143        | IMAP          |
+| 443        | HTTPS         |
 
-## TCPとUDP
+#### DHCP
+
+DHCP（Dynamic Host Configuration Protocol）：自動でIPアドレスを割り当てる
+
+### TCPとUDP
 
 TCP（Transmission Control Protocol）
 
 UDP（User Datagram Protocol）
 
-## 電子メール
+## インターネットアプリケーション
+
+### 電子メール
 
 SMTP（Simple Mail Transfer Protocol）
 
@@ -122,30 +169,45 @@ IMAP（Internet Message Access Protocol）
 
 POP3（Post Office Protocol version 3）
 
-## ウェブ
+### ストリーミング
+
+ストリーミング（streaming）
+
+### ファイル転送プロトコル
+
+FTP（File Transfer Protocol）
+
+### TELNETとセキュアシェル
+
+TELNETはあまり利用されなくなっている
+
+セキュアシェル（Secure Shell、SSH）
+
+### ウェブ
 
 HTTP（HyperText Transfer Protocol）
 
 HTTPS（HTTP Secure）
 
-### HTML
+#### HTML
 
 HTML（HyperText Markup Language）
 
-### XML
+#### XML
 
 XML（eXtensible Markup Language）
 
-## ストリーミング
-
-ストリーミング（streaming）
-
-## FTP
-
-FTP（File Transfer Protocol）
-
-## TELNET
-
-あまり利用されなくなっている
-
 ## セキュリティ
+
+### ネットワーク犯罪
+
+- ワーム（worm）
+- ウイルス（virus）
+- トロイの木馬（Trojan horse）
+
+DOS（Denial of Service）攻撃
+
+DDoS（Distributed Denial of Service）攻撃
+
+### 暗号
+
