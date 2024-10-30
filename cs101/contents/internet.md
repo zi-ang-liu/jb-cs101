@@ -19,6 +19,11 @@ OSI参照モデル
 
 ## LAN
 
+LAN（Local Area Network）
+
+狭い範囲にあるコンピュータやネットワーク機器を接続するネットワーク
+- 学校、工場、オフィス、家庭など
+
 LANのトポロジー：バス型、スター型、リング型
 
 スター型：ハブ
@@ -38,3 +43,31 @@ MAC（Media Access Control）アドレス：48ビットの識別番号
 ### 無線LAN
 
 ## WAN
+
+WAN（Wide Area Network）
+
+インターネットサービスポロバイダ（ISP, Internet Service Provider）
+
+代表的なISP
+- au one net
+- J:COM
+- OCN
+
+## インターネット
+
+インターネット（the Internet）
+
+intra（内部） + net（ネットワーク）: 異なるネットワークを相互に接続するネットワーク
+
+組織のネットワークやISPなどが相互に接続したネットワーク
+
+アドレスの割付機関：ICANN（Internet Corporation for Assigned Names and Numbers）
+
+プロトコルの制定機関：IETF（Internet Engineering Task Force）
+
+## プロトコル
+
+プロトコル（protocol）
+
+TCP/IP
+|
