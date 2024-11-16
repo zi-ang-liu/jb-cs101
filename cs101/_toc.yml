@@ -9,4 +9,5 @@ chapters:
 # - file: markdown-notebooks
 - file: contents/how-to-use-computer
 - file: contents/powershell
+- file: contents/information
 - file: contents/internet
