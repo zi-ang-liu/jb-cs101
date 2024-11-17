@@ -1,13 +1,67 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
+# format: jb-book
+# root: intro
+# chapters:
+# # - file: markdown
+# # - file: notebooks
+# # - file: markdown-notebooks
+# - file: contents/how-to-use-computer
+# - file: contents/powershell
+# - file: contents/information
+# - file: contents/internet
+
 format: jb-book
 root: intro
-chapters:
-# - file: markdown
-# - file: notebooks
-# - file: markdown-notebooks
-- file: contents/how-to-use-computer
-- file: contents/powershell
-- file: contents/information
-- file: contents/internet
+parts:
+    - caption: コンピュータの利用
+      chapters:
+
+      - file: contents/how-to-use/intro
+        sections:
+        - file: contents/how-to-use/keyboard
+        - file: contents/how-to-use/mouse
+        - file: contents/how-to-use/monitor
+        - file: contents/how-to-use/printer
+        - file: contents/how-to-use/usb
+        - file: contents/how-to-use/keyboard-shortcuts
+        - file: contents/how-to-use/operating-system
+        - file: contents/how-to-use/database
+        - file: contents/how-to-use/email
+        - file: contents/how-to-use/web-browser
+        - file: contents/how-to-use/file-management
+
+    - caption: Microsoft Office
+        chapters:
+    
+        - file: contents/microsoft-office/word/intro
+        
+        - file: contents/microsoft-office/excel/intro
+    
+    - caption: コンピュータ科学
+        chapters:
+    
+        - file: contents/computer-science/data/intro
+          sections:
+            - file: contents/computer-science/data/boolean
+            - file: contents/computer-science/data/binary
+
+        - file: contents/computer-science/algorithm/intro
+
+        - file: contents/computer-science/programming/intro
+        
+        - file: contents/computer-science/network/intro
+          sections:
+            - file: contents/computer-science/network/internet
+            - file: contents/computer-science/network/security
+
+        - file: contents/computer-science/artificial-intelligence/intro
+          sections:
+            - file: contents/computer-science/artificial-intelligence/machine-learning
+            - file: contents/computer-science/artificial-intelligence/generative-ai
+
+    - caption: Appendix
+        chapters:
+
+        - file: contents/appendix/powershell
