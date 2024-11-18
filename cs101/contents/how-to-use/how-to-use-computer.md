@@ -1,8 +1,14 @@
 # コンピュータの利用
 
+[全学ネットワークシステム](https://netsys.hosei.ac.jp/)
+
 ## Hosei-WiFiの接続
 
+
+
 ## Hoppiiの使い方
+
+[Hoppii](https://hoppii.hosei.ac.jp/)
 
 ## コンピュータとは
 
@@ -17,5 +23,3 @@
 ## Zoomの使い方
 
 ## コマンドプロンプト
-
-[マニュアル一覧](https://netsys.hosei.ac.jp/manual/manual_list.html)
