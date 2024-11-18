@@ -40,11 +40,15 @@ parts:
       - file: contents/computer-science/data-structure/intro
 
       - file: contents/computer-science/programming/intro
+
+      - file: contents/computer-science/database/intro
         
       - file: contents/computer-science/network/intro
         sections:
         - file: contents/computer-science/network/internet
         - file: contents/computer-science/network/security
+        - file: contents/computer-science/network/html
+        - file: contents/computer-science/network/xml
 
       - file: contents/computer-science/artificial-intelligence/intro
         sections:
