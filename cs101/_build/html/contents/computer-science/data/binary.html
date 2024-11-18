@@ -1,0 +1,950 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>二進法 &#8212; cs101</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'contents/computer-science/data/binary';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../../../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../_static/logo.svg" class="logo__image only-light" alt="cs101 - Home"/>
+    <script>document.write(`<img src="../../../_static/logo.svg" class="logo__image only-dark" alt="cs101 - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../../intro.html">
+                    計算機実習A
+                </a>
+            </li>
+        </ul>
+        
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/zi-ang-liu/cs101" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/zi-ang-liu/cs101/issues/new?title=Issue%20on%20page%20%2Fcontents/computer-science/data/binary.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../../_sources/contents/computer-science/data/binary.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>二進法</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">10進数と２進数</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-10110110">Example: 101101の10進数を求める</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-132">Example: 13の２進数を求める</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">２進加算</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">２の補数記法</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-1010">Example: 1010を解読する</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">2の補数記法による加算</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#example-0101-0010">Example: 0101 + 0010</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#example-0111-1011">Example: 0111 + 1011</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">2の補数記法による減算</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">オーバーフロー</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">やってみよう</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">2038年問題</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">１６進記法</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#example-216">Example: 2進数を16進数に変換する</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">小数</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">浮動小数点記法</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">練習問題</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">2の補数</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>二進法<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<section id="id2">
+<h2>10進数と２進数<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>10進数</p></th>
+<th class="head"><p>2進数</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>11</p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>100</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>101</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>110</p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>111</p></td>
+</tr>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>1000</p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>1001</p></td>
+</tr>
+</tbody>
+</table>
+<div class="math notranslate nohighlight">
+\[
+1234 = 10 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+1011_{2} = 1 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 11
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+100101_{2} = 1 \times 2^5 + 0 \times 2^4 + 0 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 1 \times 2^0 = 37
+\]</div>
+<p>アルゴリズム</p>
+<ol class="arabic simple">
+<li><p>与えられた値を２で割った商と余りを求める。</p></li>
+<li><p>商が0になるまで繰り返す。</p></li>
+<li><p>商が0になったら、余りを逆順に並べる。</p></li>
+</ol>
+<section id="example-10110110">
+<h3>Example: 101101の10進数を求める<a class="headerlink" href="#example-10110110" title="Link to this heading">#</a></h3>
+<div class="math notranslate nohighlight">
+\[
+101101_{2} = 1 \times 2^5 + 0 \times 2^4 + 1 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 1 \times 2^0 = 45
+\]</div>
+</section>
+<section id="example-132">
+<h3>Example: 13の２進数を求める<a class="headerlink" href="#example-132" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>13を2で割ると、商6、余り1</p></li>
+<li><p>6を2で割ると、商3、余り0</p></li>
+<li><p>3を2で割ると、商1、余り1</p></li>
+<li><p>1を2で割ると、商0、余り1</p></li>
+<li><p>商が0になったので、余りを逆順に並べる。</p></li>
+<li><p>13の２進数は1101である。</p></li>
+</ol>
+</section>
+</section>
+<section id="id3">
+<h2>２進加算<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{array}{r}
+  58 \\
++ 27 \\
+\hline
+  85 \\
+\end{array}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{array}{r}
+  111010 \\
++ 11011 \\
+\hline
+  1010101 \\
+\end{array}
+\end{split}\]</div>
+</section>
+<section id="id4">
+<h2>２の補数記法<a class="headerlink" href="#id4" title="Link to this heading">#</a></h2>
+<p>２の補数(two’s complement)記法は、コンピュータで整数を表現する最も一般的な体系である。</p>
+<p>長さ３のパターン</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>ビットパターン</p></th>
+<th class="head"><p>表現する値</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>011</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-odd"><td><p>010</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>001</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>000</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td><p>111</p></td>
+<td><p>-1</p></td>
+</tr>
+<tr class="row-odd"><td><p>110</p></td>
+<td><p>-2</p></td>
+</tr>
+<tr class="row-even"><td><p>101</p></td>
+<td><p>-3</p></td>
+</tr>
+<tr class="row-odd"><td><p>100</p></td>
+<td><p>-4</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>最左端のビットが符号を表す。符号ビットと呼ぶ。</p></li>
+<li><p>絶対値が同じである正負の値を表現するビットパターンの間に簡潔な関係がある。</p>
+<ul>
+<li><p>右から読んでいくと、最初の１が現れるまでのビットが同一である。</p></li>
+<li><p>その１から右のビットは、お互いに補な関係がある。</p></li>
+</ul>
+</li>
+</ul>
+<section id="example-1010">
+<h3>Example: 1010を解読する<a class="headerlink" href="#example-1010" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>1010の符号ビットは1なので、負の数である。</p></li>
+<li><p>1010を正の数に変換すると、0110である。</p></li>
+<li><p>0110の値は6である。</p></li>
+<li><p>1010は-6を表す。</p></li>
+</ol>
+</section>
+<section id="id5">
+<h3>2の補数記法による加算<a class="headerlink" href="#id5" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>2の補数記法による加算は、解も含めて全てのビットパターンが同じ長さである。</p></li>
+<li><p>2の補数記法による加算は、通常の加算と同じように行い、左端に生成される余分なビットを切り捨てる。</p></li>
+</ul>
+<section id="example-0101-0010">
+<h4>Example: 0101 + 0010<a class="headerlink" href="#example-0101-0010" title="Link to this heading">#</a></h4>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{array}{r}
+  0101 \\
++ 0010 \\
+\hline
+  0111 \\
+\end{array}
+\end{split}\]</div>
+</section>
+<section id="example-0111-1011">
+<h4>Example: 0111 + 1011<a class="headerlink" href="#example-0111-1011" title="Link to this heading">#</a></h4>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{array}{r}
+  0111 \\
++ 1011 \\
+\hline
+  0010 \\
+\end{array}
+\end{split}\]</div>
+<p>0111 + 1011 = 10010 であるが、最左端のビットを切り捨てる。</p>
+<div class="math notranslate nohighlight">
+\[
+\texttt{0111}_{2} = 7_{10}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\texttt{1011}_{2} = -5_{10}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\texttt{0010}_{2} = 2_{10}
+\]</div>
+</section>
+</section>
+<section id="id6">
+<h3>2の補数記法による減算<a class="headerlink" href="#id6" title="Link to this heading">#</a></h3>
+<div class="math notranslate nohighlight">
+\[
+7 - 5 = 7 + (-5) = 2
+\]</div>
+<ol class="arabic simple">
+<li><p>7の2の補数を求める。<span class="math notranslate nohighlight">\(7 = 0111_{2}\)</span></p></li>
+<li><p>5の2の補数を求める。<span class="math notranslate nohighlight">\(5 = 0101_{2}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(-5 = 1011_{2}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(0111_{2} + 1011_{2} = 0010_{2}\)</span></p></li>
+</ol>
+</section>
+<section id="id7">
+<h3>オーバーフロー<a class="headerlink" href="#id7" title="Link to this heading">#</a></h3>
+<section id="id8">
+<h4>やってみよう<a class="headerlink" href="#id8" title="Link to this heading">#</a></h4>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">127</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">;</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;a = %d, b = %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;a + b = %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">c</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">char</span></code>型は8ビットで表現され、最大値は127であり、最小値は-128である。問題<span class="math notranslate nohighlight">\(127 + 1\)</span> の結果は、<code class="docutils literal notranslate"><span class="pre">char</span></code>型の範囲を超え、<span class="math notranslate nohighlight">\(128\)</span>が得られないことになる。このような現象をオーバーフローと呼ぶ。</p>
+</section>
+<section id="id9">
+<h4>2038年問題<a class="headerlink" href="#id9" title="Link to this heading">#</a></h4>
+<p><a class="reference external" href="https://ja.wikipedia.org/wiki/2038%E5%B9%B4%E5%95%8F%E9%A1%8C">2038年問題</a></p>
+</section>
+</section>
+<section id="id10">
+<h3>１６進記法<a class="headerlink" href="#id10" title="Link to this heading">#</a></h3>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>ビットパターン</p></th>
+<th class="head"><p>16進数</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0000</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td><p>0001</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>0010</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>0011</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-even"><td><p>0100</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>0101</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>0110</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>0111</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-even"><td><p>1000</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p>1001</p></td>
+<td><p>9</p></td>
+</tr>
+<tr class="row-even"><td><p>1010</p></td>
+<td><p>A</p></td>
+</tr>
+<tr class="row-odd"><td><p>1011</p></td>
+<td><p>B</p></td>
+</tr>
+<tr class="row-even"><td><p>1100</p></td>
+<td><p>C</p></td>
+</tr>
+<tr class="row-odd"><td><p>1101</p></td>
+<td><p>D</p></td>
+</tr>
+<tr class="row-even"><td><p>1110</p></td>
+<td><p>E</p></td>
+</tr>
+<tr class="row-odd"><td><p>1111</p></td>
+<td><p>F</p></td>
+</tr>
+</tbody>
+</table>
+<p>１６進記法では、４ビットのパターンを１つの記号で表現できる。</p>
+<section id="example-216">
+<h4>Example: 2進数を16進数に変換する<a class="headerlink" href="#example-216" title="Link to this heading">#</a></h4>
+<div class="math notranslate nohighlight">
+\[
+\texttt{1011}_2 = \texttt{B}_{16}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\texttt{1011 0101 0011}_2 = \texttt{B53}_{16}
+\]</div>
+</section>
+</section>
+</section>
+<section id="id11">
+<h2>小数<a class="headerlink" href="#id11" title="Link to this heading">#</a></h2>
+<section id="id12">
+<h3>浮動小数点記法<a class="headerlink" href="#id12" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>符号ビット</p></li>
+<li><p>指数部</p></li>
+<li><p>仮数部</p></li>
+</ul>
+</section>
+</section>
+<section id="id13">
+<h2>練習問題<a class="headerlink" href="#id13" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>次のビットパターンを16進記法で表現せよ。</p>
+<ul class="simple">
+<li><p>0101 1010</p></li>
+<li><p>1100 0011 1010</p></li>
+<li><p>1111 0001 0100 1001</p></li>
+</ul>
+</li>
+<li><p>次の16進数をビットパターンで表現せよ。</p>
+<ul class="simple">
+<li><p>610A</p></li>
+<li><p>ABCD</p></li>
+<li><p>5F3A</p></li>
+<li><p>0100</p></li>
+</ul>
+</li>
+<li><p><span class="math notranslate nohighlight">\(p = 1, q = 0\)</span> のとき、次の論理式の値を求めよ。</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(p \land q\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(p \lor q\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\lnot p\)</span></p></li>
+</ul>
+</li>
+<li><p>次の10進数を2進数に変換せよ。</p>
+<ol class="arabic simple">
+<li><p>32</p></li>
+<li><p>64</p></li>
+<li><p>15</p></li>
+<li><p>27</p></li>
+</ol>
+</li>
+<li><p>次の2進数を10進数に変換せよ。</p>
+<ol class="arabic simple">
+<li><p>101010</p></li>
+<li><p>100011</p></li>
+<li><p>0110</p></li>
+<li><p>11111</p></li>
+</ol>
+</li>
+<li><p>次の２進数の和を求めよ。</p>
+<ol class="arabic simple">
+<li><p>101 + 110</p></li>
+<li><p>1101 + 1011</p></li>
+<li><p>10101 + 11011</p></li>
+<li><p>101010 + 11011</p></li>
+</ol>
+</li>
+</ol>
+<section id="id14">
+<h3>2の補数<a class="headerlink" href="#id14" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>次の２の補数表現を、それぞれ等しい10進数に変換せよ。</p>
+<ol class="arabic simple">
+<li><p>00011</p></li>
+<li><p>01111</p></li>
+<li><p>11100</p></li>
+<li><p>11010</p></li>
+<li><p>00000</p></li>
+<li><p>10000</p></li>
+</ol>
+</li>
+<li><p>次の１０進数をそれぞれ等しい8ビットパターンの２の補数表現に変換せよ。</p>
+<ol class="arabic simple">
+<li><p>6</p></li>
+<li><p>-6</p></li>
+<li><p>-17</p></li>
+<li><p>13</p></li>
+<li><p>-1</p></li>
+<li><p>0</p></li>
+</ol>
+</li>
+</ol>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./contents/computer-science/data"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">10進数と２進数</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-10110110">Example: 101101の10進数を求める</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-132">Example: 13の２進数を求める</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">２進加算</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">２の補数記法</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-1010">Example: 1010を解読する</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">2の補数記法による加算</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#example-0101-0010">Example: 0101 + 0010</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#example-0111-1011">Example: 0111 + 1011</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">2の補数記法による減算</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">オーバーフロー</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">やってみよう</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">2038年問題</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">１６進記法</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#example-216">Example: 2進数を16進数に変換する</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">小数</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">浮動小数点記法</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">練習問題</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">2の補数</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Ziang Liu
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
