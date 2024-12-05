@@ -2,6 +2,12 @@
 
 ## Getting Started
 
+### PowerShell and Command Prompt
+
+以下のサイトでは、PowerShell と Command Prompt の関係について説明しています。
+
+- [PowerShell is replacing Command Prompt](https://support.microsoft.com/en-us/windows/powershell-is-replacing-command-prompt-fdb690cf-876c-d866-2124-21b6fb29a45f)
+
 ### バージョン
 
 PowerShell のバージョンを確認するには、次のコマンドを実行します。
