@@ -12,4 +12,6 @@ name: download
 ダウンロードページ
 ```
 
+![download](../appendix/images/vscode/download.png)
+
 2. ダウンロードしたインストーラーを実行し、インストールを行います。
