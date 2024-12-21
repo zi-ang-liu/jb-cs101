@@ -17,3 +17,11 @@
 ![5](../appendix/images/vscode/5.png)
 8. インストールが完了すると、「完了」をクリックします。
 ![6](../appendix/images/vscode/6.png)
+
+## Open a Folder
+
+1. Visual Studio Codeを起動します。
+2. メニューから「File」→「Open Folder」を選択します。
+3. 開きたいフォルダを選択し、「フォルダーの選択」をクリックします。
+
+## 
