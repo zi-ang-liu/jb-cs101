@@ -4,4 +4,12 @@
 
 1. Visual Studio Codeの[ダウンロードページ](https://code.visualstudio.com/download)にアクセスし、Windows用のインストーラーをダウンロードします。
 
+```{figure} ../contents/env/images/vscode/download.png
+---
+height: 150px
+name: download
+---
+ダウンロードページ
+```
+
 2. ダウンロードしたインストーラーを実行し、インストールを行います。
