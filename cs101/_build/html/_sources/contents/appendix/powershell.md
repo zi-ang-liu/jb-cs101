@@ -1,6 +1,20 @@
 # PowerShell
 
-## Getting Started
+## 概要
+
+PowerShell は、Microsoft によって開発されたコマンドラインシェルです。
+
+### PowerShell and Command Prompt
+
+以下のサイトでは、PowerShell と Command Prompt の関係について説明しています。
+
+- [PowerShell is replacing Command Prompt](https://support.microsoft.com/en-us/windows/powershell-is-replacing-command-prompt-fdb690cf-876c-d866-2124-21b6fb29a45f)
+
+### PowerShell の起動
+
+1. win + q キーを押して、検索ボックスを開きます。
+2. `powershell` と入力して、PowerShell を検索します。
+3. `Windows PowerShell` をクリックして、PowerShell を起動します。
 
 ### バージョン
 
@@ -13,6 +27,7 @@ $PSVersionTable
 PowerShell のバージョンが5.1以下の場合、最新のバージョンにアップグレードすることをお勧めします。
 
 ### Cmdlet について
+
 - PowerShell は、cmdlet（コマンドレット）と呼ばれるコマンドを使用します。
 - コマンドレットは、`Verb-Noun` の形式で構成されます。例えば、`Get-Process` は、プロセスの情報を取得するコマンドレットです。
 - コマンドレットのパラメーターは、`-ParameterName` の形式で指定します。例えば、`Get-Process -Name "chrome"` は、名前が `chrome` のプロセスの情報を取得するコマンドです。
@@ -30,7 +45,7 @@ PowerShell のバージョンが5.1以下の場合、最新のバージョンに
 
 | Name       | Alias | Description | Example    |
 | ---------- | ----- | ----------- | ---------- |
-| `Get-Help` | `man` | Get help    | `Get-Help` |
+| `Get-Help` | `man` | Get help    | `Get-Help Set-Location` |
 
 ## ファイルシステム
 

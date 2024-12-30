@@ -18,7 +18,8 @@ parts:
     - caption: コンピュータの利用
       chapters:
 
-      - file: contents/how-to-use/keyboard
+      - file: contents/how-to-use/notepad
+      - file: contents/how-to-use/typing
 
     - caption: Microsoft Office
       chapters:
