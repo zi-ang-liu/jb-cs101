@@ -24,7 +24,7 @@
 
 ## コントロールキー
 
-よく使うコントロールキーとして、<kbd>Ctrl</kbd>、<kbd>Alt</kbd>、<kbd>Windows</kbd>があります。
+よく使うコントロールキーとして、<kbd>Ctrl</kbd>、<kbd>Alt</kbd>、<kbd>Windows</kbd>、<kbd>Esc</kbd>があります。
 
 ### Ctrl
 
@@ -45,15 +45,33 @@
 | :-----------------------------: | :----------------- |
 | <kbd>Alt</kbd> + <kbd>Tab</kbd> | ウィンドウ切り替え |
 
+<kbd>Alt</kbd> キーのもう一つの使い方は、アクセスキーです。アクセスキーとは、<kbd>Alt</kbd> キーと特定のキーを同時に押すことで、キーボードでアプリを操作する機能です。MS Office、メモ帳などのアプリケーションでは、アクセスキーが使用されています。
 
-アクセスキーを使用するアプリケーションでは、<kbd>Alt</kbd> キーを押しながら、アクセスキーを押すことで、メニューやボタンを選択できます。
-MS Office、メモ帳などのアプリケーションでは、アクセスキーが使用されています。
+メモ帳で<kbd>Alt</kbd>キーを押すと、使用可能なアクセスキーのヒントが表示されます。<kbd>Alt</kbd>とそれを同時に押すと、その機能が実行されます。
 
+- <kbd>Alt</kbd> + <kbd>F</kbd>：ファイル
+- <kbd>Alt</kbd> + <kbd>E</kbd>：編集
+- <kbd>Alt</kbd> + <kbd>V</kbd>：表示
+- <kbd>Alt</kbd> + <kbd>S</kbd>：設定
 
+![Alt](../appendix/images/keyboard/alt-notepad.png)
 
-#### Windows
+### Windows
 
+<kbd>Windows</kbd>キー（以下、<kbd>Win</kbd>キー）は、キーボードの左下にあるWindowsロゴのキーです。<kbd>Win</kbd>キーを押すと、スタートメニューが表示されます。
 
+<kbd>Win</kbd>キーと他のキーを組み合わせると、Windowsのショートカットが使用できます。
+
+|          ショートカット          | 説明                 |
+| :------------------------------: | :------------------- |
+|  <kbd>Win</kbd> + <kbd>W</kbd>   | ウィジェットを開く   |
+|  <kbd>Win</kbd> + <kbd>E</kbd>   | エクスプローラを開く |
+| <kbd>Win</kbd> + <kbd>Tabs</kbd> | タスクビューを開く   |
+|  <kbd>Win</kbd> + <kbd>D</kbd>   | デスクトップを表示   |
+
+### Esc
+
+<kbd>Esc</kbd>キーは現在の操作をキャンセルするために使用します。
 
 ## タイピング
 
