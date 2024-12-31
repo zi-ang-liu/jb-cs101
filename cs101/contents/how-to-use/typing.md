@@ -4,6 +4,8 @@
 
 https://manabi.benesse.ne.jp/gakushu/typing/ -->
 
+<!-- ## タッチタイピング -->
+
 ## ローマ字入力
 
 |       |  あ   |    い    |    う    |  え   |  お   |    や     |    ゆ     |    よ     |
@@ -68,7 +70,7 @@ https://manabi.benesse.ne.jp/gakushu/typing/ -->
 <kbd>Shift</kbd> キーを押しながら、アルファベットキーを押すと、大文字が入力されます。また、<kbd>Shift</kbd> キーを押しながら別のキーを押すと、そのキーの上部に記載されている記号が入力されます。
 
 #### CapsLock
-すべての文字を大文字で入力するには、<kbd>Caps Lock</kbd>+<kbd>Shift</kbd>キーを押します。多くのキーボードでは、大文字モードになると、キーボードの<kbd>Caps Lock</kbd>キーのランプが点灯します。
+すべての文字を大文字で入力するには、<kbd>Caps Lock</kbd> + <kbd>Shift</kbd>キーを押します。多くのキーボードでは、大文字モードになると、キーボードの<kbd>Caps Lock</kbd>キーのランプが点灯します。
 
 #### Tab
 <kbd>Tab</kbd> キーは、カーソルを一定文字数分移動するキーです。
@@ -88,22 +90,22 @@ https://manabi.benesse.ne.jp/gakushu/typing/ -->
 
 #### Ctrl
 
-|        ショートカット        | 説明     | English |
-| :--------------------------: | :------- | :------ |
-| <kbd>Ctrl</kbd>+<kbd>S</kbd> | 保存     | Save    |
-| <kbd>Ctrl</kbd>+<kbd>C</kbd> | コピー   | Copy    |
-| <kbd>Ctrl</kbd>+<kbd>X</kbd> | 切り取り |         |
-| <kbd>Ctrl</kbd>+<kbd>V</kbd> | 貼り付け |         |
-| <kbd>Ctrl</kbd>+<kbd>Z</kbd> | 元に戻す |         |
-| <kbd>Ctrl</kbd>+<kbd>A</kbd> | 全選択   | All     |
-| <kbd>Ctrl</kbd>+<kbd>F</kbd> | 検索     | Find    |
+|         ショートカット         | 説明     | English |
+| :----------------------------: | :------- | :------ |
+| <kbd>Ctrl</kbd> + <kbd>S</kbd> | 保存     | Save    |
+| <kbd>Ctrl</kbd> + <kbd>C</kbd> | コピー   | Copy    |
+| <kbd>Ctrl</kbd> + <kbd>X</kbd> | 切り取り |         |
+| <kbd>Ctrl</kbd> + <kbd>V</kbd> | 貼り付け |         |
+| <kbd>Ctrl</kbd> + <kbd>Z</kbd> | 元に戻す |         |
+| <kbd>Ctrl</kbd> + <kbd>A</kbd> | 全選択   | All     |
+| <kbd>Ctrl</kbd> + <kbd>F</kbd> | 検索     | Find    |
 
  
 #### Alt
 
-|        ショートカット         | 説明               |
-| :---------------------------: | :----------------- |
-| <kbd>Alt</kbd>+<kbd>Tab</kbd> | ウィンドウ切り替え |
+|         ショートカット          | 説明               |
+| :-----------------------------: | :----------------- |
+| <kbd>Alt</kbd> + <kbd>Tab</kbd> | ウィンドウ切り替え |
 
 
 アクセスキーを使用するアプリケーションでは、<kbd>Alt</kbd> キーを押しながら、アクセスキーを押すことで、メニューやボタンを選択できます。
