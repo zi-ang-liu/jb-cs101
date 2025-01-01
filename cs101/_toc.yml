@@ -19,6 +19,7 @@ parts:
       chapters:
 
       - file: contents/how-to-use/notepad
+      - file: contents/how-to-use/screenshot
       - file: contents/how-to-use/keyboard
 
     - caption: Microsoft Office

@@ -54,7 +54,7 @@
 - <kbd>Alt</kbd> + <kbd>V</kbd>：表示
 - <kbd>Alt</kbd> + <kbd>S</kbd>：設定
 
-![Alt](../appendix/images/keyboard/alt-notepad.png)
+![Alt](../how-to-use/images/keyboard/alt-notepad.png)
 
 ### Windows
 
