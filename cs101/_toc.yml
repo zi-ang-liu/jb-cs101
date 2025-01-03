@@ -17,7 +17,7 @@ root: intro
 parts:
     - caption: コンピュータの利用
       chapters:
-      - file: contents/explorer
+      - file: contents/how-to-use/explorer
       - file: contents/how-to-use/notepad
       - file: contents/how-to-use/screenshot
       - file: contents/how-to-use/keyboard
