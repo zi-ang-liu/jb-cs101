@@ -15,7 +15,7 @@
 format: jb-book
 root: intro
 parts:
-    - caption: コンピュータの利用
+    - caption: 操作編
       chapters:
       - file: contents/how-to-use/basic
       - file: contents/how-to-use/explorer
@@ -31,7 +31,7 @@ parts:
         
       - file: contents/microsoft-office/excel/intro
     
-    - caption: コンピュータ科学
+    - caption: 理論編
       chapters:
     
       - file: contents/computer-science/data/intro
