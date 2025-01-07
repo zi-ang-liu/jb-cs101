@@ -39,7 +39,6 @@ Snipping Toolを起動するには、検索ボックスに「Snipping Tool」と
 
 ![example](../how-to-use/images/screenshot/example.png)
 
-
 ## 保存
 
 スクリーンショットを撮りましたら、以下のような画面が表示されます。
@@ -57,3 +56,8 @@ Snipping Toolの画面で「…」をクリックして、「スクリーンシ�
 | --- | --- |
 | <kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | 指定した範囲のスクリーンショットを撮る |
 | <kbd>Win</kbd> + <kbd>PerSc</kbd> | 全画面のスクリーンショットを撮る |
+
+## 練習
+
+1. デスクトップのスクリーンショットを撮ってみよう。
+2. エクスプローラーのウインドウのスクリーンショットを撮ってみよう。
