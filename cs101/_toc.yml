@@ -17,17 +17,20 @@ root: intro
 parts:
     - caption: 操作編
       chapters:
-      - file: contents/basic-use/desktop
-      - file: contents/basic-use/explorer
-      - file: contents/basic-use/notepad
-      - file: contents/basic-use/screenshot
-      - file: contents/basic-use/keyboard
-      - file: contents/basic-use/cui
-
-      - file: contents/basic-use/microsoft-office/intro
+      - file: contents/basics/basic-use/intro
         sections:
-        - file: contents/basic-use/microsoft-office/word/intro
-        - file: contents/basic-use/microsoft-office/excel/intro
+        - file: contents/basics/basic-use/desktop
+        - file: contents/basics/basic-use/explorer
+        - file: contents/basics/basic-use/screenshot
+
+      - file: contents/basics/text-input/intro
+        - file: contents/basics/notepad
+        - file: contents/basics/keyboard
+
+      - file: contents/basics/cui/intro
+
+      - file: contents/basics/word/intro
+      - file: contents/basics/excel/intro
     
     - caption: 理論編
       chapters:
