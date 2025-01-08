@@ -46,7 +46,6 @@
 | <kbd>Ctrl</kbd> + <kbd>Z</kbd> | 元に戻す |         |
 | <kbd>Ctrl</kbd> + <kbd>A</kbd> | 全選択   | All     |
 | <kbd>Ctrl</kbd> + <kbd>F</kbd> | 検索     | Find    |
-
  
 ### Alt
 
@@ -94,8 +93,6 @@
 
 
 ## 日本語入力
-
-
 
 ### ローマ字入力
 
@@ -177,4 +174,8 @@
 
 https://manabi.benesse.ne.jp/gakushu/typing/
 
-
+## 練習
+1. メモ帳を開いて、以下の文章を入力してください。
+   ```
+   今日は医者にいった。
+   ```
