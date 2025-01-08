@@ -17,6 +17,7 @@ root: intro
 parts:
     - caption: 操作編
       chapters:
+
       - file: contents/basics/basic-use/intro
         sections:
         - file: contents/basics/basic-use/desktop
@@ -24,12 +25,14 @@ parts:
         - file: contents/basics/basic-use/screenshot
 
       - file: contents/basics/text-input/intro
-        - file: contents/basics/notepad
-        - file: contents/basics/keyboard
+        sections:
+        - file: contents/basics/text-input/notepad
+        - file: contents/basics/text-input/keyboard
 
       - file: contents/basics/cui/intro
 
       - file: contents/basics/word/intro
+
       - file: contents/basics/excel/intro
     
     - caption: 理論編
