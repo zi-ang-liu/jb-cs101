@@ -6,7 +6,7 @@
 
 Snipping Toolを起動するには、検索ボックスに「Snipping Tool」と入力して、アプリを起動します。
 
-![Snipping Tool](../how-to-use/images/screenshot/open.png)
+![Snipping Tool](./images/screenshot/open.png)
 
 ## 切り取りモード
 
@@ -17,14 +17,14 @@ Snipping Toolを起動するには、検索ボックスに「Snipping Tool」と
 - 全画面表示
 - フリーフォーム
 
-![mode](../how-to-use/images/screenshot/mode.png)
+![mode](./images/screenshot/mode.png)
 
 
 ## 遅延切り取り
 
 遅延切り取りを選択すると、切り取りを行うまでの時間を設定できます。
 
-![delay](../how-to-use/images/screenshot/delay.png)
+![delay](./images/screenshot/delay.png)
 
 ## スクリーンショットの撮影
 
@@ -37,13 +37,13 @@ Snipping Toolを起動するには、検索ボックスに「Snipping Tool」と
 4. エクスプローラーのウインドウを開きます。
 5. ウインドウをクリックします。
 
-![example](../how-to-use/images/screenshot/example.png)
+![example](./images/screenshot/example.png)
 
 ## 保存
 
 スクリーンショットを撮りましたら、以下のような画面が表示されます。
 
-![save](../how-to-use/images/screenshot/save.png)
+![save](./images/screenshot/save.png)
 
 撮ったスクリーンショットは自動的に保存されます。
 Snipping Toolの画面で「…」をクリックして、「スクリーンショット　フォルダーを開く」を選択すると、保存されたスクリーンショットを確認できます。
@@ -52,10 +52,10 @@ Snipping Toolの画面で「…」をクリックして、「スクリーンシ�
 
 スクリーンショットを撮る際には、以下のショートカットキーを使うと便利です。
 
-| ショートカットキー | 説明 |
-| --- | --- |
+| ショートカットキー                               | 説明                                   |
+| ------------------------------------------------ | -------------------------------------- |
 | <kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | 指定した範囲のスクリーンショットを撮る |
-| <kbd>Win</kbd> + <kbd>PerSc</kbd> | 全画面のスクリーンショットを撮る |
+| <kbd>Win</kbd> + <kbd>PerSc</kbd>                | 全画面のスクリーンショットを撮る       |
 
 ## 練習
 
