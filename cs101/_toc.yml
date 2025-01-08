@@ -36,6 +36,8 @@ parts:
       - file: contents/basics/word/intro
 
       - file: contents/basics/excel/intro
+
+      - file: contents/basics/html/intro
     
     - caption: 理論編
       chapters:
