@@ -21,6 +21,7 @@ parts:
       - file: contents/basics/basic-use/intro
         sections:
         - file: contents/basics/basic-use/desktop
+        - file: contents/basics/basic-use/file
         - file: contents/basics/basic-use/explorer
         - file: contents/basics/basic-use/screenshot
 
@@ -28,6 +29,7 @@ parts:
         sections:
         - file: contents/basics/text-input/notepad
         - file: contents/basics/text-input/keyboard
+        - file: contents/basics/text-input/ime
 
       - file: contents/basics/cui/intro
 
