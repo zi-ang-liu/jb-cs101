@@ -8,7 +8,7 @@ GUIは、コンピューターの操作を視覚的に表現することで、�
 
 Windowsのパソコンにログインすると、最初に表示される画面が**デスクトップ**（desktop）です。
 
-![desktop](../how-to-use/images/desktop/desktop.png)
+![desktop](./images/desktop/desktop.png)
 
 デスクトップには、以下の要素が表示されます。
 
@@ -41,7 +41,7 @@ Windowsのパソコンにログインすると、最初に表示される画面�
 
 アプリによっては、ウィンドウのデザインが異なります。例えば、メモ帳のウィンドウは以下のようになります。
 
-![notepad](../how-to-use/images/desktop/notepad.png)
+![notepad](./images/desktop/notepad.png)
 
 ## 電源の操作
 
