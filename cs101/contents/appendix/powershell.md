@@ -4,21 +4,6 @@
 
 PowerShell は、Microsoft によって開発されたコマンドラインシェルです。
 
-### Cmdlet について
-
-- PowerShell は、cmdlet（コマンドレット）と呼ばれるコマンドを使用します。
-- コマンドレットは、`Verb-Noun` の形式で構成されます。例えば、`Get-Process` は、プロセスの情報を取得するコマンドレットです。
-- コマンドレットのパラメーターは、`-ParameterName` の形式で指定します。例えば、`Get-Process -Name "chrome"` は、名前が `chrome` のプロセスの情報を取得するコマンドです。
-- コマンドレットのAlias（エイリアス）は、短縮形で使用できます。例えば、`Get-Process` は、`gps` としても使用できます。
-- PowerShell は、基本的に大文字と小文字を区別しません。
-
-### 便利な操作
-
-- `Tab` キーを押すと、コマンドの補完ができます。
-- `Up Arrow` キーを押すと、前のコマンドを表示できます。
-- `Down Arrow` キーを押すと、次のコマンドを表示できます。
-- `Ctrl + C` キーを押すと、コマンドの実行を中止できます。
-
 ## ヘルプ
 
 | Name       | Alias | Description | Example                 |

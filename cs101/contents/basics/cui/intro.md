@@ -2,7 +2,7 @@
 
 **CUI**（Character User Interface）とは、キーボードからコンピューターに文字列を入力して操作する体系・方法のことです。CUIは、GUI（Graphical User Interface）の対義語として使われることが多いです。
 
-CUIと関連する概念として、**CLI**（Command Line Interface）があります。CLIは、コマンドラインを使ってコンピューターを操作するインターフェースのことです。コマンドラインも文字列であるため、CLIはCUIの一種と言えます。日本では、CUIの方が一般的ですが、英語圏ではCLIが主流です。
+CUIと関連する概念として、**CLI**（Command Line Interface）があります。CLIは、コマンドラインを使ってコンピューターを操作するインターフェースのことです。コマンドラインも文字列であるため、CLIはCUIの一種と言えます。日本では、CUIの方が一般的に使われていますが、英語圏ではCLIが主流です。
 
 CUIと比べて、CLIの学習コストは高いですが、CLIを使うことで、より高度な操作が可能になります。
 
@@ -24,5 +24,106 @@ $PSVersionTable
 
 PSVersion の値が5.1以下の場合、以下のサイトの手順に従って、PowerShell 5.1 以上にアップデートしてください。
 
-- [https://learn.microsoft.com/ja-jp/powershell/scripting/install/installing-powershell-on-windows](https://learn.microsoft.com/ja-jp/powershell/scripting/install/installing-powershell-on-windows)
+- [https://aka.ms/PSWindows](https://aka.ms/PSWindows)
 
+## Cmdlet について
+
+PowerShell は、**cmdlet**（コマンドレット）と呼ばれるコマンドを使用します。コマンドレットは、「Verb-Noun」 の形式で構成されます。例えば、`Get-Process` は、「プロセスの情報を取得する」コマンドレットです。
+
+コマンドレットのパラメーターは、`-ParameterName` の形式で指定します。例えば、`Get-Process -Name "explorer"` は、名前が `explorer` のプロセスの情報を取得するコマンドです。
+
+コマンドレットのAlias（エイリアス）とは、コマンドレットの短縮形です。例えば、`Get-Process` のエイリアスは `gps` で、`Get-Process -Name "explorer"` は `gps -Name "explorer"` と書くことができます。
+
+最後に、PowerShell は、基本的に大文字と小文字を区別しません。つまり、`Get-Process` と `get-process` は同じコマンドレットとして扱われます。
+
+## 便利な操作
+
+PowerShell では、以下の操作ができます。これらの操作を使いこなすことで、PowerShell を効率的に使うことができます。
+
+- <kbd>Tab</kbd> キーを押すと、コマンドの補完ができます。
+- <kbd>↑</kbd> キーを押すと、前のコマンドを表示できます。
+- <kbd>↓</kbd> キーを押すと、次のコマンドを表示できます。
+- <kbd>Ctrl</kbd> + <kbd>C</kbd> キーを押すと、コマンドの実行を中止できます。
+
+## ファイル・ディレクトリ操作
+
+PowerShell では、ファイルやディレクトリの操作ができます。以下は、よく使うコマンドレットのエイリアスを紹介します。
+
+### cd
+
+`cd` コマンドは、カレントディレクトリを変更するコマンドです。**カレントディレクトリ**（Current Directory）とは、現在作業しているディレクトリ、あるいは位置のことです。
+
+以下の例では、カレントディレクトリを `C:\` に変更します。
+
+```powershell
+cd C:\
+```
+
+次に、`cd Users` コマンドを使用して、`C:\Users` ディレクトリに移動します。
+
+```powershell
+cd Users
+```
+
+### pwd
+
+`pwd` コマンドは、カレントディレクトリを取得するコマンドです。
+
+```powershell
+pwd
+```
+
+例えば、カレントディレクトリは 「C:\Users」 の場合、`pwd` コマンドを実行すると、以下のように表示されます。
+
+```
+Path
+----
+C:\Users
+```
+
+### dir
+
+`dir` コマンドは、カレントディレクトリにあるファイルとディレクトリの一覧を表示するコマンドです。
+
+カレントディレクトリを `C:\` とし、`dir` コマンドを実行すると、以下のように表示されます。
+
+```
+    ディレクトリ: C:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       2024/01/01     12:00                PerfLogs
+d-r---       2024/01/01     12:00                Program Files
+d-r---       2024/01/01     12:00                Program Files (x86)
+d-r---       2024/01/01     12:00                Users
+d-----       2024/01/01     12:00                Windows
+```
+
+### mkdir
+
+`mkdir` コマンドは、新しいディレクトリを作成するコマンドです。
+
+以下の例は、カレントディレクトリが `C:\` の場合、`test` ディレクトリを作成します。
+
+```powershell
+mkdir test
+```
+
+`dir` コマンドを実行すると、以下のように表示されます。「test」ディレクトリが作成されていることがわかります。
+
+```
+    ディレクトリ: C:\
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       2024/01/01     12:00                PerfLogs
+d-r---       2024/01/01     12:00                Program Files
+d-r---       2024/01/01     12:00                Program Files (x86)
+d-----       2025/04/01     12:00                test
+d-r---       2024/01/01     12:00                Users
+d-----       2024/01/01     12:00                Windows
+```
+
+### ni
+
+`ni` コマンドは、新しいファイルを作成するコマンドです。
