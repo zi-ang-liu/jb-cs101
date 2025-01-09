@@ -31,6 +31,8 @@ parts:
         - file: contents/basics/text-input/keyboard
         - file: contents/basics/text-input/ime
 
+      - file: contents/basics/copilot/intro
+
       - file: contents/basics/cui/intro
 
       - file: contents/basics/word/intro
