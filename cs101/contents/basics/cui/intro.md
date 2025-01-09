@@ -2,13 +2,9 @@
 
 **CUI**（Character User Interface）とは、キーボードからコンピューターに文字列を入力して操作する体系・方法のことです。CUIは、GUI（Graphical User Interface）の対義語として使われることが多いです。
 
-CUIと関連する概念として、**CLI**（Command Line Interface）があります。CLIは、コマンドラインを使ってコンピューターを操作するインターフェースのことです。コマンドラインも文字列であるため、CLIはCUIの一種と言えます。日本では、CUIの方が一般的に使われていますが、英語圏ではCLIが主流です。
+CUIと関連する概念として、**CLI**（Command Line Interface）があります。CLIは、コマンドラインを使ってコンピューターを操作するインターフェースのことです。コマンドラインも文字列であるため、CLIはCUIの一種と言えます。日本では、「CUI」という言葉が一般的に使われていますが、英語圏では「CLI」という言葉が使われることが多いです。GUIと比べて、CLIの学習コストは高いですが、CLIを使うことで、より高度な操作が可能になります。
 
-CUIと比べて、CLIの学習コストは高いですが、CLIを使うことで、より高度な操作が可能になります。
-
-**コマンドプロンプト**（Command Prompt, also known as cmd.exe）は、Windowsにおける代表的なCLIの一つです。cmd.exeの後継として、**PowerShell**があり、より高度な操作が可能です。
-
-ここではPowerShellの基本的な使い方を学びます。
+**コマンドプロンプト**（Command Prompt, also known as cmd.exe）は、Windowsにおける代表的なCLIの一つです。cmd.exeの後継として、**PowerShell**があり、より高度な操作が可能です。ここではPowerShellの基本的な使い方を学びます。
 
 ## PowerShellの起動
 
