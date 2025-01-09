@@ -1,4 +1,4 @@
-# CUIの基本操作
+# コマンドライン
 
 **CUI**（Character User Interface）とは、キーボードからコンピューターに文字列を入力して操作する体系・方法のことです。CUIは、GUI（Graphical User Interface）の対義語として使われることが多いです。
 
@@ -127,3 +127,73 @@ d-----       2024/01/01     12:00                Windows
 ### ni
 
 `ni` コマンドは、新しいファイルを作成するコマンドです。
+
+以下の例は、カレントディレクトリが `C:\test` の場合、`test.txt` ファイルを作成します。
+
+```powershell
+ni test.txt
+```
+
+`dir` コマンドを実行すると、以下のように表示されます。「test.txt」ファイルが作成されていることがわかります。
+
+```
+    ディレクトリ: C:\test
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       2025/04/01     12:00              0 test.txt
+```
+
+### move
+
+`move` コマンドは、ファイルやディレクトリを移動するコマンドです。
+
+まずは、`C:\test` ディレクトリに `test2` ディレクトリを作成します。
+
+```powershell
+mkdir test2
+```
+
+`dir` コマンドを実行すると、以下のように表示されます。「test2」ディレクトリが作成されていることがわかります。
+
+```
+    ディレクトリ: C:\
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       2024/01/01     12:00                test2
+-a----       2025/04/01     12:00              0 test.txt
+```
+
+
+次に、`test.txt` ファイルを `C:\test\test2` ディレクトリに移動します。
+
+```powershell
+move test.txt test2
+```
+
+`cd test2` コマンドを使用して、`C:\test\test2` ディレクトリに移動し、`dir` コマンドを実行すると、以下のように表示されます。「test.txt」ファイルが移動されていることがわかります。
+
+```
+    ディレクトリ: C:\test\test2
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       2025/04/01     12:00              0 test.txt
+```
+
+### del
+
+`del` コマンドは、ファイルを削除するコマンドです。
+
+以下の例は、`C:\test\test.txt` ファイルを削除します。
+
+```powershell
+del test.txt
+```
+
+## 練習
+
+1. カレントディレクトリを `C:\` に変更してみよう。
+2. `C:\` に`excercise` ディレクトリを作成してみよう。
+3. `excercise` ディレクトリに `sample.txt` ファイルを作成してみよう。
+4. `sample.txt` ファイルを削除してみよう。
+
