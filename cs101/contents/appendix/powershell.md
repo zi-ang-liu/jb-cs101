@@ -4,28 +4,6 @@
 
 PowerShell は、Microsoft によって開発されたコマンドラインシェルです。
 
-### PowerShell and Command Prompt
-
-以下のサイトでは、PowerShell と Command Prompt の関係について説明しています。
-
-- [PowerShell is replacing Command Prompt](https://support.microsoft.com/en-us/windows/powershell-is-replacing-command-prompt-fdb690cf-876c-d866-2124-21b6fb29a45f)
-
-### PowerShell の起動
-
-1. win + q キーを押して、検索ボックスを開きます。
-2. `powershell` と入力して、PowerShell を検索します。
-3. `Windows PowerShell` をクリックして、PowerShell を起動します。
-
-### バージョン
-
-PowerShell のバージョンを確認するには、次のコマンドを実行します。
-
-```powershell
-$PSVersionTable
-```
-
-PowerShell のバージョンが5.1以下の場合、最新のバージョンにアップグレードすることをお勧めします。
-
 ### Cmdlet について
 
 - PowerShell は、cmdlet（コマンドレット）と呼ばれるコマンドを使用します。
@@ -43,8 +21,8 @@ PowerShell のバージョンが5.1以下の場合、最新のバージョンに
 
 ## ヘルプ
 
-| Name       | Alias | Description | Example    |
-| ---------- | ----- | ----------- | ---------- |
+| Name       | Alias | Description | Example                 |
+| ---------- | ----- | ----------- | ----------------------- |
 | `Get-Help` | `man` | Get help    | `Get-Help Set-Location` |
 
 ## ファイルシステム
@@ -194,8 +172,6 @@ Get-Content -Path C:\test\test.txt
 ```powershell
 Remove-Item -Path C:\test\test.txt
 ```
-
-
 
 ## ネットワーク
 
