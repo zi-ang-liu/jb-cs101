@@ -31,7 +31,10 @@ parts:
         - file: contents/basics/text-input/keyboard
         - file: contents/basics/text-input/ime
 
-      - file: contents/basics/copilot/intro
+      - file: contents/basics/internet/intro
+        sections:
+        - file: contents/basics/internet/mail
+        - file: contents/basics/internet/copilot
 
       - file: contents/basics/cui/intro
 
