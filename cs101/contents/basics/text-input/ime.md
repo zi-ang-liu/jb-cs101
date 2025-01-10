@@ -18,9 +18,16 @@ Windowsでは、マイクロソフト日本語IME (Input Method Editor)を用い
 
 予測候補を使うと、入力する文字を減らすことができ、入力速度が向上します。例えば、「yoro」と入力すると、「よろしくお願いいたします。」などの予測候補が表示されます。
 
+![予測候補](./images/ime/prediction.png)
+
+
 ### 変換候補
 
-日本語入力モードで、「daigaku」と入力し、<kbd>Space</kbd>キーを押すと、入力内容を「大学」に変換します。もう一度<kbd>Space</kbd>キーを押すと、変換候補ウィンドウが表示されます。このウィンドウで<kbd>space</kbd>キーを押すと、次の候補に移動します。また、<kbd>Enter</kbd>キーを押すと、選択した候補が入力されます。
+日本語入力モードで、「daigaku」と入力し、<kbd>Space</kbd>キーを押すと、入力内容を「大学」に変換します。もう一度<kbd>Space</kbd>キーを押すと、変換候補ウィンドウが表示されて、「大學」、「大楽」などの候補が表示されます。
+
+![変換候補](./images/ime/conversion.png)
+
+このウィンドウで<kbd>space</kbd>キーを押すと、次の候補に移動します。また、<kbd>Enter</kbd>キーを押すと、選択した候補が入力されます。
 
 ### IMEの設定
 
@@ -105,3 +112,4 @@ IMEの設定を変更するには、IMEのアイコン「A」や「あ」を右�
 2. 句読点を変更してみよう。
 3. 予測候補と変換候補の違いについて説明してみよう。
 4. このサイト（[https://manabi.benesse.ne.jp/gakushu/typing/](https://manabi.benesse.ne.jp/gakushu/typing/)）で、タッチタイピングを練習してみよう。
+
