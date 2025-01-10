@@ -33,7 +33,7 @@ parts:
 
       - file: contents/basics/internet/intro
         sections:
-        - file: contents/basics/internet/mail
+        - file: contents/basics/internet/email
         - file: contents/basics/internet/copilot
 
       - file: contents/basics/cui/intro
