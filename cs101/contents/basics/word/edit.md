@@ -43,7 +43,7 @@
 | :--------------------------------: | :---------------------: | :----- |
 |        a^2 <kbd>Space</kbd>        |          $a^2$          | 二乗和 |
 |        x_1 <kbd>Space</kbd>        |          $x_1$          | 添字   |
-|     \sqrt(a) <kbd>Space</kbd>>     |       $\sqrt{a}$        | 平方根 |
+|     \sqrt(a) <kbd>Space</kbd>      |       $\sqrt{a}$        | 平方根 |
 |      a/(b+c) <kbd>Space</kbd>      |     $\frac{a}{b+c}$     | 分数   |
 |      (a+b/c) <kbd>Space</kbd>      |    $(a+\frac{b}{c})$    | 括弧   |
 |      {a+b/c} <kbd>Space</kbd>      |   $\{a+\frac{b}{c}\}$   | 波括弧 |
