@@ -1,17 +1,17 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4" pages="2">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="2">
   <diagram name="Page-1" id="8oVfllo37yGLh_ipxiJL">
-    <mxGraphModel dx="1026" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="691" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ktaLotPghiCEmOHEmVsJ-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="35" y="240" width="90" height="90" as="geometry" />
+        <mxCell id="GHzhh6EPnT_gb6ETpfjr-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="410" y="400" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ktaLotPghiCEmOHEmVsJ-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="ktaLotPghiCEmOHEmVsJ-3">
-          <mxGeometry x="5" width="80" height="55" as="geometry" />
+        <mxCell id="GHzhh6EPnT_gb6ETpfjr-1" value="Computer Science" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;" vertex="1" parent="GHzhh6EPnT_gb6ETpfjr-3">
+          <mxGeometry x="40" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ktaLotPghiCEmOHEmVsJ-2" value="情報リテラシー" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="ktaLotPghiCEmOHEmVsJ-3">
-          <mxGeometry y="55" width="90" height="35" as="geometry" />
+        <mxCell id="GHzhh6EPnT_gb6ETpfjr-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="GHzhh6EPnT_gb6ETpfjr-3">
+          <mxGeometry y="5" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
