@@ -39,6 +39,10 @@ parts:
       - file: contents/basics/cui/intro
 
       - file: contents/basics/word/intro
+        sections:
+        - file: contents/basics/word/new
+        - file: contents/basics/word/layout
+        - file: contents/basics/word/style
 
       - file: contents/basics/excel/intro
 
