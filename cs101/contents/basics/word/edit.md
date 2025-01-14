@@ -27,3 +27,37 @@
 - **書式を結合**：コピー元の書式と、ワードの書式を結合して貼り付けます。
 - **テキストのみ保持**：テキストのみを貼り付けます。
 
+## 数式の入力
+
+まずは、数式を入力する前に、**半角モード**に切り替えていることを確認しましょう。
+
+数式を入力するには、「挿入」タブの「記号と特殊文字」グループから、「数式」を選択します。すると、「数式」タブが表示されます。「数式」タブには「ツール」、「変換」、「記号と特殊文字」、「構造」のグループがあります。ここでは、「変換」モードが「Unicode」になっています。これは、数式を入力する際に、UnicodeMath形式で入力することを意味します。他には「LaTex」がありますが、ここではデフォルトの「Unicode」について説明します。
+
+![数式の入力](images/word_formula.png)
+
+「記号と特殊文字」と「構造」グループを用いて、直感的に数式を入力することができます。
+
+ここでは、例を使って、便利な数式の入力方法を紹介します。日本語システムでは、「\」を「￥」キーで入力します。「a^2 <kbd>Space</kbd>」は、a^2 を入力し、<kbd>Space</kbd>キーを押すことを意味します。以下の表を参考に、数式を入力してみましょう。
+
+|            UnicodeMath             |          表示           | 説明   |
+| :--------------------------------: | :---------------------: | :----- |
+|        a^2 <kbd>Space</kbd>        |          $a^2$          | 二乗和 |
+|        x_1 <kbd>Space</kbd>        |          $x_1$          | 添字   |
+|     \sqrt(a) <kbd>Space</kbd>>     |       $\sqrt{a}$        | 平方根 |
+|      a/(b+c) <kbd>Space</kbd>      |     $\frac{a}{b+c}$     | 分数   |
+|      (a+b/c) <kbd>Space</kbd>      |    $(a+\frac{b}{c})$    | 括弧   |
+|      {a+b/c} <kbd>Space</kbd>      |   $\{a+\frac{b}{c}\}$   | 波括弧 |
+|   \overbar(abc) <kbd>Space</kbd>   |    $\overline{abc}$     | 上線   |
+| lim_(n->\infty) <kbd>Space</kbd> n | $\lim_{n \to \infty} n$ | 極限   |
+|  \sum_(i=1)^n <kbd>Space</kbd> i   |    $\sum_{i=1}^n i$     | 総和   |
+|       sin <kbd>Space</kbd> x       |        $\sin x$         | 正弦   |
+|       cos <kbd>Space</kbd> x       |        $\cos x$         | 余弦   |
+|       tan <kbd>Space</kbd> x       |        $\tan x$         | 正接   |
+|      \alpha <kbd>Space</kbd>       |        $\alpha$         | Alpha  |
+|       \beta <kbd>Space</kbd>       |         $\beta$         | Beta   |
+
+### 式番号
+
+式番号をつけるには、入力した数式の最後に`#(番号)`と入力して、<kbd>Enter</kbd>キーを押します。
+
+例えば、`y=ax+b#(1)`と入力し、<kbd>Enter</kbd>キーを押すと、式番号がつけ
