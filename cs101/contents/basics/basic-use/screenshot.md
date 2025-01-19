@@ -6,14 +6,6 @@
 
 Snipping Toolを起動するには、検索ボックスに「Snipping Tool」と入力して、アプリを起動します。
 
-![Snipping Tool](./images/screenshot/open.png)
-
-:::{figure-md} open
-<img src="./images/screenshot/open.png" alt="Open Snipping Tool" class="bg-primary" width="400px">
-
-Snipping Toolの基本操作画面
-:::
-
 :::{figure-md} open
 <img src="./images/screenshot/open.png" alt="Open Snipping Tool" width="400px">
 
@@ -29,13 +21,21 @@ Snipping Toolの基本操作画面
 - 全画面表示
 - フリーフォーム
 
-![mode](./images/screenshot/mode.png)
+:::{figure-md} mode
+<img src="./images/screenshot/mode.png" alt="Select Mode" width="400px">
+
+切り取りモードの選択
+:::
 
 ## 遅延切り取り
 
 遅延切り取りを選択すると、切り取りを行うまでの時間を設定できます。
 
-![delay](./images/screenshot/delay.png)
+:::{figure-md} delay
+<img src="./images/screenshot/delay.png" alt="Select Delay" width="400px">
+
+遅延切り取りの設定
+:::
 
 ## スクリーンショットの撮影
 
@@ -48,16 +48,22 @@ Snipping Toolの基本操作画面
 4. エクスプローラーのウインドウを開きます。
 5. ウインドウをクリックします。
 
-![example](./images/screenshot/example.png)
+:::{figure-md} example
+<img src="./images/screenshot/example.png" alt="Take a Screenshot" width="400px">
+
+エクスプローラーのウインドウの選択
+:::
 
 ## 保存
 
-スクリーンショットを撮りましたら、以下のような画面が表示されます。
-
-![save](./images/screenshot/save.png)
-
 撮ったスクリーンショットは自動的に保存されます。
 Snipping Toolの画面で「…」をクリックして、「スクリーンショット　フォルダーを開く」を選択すると、保存されたスクリーンショットを確認できます。
+
+:::{figure-md} save
+<img src="./images/screenshot/save.png" alt="Save Screenshot" width="400px">
+
+スクリーンショットのフォルダーを開く
+:::
 
 ## ショートカット
 
