@@ -105,7 +105,17 @@ IMEの設定を変更するには、IMEのアイコン「A」や「あ」を右�
 | 人差し指 | F     | J     |
 | 親指     | Space | Space |
 
+![ホームポジション](./images/ime/home-position.svg)
+
+ホームポジション © [Cy21](https://commons.wikimedia.org/wiki/User:Cy21), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+
 タイピングをするときは、このホームポジションから指を動かして、キーを押します。キーを押したら、すぐにホームポジションに戻ります。また、効率的にタイピングするために、各指が担当するキーを覚えることが重要です。
+
+![ホームポジション](./images/ime/home-position-2.png) 
+
+© [Wikipedia](https://commons.wikimedia.org/wiki/File:TouchTyping_HomePosition_QWERTY.png), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+
+
 
 ## 練習
 1. メモ帳を開いて、好きな日本語の文章を入力してみよう。
