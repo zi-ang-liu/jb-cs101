@@ -8,6 +8,12 @@ Snipping Toolを起動するには、検索ボックスに「Snipping Tool」と
 
 ![Snipping Tool](./images/screenshot/open.png)
 
+:::{figure-md} open
+<img src="./images/screenshot/open.png" alt="Open Snipping Tool" class="bg-primary mb-1" width="400px">
+
+Snipping Toolの基本操作画面
+:::
+
 ## 切り取りモード
 
 切り取りモードを選択します。以下の4つのモードがあります。
