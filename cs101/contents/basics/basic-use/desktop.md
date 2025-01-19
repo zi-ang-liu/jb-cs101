@@ -2,8 +2,6 @@
 
 Windowsのパソコンにログインすると、最初に表示される画面が**デスクトップ**（desktop）です。
 
-![desktop](./images/desktop/desktop.png)
-
 :::{figure-md} desktop
 <img src="./images/desktop/desktop.png" alt="デスクトップ" width="600px">
 
@@ -45,7 +43,11 @@ Windowsのパソコンにログインすると、最初に表示される画面�
 
 アプリによっては、ウィンドウのデザインが異なります。例えば、メモ帳のウィンドウは以下のようになります。
 
-![notepad](./images/desktop/notepad.png)
+:::{figure-md} notepad
+<img src="./images/desktop/notepad.png" alt="メモ帳" width="600px">
+
+メモ帳のウィンドウ
+:::
 
 ## 電源の操作
 
