@@ -49,7 +49,7 @@ Snipping Toolの基本操作画面
 5. ウインドウをクリックします。
 
 :::{figure-md} example
-<img src="./images/screenshot/example.png" alt="Take a Screenshot" width="400px">
+<img src="./images/screenshot/example.png" alt="Take a Screenshot" width="600px">
 
 エクスプローラーのウインドウの選択
 :::
@@ -60,7 +60,7 @@ Snipping Toolの基本操作画面
 Snipping Toolの画面で「…」をクリックして、「スクリーンショット　フォルダーを開く」を選択すると、保存されたスクリーンショットを確認できます。
 
 :::{figure-md} save
-<img src="./images/screenshot/save.png" alt="Save Screenshot" width="400px">
+<img src="./images/screenshot/save.png" alt="Save Screenshot" width="600px">
 
 スクリーンショットのフォルダーを開く
 :::
