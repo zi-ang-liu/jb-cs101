@@ -9,7 +9,13 @@ Snipping Toolを起動するには、検索ボックスに「Snipping Tool」と
 ![Snipping Tool](./images/screenshot/open.png)
 
 :::{figure-md} open
-<img src="./images/screenshot/open.png" alt="Open Snipping Tool" class="bg-primary mb-1" width="400px">
+<img src="./images/screenshot/open.png" alt="Open Snipping Tool" class="bg-primary" width="400px">
+
+Snipping Toolの基本操作画面
+:::
+
+:::{figure-md} open
+<img src="./images/screenshot/open.png" alt="Open Snipping Tool" width="400px">
 
 Snipping Toolの基本操作画面
 :::
