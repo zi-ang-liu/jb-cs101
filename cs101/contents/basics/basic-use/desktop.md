@@ -4,6 +4,12 @@ Windowsのパソコンにログインすると、最初に表示される画面�
 
 ![desktop](./images/desktop/desktop.png)
 
+:::{figure-md} desktop
+<img src="./images/desktop/desktop.png" alt="デスクトップ" width="600px">
+
+デスクトップの基本画面
+:::
+
 デスクトップには、以下の要素が表示されます。
 
 - **アイコン**（icon）: ファイルやフォルダ、アプリケーションなどを表す図形。

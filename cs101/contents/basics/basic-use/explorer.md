@@ -4,9 +4,15 @@
 
 エクスプローラーを起動するには、タスクバーにあるエクスプローラーのアイコンをクリックします。または、<kbd>Windows</kbd> + <kbd>E</kbd> のショートカットキーで起動することもできます。
 
-エクスプローラーの画面は以下のようになります。
+エクスプローラーの基本画面は以下のようになります。
 
 ![エクスプローラー](./images/explorer/explorer.png)
+
+:::{figure-md} explorer
+<img src="./images/explorer/explorer.png" alt="エクスプローラー" width="600px">
+
+エクスプローラーの基本画面
+:::
 
 ## エクスプローラーの構成
 
