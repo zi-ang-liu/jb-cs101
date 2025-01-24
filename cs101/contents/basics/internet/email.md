@@ -14,6 +14,8 @@ local-part@domain
 
 例えば，`tanaka.taro@example.com`の場合，`tanaka.taro`がローカル部，`example.com`がドメインです．
 
+### トップレベルドメイン
+
 ドメインの最右端の文字列は，トップレベルドメイン（TLD，Top-Level Domain）と呼ばれます．組織や国によって異なります．以下の表は，一部のトップレベルドメインの例です．
 
 |  TLD  |         用途         |
@@ -23,6 +25,8 @@ local-part@domain
 | .edu  |  教育（education）   |
 | .gov  |  政府（government）  |
 |  .jp  |    日本（Japan）     |
+
+### JPドメイン名
 
 `.jp`は，日本の国別コードトップレベルドメイン（ccTLD，Country Code Top-Level Domain）です．`.jp`の前につく文字列は，属性型JPドメイン名と呼ばれます．例えば，日本の大学のメールアドレスの右端には`.ac.jp`が使われます．以下の表は，代表的な属性型JPドメイン名の例です．
 
