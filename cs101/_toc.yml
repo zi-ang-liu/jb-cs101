@@ -18,12 +18,13 @@ parts:
     - caption: 操作編
       chapters:
 
-      - file: contents/basics/basic-use/intro
+      - file: contents/basics/operations/intro
         sections:
-        - file: contents/basics/basic-use/desktop
-        - file: contents/basics/basic-use/file
-        - file: contents/basics/basic-use/explorer
-        - file: contents/basics/basic-use/screenshot
+        - file: contents/basics/operations/desktop
+        - file: contents/basics/operations/file
+        - file: contents/basics/operations/explorer
+        - file: contents/basics/operations/screenshot
+        - file: contents/basics/operations/cui
 
       - file: contents/basics/text-input/intro
         sections:
@@ -34,10 +35,8 @@ parts:
       - file: contents/basics/internet/intro
         sections:
         - file: contents/basics/internet/email
-        - file: contents/basics/internet/copilot
-
-      - file: contents/basics/cui/intro
-
+        - file: contents/basics/internet/genai
+      
       - file: contents/basics/word/intro
         sections:
         - file: contents/basics/word/new
