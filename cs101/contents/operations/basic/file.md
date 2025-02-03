@@ -9,7 +9,7 @@
 デスクトップで右クリックして「新規作成」を選択すると、ファイルやフォルダーを作成することができます。フォルダーを作成する場合は、「フォルダー」を選択します。次に、フォルダーの名前を入力して、<kbd>Enter</kbd> キーを押すと、フォルダーが作成されます。
 
 :::{figure-md} new
-<img src="./images/explorer/new.png" alt="Create New Folder" width="600px">
+<img src="./images/file/new.png" alt="Create New Folder" width="600px">
 
 新規作成のメニュー
 :::
@@ -17,7 +17,7 @@
 下の図は、「foo」という名前のフォルダーを作成した例です。このフォルダーを右クリックすると、切り取り、コピー、削除、名前の変更、開くなどの操作を行うことができます。
 
 :::{figure-md} foo
-<img src="./images/explorer/foo.png" alt="Folder foo" width="600px">
+<img src="./images/new/foo.png" alt="Folder foo" width="600px">
 
 フォルダーの基本操作
 :::
@@ -25,7 +25,7 @@
 ファイルの新規作成も同様に行うことができます。ここでは、右クリックして「新規作成」を選択し、「テキストドキュメント」を選択します。次に、「foo」という名前を入力して、<kbd>Enter</kbd> キーを押すと、`foo.txt` という名前のテキストファイルが作成されます。このファイル名を確認するために、先ほど作成したテキストファイルを右クリックして「プロパティ」を選択し、「詳細」タブをクリックすると、ファイルの名前、種類、場所、サイズ、作成日時、更新日時などの情報が表示されます。
 
 :::{figure-md} foo_txt
-<img src="./images/explorer/foo_txt.png" alt="foo.txt" width="400px">
+<img src="./images/file/foo_txt.png" alt="foo.txt" width="400px">
 
 ファイルのプロパティ
 :::
@@ -45,7 +45,7 @@ Windowsのパソコンでは、ファイルやフォルダーを階層構造で�
 
 下記の例では、「courses」というフォルダーに「c_programming」というフォルダーがあり、その中に「code」と「slides」というフォルダーと「syllabus.pdf」というファイルがある構造を示しています。
 
-```
+```plaintext
 courses
 ├── c_programming
 │   ├── code

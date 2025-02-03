@@ -18,63 +18,63 @@ parts:
     - caption: 操作編
       chapters:
 
-      - file: contents/basics/operations/intro
+      - file: contents/operations/basic/intro
         sections:
-        - file: contents/basics/operations/desktop
-        - file: contents/basics/operations/file
-        - file: contents/basics/operations/explorer
-        - file: contents/basics/operations/screenshot
-        - file: contents/basics/operations/cui
+        - file: contents/operations/basic/desktop
+        - file: contents/operations/basic/file
+        - file: contents/operations/basic/explorer
+        - file: contents/operations/basic/screenshot
+        - file: contents/operations/basic/cui
 
-      - file: contents/basics/text-input/intro
+      - file: contents/operations/text-input/intro
         sections:
-        - file: contents/basics/text-input/notepad
-        - file: contents/basics/text-input/keyboard
-        - file: contents/basics/text-input/ime
+        - file: contents/operations/text-input/notepad
+        - file: contents/operations/text-input/keyboard
+        - file: contents/operations/text-input/ime
 
-      - file: contents/basics/internet/intro
+      - file: contents/operations/internet/intro
         sections:
-        - file: contents/basics/internet/email
-        - file: contents/basics/internet/genai
+        - file: contents/operations/internet/email
+        - file: contents/operations/internet/genai
       
-      - file: contents/basics/word/intro
+      - file: contents/operations/word/intro
         sections:
-        - file: contents/basics/word/new
-        - file: contents/basics/word/layout
-        - file: contents/basics/word/style
-        - file: contents/basics/word/edit
+        - file: contents/operations/word/new
+        - file: contents/operations/word/layout
+        - file: contents/operations/word/style
+        - file: contents/operations/word/edit
 
-      - file: contents/basics/excel/intro
+      - file: contents/operations/excel/intro
 
-      - file: contents/basics/html/intro
+      - file: contents/operations/html/intro
     
     - caption: 理論編
       chapters:
     
-      - file: contents/computer-science/data/intro
+      - file: contents/theory/data/intro
         sections:
-        - file: contents/computer-science/data/boolean
-        - file: contents/computer-science/data/binary
+        - file: contents/theory/data/boolean
+        - file: contents/theory/data/binary
 
-      - file: contents/computer-science/algorithm/intro
+      - file: contents/theory/algorithm/intro
 
-      - file: contents/computer-science/data-structure/intro
+      - file: contents/theory/data-structure/intro
 
-      - file: contents/computer-science/programming/intro
+      - file: contents/theory/programming/intro
 
-      - file: contents/computer-science/database/intro
+      - file: contents/theory/database/intro
         
-      - file: contents/computer-science/network/intro
+      - file: contents/theory/network/intro
         sections:
-        - file: contents/computer-science/network/internet
-        - file: contents/computer-science/network/security
-        - file: contents/computer-science/network/html
-        - file: contents/computer-science/network/xml
+        - file: contents/theory/network/internet
+        - file: contents/theory/network/security
+        - file: contents/theory/network/html
+        - file: contents/theory/network/xml
 
-      - file: contents/computer-science/artificial-intelligence/intro
+      - file: contents/theory/artificial-intelligence/intro
         sections:
-        - file: contents/computer-science/artificial-intelligence/machine-learning
-        - file: contents/computer-science/artificial-intelligence/generative-ai
+        - file: contents/theory/artificial-intelligence/machine-learning
+        - file: contents/theory/artificial-intelligence/generative-ai
 
     - caption: Appendix
       chapters:
