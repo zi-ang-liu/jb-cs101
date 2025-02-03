@@ -5,14 +5,5 @@ Windowsでは、マウスなどのポインティングデバイスを使って�
 
 GUIは、コンピューターの操作を視覚的に表現することで、ユーザーが直感的に操作できるようにするためのものです。ここでは、GUIを通じて、Windowsのパーソナルコンピュータ（パソコン、PC）を使うための基本的な操作を学びます。
 
-```{toctree}
-:hidden:
-:titlesonly:
-:caption: Contents
-
-operations/basic/desktop
-operations/basic/file
-operations/basic/explorer
-operations/basic/screenshot
-```
+最後に，PowerShellを使って，コマンドラインでコンピューターを操作する方法についても学びます。
 
