@@ -2,41 +2,6 @@
 
 **電子メール**（electronic mail; email; e-mail）は，コンピューターネットワークを利用して，文字情報やデータを通信することです．単に「メール」とも呼ばれます．ビジネス，学校などで広く利用されて，生活に欠かせないコミュニケーション手段です．
 
-## メールアドレス
-
-**メールアドレス**（email address）は，電子メールを送受信するための宛先です．メールアドレスは，ローカル部（local-part）とドメイン（domain）部から構成され，`@`（アット）で区切られます．
-
-メールアドレスの構文は，次のようになります．
-
-```
-local-part@domain
-```
-
-例えば，`tanaka.taro@example.com`の場合，`tanaka.taro`がローカル部，`example.com`がドメインです．
-
-### トップレベルドメイン
-
-ドメインの最右端の文字列は，トップレベルドメイン（TLD，Top-Level Domain）と呼ばれます．組織や国によって異なります．以下の表は，一部のトップレベルドメインの例です．
-
-|  TLD  |         用途         |
-| :---: | :------------------: |
-| .com  |  商用（commercial）  |
-| .org  | 組織（organization） |
-| .edu  |  教育（education）   |
-| .gov  |  政府（government）  |
-|  .jp  |    日本（Japan）     |
-
-### JPドメイン名
-
-`.jp`は，日本の国別コードトップレベルドメイン（ccTLD，Country Code Top-Level Domain）です．`.jp`の前につく文字列は，属性型JPドメイン名と呼ばれます．例えば，日本の大学のメールアドレスの右端には`.ac.jp`が使われます．以下の表は，代表的な属性型JPドメイン名の例です．
-
-| ドメイン名 |     用途     |   English    |
-| :--------: | :----------: | :----------: |
-|   .ac.jp   | 高等教育機関 |   Academic   |
-|   .co.jp   |   商用企業   |   Company    |
-|   .go.jp   |   政府機関   |  Government  |
-|   .or.jp   |  非営利法人  | Organization |
-
 ## 電子メールクライアント
 
 **電子メールクライアント**（email client）は，電子メールを送受信するためのコンピュータープログラムです．電子メールクライアントは，メールの作成，送信，受信などの機能を提供します．さらに，メールの管理，署名（signature）の設定，自動応答の設定などの機能も提供することがあります．Microsoft Outlook，Mozilla Thunderbirdなどが有名な電子メールクライアントです．
@@ -106,4 +71,39 @@ local-part@domain
 Email: yamada.taro@example.com
 ```
 
-### q
+## 補足
+
+### メールアドレス
+
+**メールアドレス**（email address）は，電子メールを送受信するための宛先です．メールアドレスは，ローカル部（local-part）とドメイン（domain）部から構成され，`@`（アット）で区切られます．
+
+メールアドレスの構文は，次のようになります．
+
+```
+local-part@domain
+```
+
+例えば，`tanaka.taro@example.com`の場合，`tanaka.taro`がローカル部，`example.com`がドメインです．
+
+#### トップレベルドメイン
+
+ドメインの最右端の文字列は，トップレベルドメイン（TLD，Top-Level Domain）と呼ばれます．組織や国によって異なります．以下の表は，一部のトップレベルドメインの例です．
+
+|  TLD  |         用途         |
+| :---: | :------------------: |
+| .com  |  商用（commercial）  |
+| .org  | 組織（organization） |
+| .edu  |  教育（education）   |
+| .gov  |  政府（government）  |
+|  .jp  |    日本（Japan）     |
+
+#### JPドメイン名
+
+`.jp`は，日本の国別コードトップレベルドメイン（ccTLD，Country Code Top-Level Domain）です．`.jp`の前につく文字列は，属性型JPドメイン名と呼ばれます．例えば，日本の大学のメールアドレスの右端には`.ac.jp`が使われます．以下の表は，代表的な属性型JPドメイン名の例です．
+
+| ドメイン名 |     用途     |   English    |
+| :--------: | :----------: | :----------: |
+|   .ac.jp   | 高等教育機関 |   Academic   |
+|   .co.jp   |   商用企業   |   Company    |
+|   .go.jp   |   政府機関   |  Government  |
+|   .or.jp   |  非営利法人  | Organization |
