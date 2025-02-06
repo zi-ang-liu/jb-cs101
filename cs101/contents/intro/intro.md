@@ -33,5 +33,3 @@
 
 ノイマン型アーキテクチャ 
 :::
-
-<img src="./image/Von_Neumann_Architecture.svg.png" alt="ノイマン型アーキテクチャ" width="600px">
