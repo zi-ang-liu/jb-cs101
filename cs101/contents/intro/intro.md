@@ -58,6 +58,12 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 
 **システムソフトウェア**（system software）は，コンピューターのハードウェアを制御や管理するためのソフトウェアである．よく知られているシステムソフトウェアとして，**オペレーティングシステム**（operating system, OS）がある．Microsoft Windows，macOS，Linux，Androidなどがオペレーティングシステムの例である．
 
+:::{figure-md} ハードウェアとソフトウェア
+<img src="./image/hardware_software.svg" alt="ハードウェアとソフトウェア" width="200px">
+
+ハードウェアとソフトウェア
+:::
+
 ## 用語
 
 | 略称 | 意味                    | 日本語訳                 |
