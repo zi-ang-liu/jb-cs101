@@ -25,7 +25,6 @@
 - 入力装置（Input Unit）
 - 出力装置（Output Unit）
 
-
 次の図では，ノイマン型アーキテクチャを示している．
 
 :::{figure-md} VonNeumann
@@ -33,3 +32,4 @@
 ノイマン型アーキテクチャ 
 :::
 
+<img src="./image/Von_Neumann_Architecture.svg.png" alt="ノイマン型アーキテクチャ" width="600px">
