@@ -29,7 +29,7 @@
 次の図では，ノイマン型アーキテクチャを示している．
 
 :::{figure-md} VonNeumann
-<img src="./image/Von_Neumann_Architecture.svg.png" alt="ノイマン型アーキテクチャ" width="300px">
+<img src="./image/VonNeumann.svg" alt="ノイマン型アーキテクチャ" width="300px">
 
 ノイマン型アーキテクチャ 
 :::

@@ -1,17 +1,17 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="2">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9" pages="3">
   <diagram name="Page-1" id="8oVfllo37yGLh_ipxiJL">
-    <mxGraphModel dx="691" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GHzhh6EPnT_gb6ETpfjr-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="410" y="400" width="100" height="30" as="geometry" />
+        <mxCell id="ktaLotPghiCEmOHEmVsJ-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="35" y="240" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GHzhh6EPnT_gb6ETpfjr-1" value="Computer Science" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;" vertex="1" parent="GHzhh6EPnT_gb6ETpfjr-3">
-          <mxGeometry x="40" width="60" height="30" as="geometry" />
+        <mxCell id="ktaLotPghiCEmOHEmVsJ-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="ktaLotPghiCEmOHEmVsJ-3">
+          <mxGeometry x="5" width="80" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="GHzhh6EPnT_gb6ETpfjr-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="GHzhh6EPnT_gb6ETpfjr-3">
-          <mxGeometry y="5" width="30" height="20" as="geometry" />
+        <mxCell id="ktaLotPghiCEmOHEmVsJ-2" value="情報リテラシー" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="ktaLotPghiCEmOHEmVsJ-3">
+          <mxGeometry y="55" width="90" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -29,6 +29,54 @@
         </mxCell>
         <mxCell id="F4ATa7_TgELPm7Bp2rx3-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.augmented_ai;" vertex="1" parent="F4ATa7_TgELPm7Bp2rx3-4">
           <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ne4liQ8q6cPrXPKfyj9M" name="Page-3">
+    <mxGraphModel dx="1430" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="90" y="480" width="380" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CSMeEznxhmVhGDSgSIKE-13">
+          <mxGeometry x="110" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="CSMeEznxhmVhGDSgSIKE-13" source="CSMeEznxhmVhGDSgSIKE-12" target="CSMeEznxhmVhGDSgSIKE-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-5" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;中央処理装置&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="CSMeEznxhmVhGDSgSIKE-13">
+          <mxGeometry x="130" y="10" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dzbzUxYn58N69M0T15Pk-3" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;演算装置&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Noto Serif JP;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="CSMeEznxhmVhGDSgSIKE-13" vertex="1">
+          <mxGeometry x="150" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CSMeEznxhmVhGDSgSIKE-13" source="CSMeEznxhmVhGDSgSIKE-1" target="CSMeEznxhmVhGDSgSIKE-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-1" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;入力装置&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Noto Serif JP;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="CSMeEznxhmVhGDSgSIKE-13">
+          <mxGeometry y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-2" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;出力装置&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Noto Serif JP;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="CSMeEznxhmVhGDSgSIKE-13">
+          <mxGeometry x="300" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-3" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;制御装置&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Noto Serif JP;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="CSMeEznxhmVhGDSgSIKE-13">
+          <mxGeometry x="150" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-4" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;記憶装置&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Noto Serif JP;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CSMeEznxhmVhGDSgSIKE-13">
+          <mxGeometry x="150" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="CSMeEznxhmVhGDSgSIKE-13" source="CSMeEznxhmVhGDSgSIKE-4" target="CSMeEznxhmVhGDSgSIKE-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="160" as="sourcePoint" />
+            <mxPoint x="280" y="110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
