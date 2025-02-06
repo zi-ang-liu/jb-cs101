@@ -15,12 +15,16 @@
 format: jb-book
 root: intro
 parts:
+
+    - caption: はじめに
+      chapters:
+      - file: contents/intro/intro
+
     - caption: 操作編
       chapters:
 
       - file: contents/operations/basic/intro
         sections:
-        - file: contents/operations/intro/intro
         - file: contents/operations/basic/desktop
         - file: contents/operations/basic/file
         - file: contents/operations/basic/explorer
