@@ -56,7 +56,7 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 
 特定の仕事をするために作成されたソフトウェアを**アプリケーションソフトウェア**（application software）と呼ぶ．ワードプロセッサ，表計算ソフト，電子ゲームなどがアプリケーションソフトウェアの例である．
 
-**システムソフトウェア**（system software）は，コンピューターのハードウェアを制御や管理するためのソフトウェアである．よく知られているシステムソフトウェアとして，**オペレーティングシステム**（operating system, OS）がある．Microsoft Windows，macOS，Linuxなどがオペレーティングシステムの例である．
+**システムソフトウェア**（system software）は，コンピューターのハードウェアを制御や管理するためのソフトウェアである．よく知られているシステムソフトウェアとして，**オペレーティングシステム**（operating system, OS）がある．Microsoft Windows，macOS，Linux，Androidなどがオペレーティングシステムの例である．
 
 ## 用語
 
