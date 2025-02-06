@@ -6,6 +6,7 @@
 
 :::{figure-md} Fugaku
 <img src="./image/RIKEN_R-CCS_Fugaku.jpg" alt="富岳" width="600px">
+
 日本のスーパーコンピューター「富岳（ふがく）」 © [Wikipedia](https://commons.wikimedia.org/wiki/File:RIKEN_R-CCS_Fugaku.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 :::
 
@@ -29,6 +30,7 @@
 
 :::{figure-md} VonNeumann
 <img src="./image/Von_Neumann_Architecture.svg.png" alt="ノイマン型アーキテクチャ" width="600px">
+
 ノイマン型アーキテクチャ 
 :::
 
