@@ -18,14 +18,16 @@
 
 ### ハードウェア
 
-ハードウェアとは，コンピューターを構成する物理的な装置である．
-
-ノイマン型アーキテクチャ（von Neumann architecture）は，今のほとんどのコンピューターの基盤となるアーキテクチャである．次の図では，ノイマン型アーキテクチャを示している．
+ハードウェアとは，コンピューターを構成する物理的な装置である．今のほとんどのコンピューターは，**ノイマン型**（von Neumann architecture）と呼ばれるアーキテクチャに基づいて設計されている．次の図では，ノイマン型を示している．
 
 :::{figure-md} VonNeumann
 <img src="./image/VonNeumann.svg" alt="ノイマン型アーキテクチャ" width="300px">
 
-ノイマン型アーキテクチャ 
+ノイマン型
+:::
+
+:::{note}
+
 :::
 
 図に示すように，ノイマン型コンピューターは，以下の5つの構成要素からなる．
@@ -69,9 +71,9 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 | 略称 | 意味                    | 日本語訳                 |
 | ---- | ----------------------- | ------------------------ |
 | CPU  | Central Processing Unit | 中央処理装置             |
+| ALU  | Arithmetic/Logic Unit   | 演算論理装置             |
+| CU   | Control Unit            | 制御装置                 |
 | OS   | Operating System        | オペレーティングシステム |
 | PC   | Personal Computer       | パーソナルコンピュータ   |
 | RAM  | Random Access Memory    | ランダムアクセスメモリ   |
 | ROM  | Read-Only Memory        | 読み取り専用メモリ       |
-| ALU  | Arithmetic/Logic Unit   | 演算論理装置             |
-| CU   | Control Unit            | 制御装置                 |
