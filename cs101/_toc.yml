@@ -20,6 +20,7 @@ parts:
 
       - file: contents/operations/basic/intro
         sections:
+        - file: contents/operations/intro/intro
         - file: contents/operations/basic/desktop
         - file: contents/operations/basic/file
         - file: contents/operations/basic/explorer
