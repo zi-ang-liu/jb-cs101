@@ -15,9 +15,21 @@
 
 ハードウェアは，コンピューターを構成する物理的な装置である．
 
-ノイマン型アーキテクチャ（von Neumann architecture）は，今のほとんどのコンピューターの基盤となるアーキテクチャである．次の図では，ノイマン型アーキテクチャを示している．
+ノイマン型アーキテクチャ（von Neumann architecture）は，今のほとんどのコンピューターの基盤となるアーキテクチャである．ノイマン型アーキテクチャでは，プログラムをハードウェアから独立して，データと同様に扱うことができる．このような考え方は**プログラム内蔵方式**（stored-program computer）と呼ばれる．
+
+ノイマン型コンピューターは，以下の5つの主要な構成要素からなる．
+
+- 演算装置（ALU: Arithmetic/Logic Unit，算術論理演算装置）
+- 制御装置（Control Unit）
+- 記憶装置（Memory Unit）
+- 入力装置（Input Unit）
+- 出力装置（Output Unit）
+
+
+次の図では，ノイマン型アーキテクチャを示している．
 
 :::{figure-md} VonNeumann
 <img src="./image/Von_Neumann_Architecture.svg.png" alt="ノイマン型アーキテクチャ" width="600px">
 ノイマン型アーキテクチャ 
 :::
+
