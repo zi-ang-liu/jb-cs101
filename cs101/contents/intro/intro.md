@@ -49,11 +49,14 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 :::
 
 :::{note}
-**命令サイクル（instruction cycle）**は，CPUが命令を実行するサイクルである．CPUがこのサイクルを繰り返すことで，プログラムが実行される．命令サイクルは，次の3つのステップからなる．
+**命令サイクル（instruction cycle, fetch-execute cycle）**は，CPUが命令を実行するサイクルである．CPUがこのサイクルを繰り返すことで，プログラムが実行される．命令サイクルは，次の3つのステップからなる．
 
 1. **フェッチ（Fetch）**：次の命令を取得する．
 2. **デコード（Decode）**：命令を解読する．
 3. **実行（Execute）**：命令を実行する．
+
+> Sometimes I think the only universal in the computing field is the fetch-execute cycle.
+> -- Epigrams on Programming, Alan J. Perlis
 
 **練習問題**：
 命令サイクルにおいて，演算装置と制御装置はそれぞれどのような役割を果たすかを考えてみよう．
@@ -61,9 +64,7 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 
 ### 記憶装置
 
-**記憶装置**は，データやプログラムを保存するための装置である．記憶装置には，**主記憶装置**（Main Memory）と**補助記憶装置**（Secondary Memory）がある．主記憶装置は，CPUから直接アクセスできる高速な記憶装置である．補助記憶装置は，主記憶装置よりも大容量で，主記憶装置よりも遅いが，データを永続的に保存できる．
-
-
+**記憶装置**は，データやプログラムを保存するための装置である．
 
 ### ソフトウェア
 
