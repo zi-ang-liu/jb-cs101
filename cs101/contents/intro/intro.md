@@ -27,7 +27,7 @@
 :::
 
 :::{note}
-ノイマン型では，プログラムをハードウェアから独立して，データと同様に扱う．このような考え方は**プログラム内蔵方式**（stored-program computer）と呼ばれる．
+ノイマン型では，プログラムをハードウェアから独立して，データと同様に扱う．このような考え方は**プログラム内蔵方式**（stored-program computer）と呼ばれる．数学者ジョン・フォン・ノイマン（John von Neumann）が書かれた報告書「First Draft of a Report on the EDVAC」（1945年）で最初にこのアーキテクチャを公開したことから，ノイマン型と呼ばれる．
 :::
 
 図に示すように，ノイマン型コンピューターは，以下の5つの構成要素からなる．
@@ -49,13 +49,14 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 :::
 
 :::{note}
-**命令サイクル（instruction cycle, fetch-execute cycle）**は，CPUが命令を実行するサイクルである．CPUがこのサイクルを繰り返すことで，プログラムが実行される．命令サイクルは，次の3つのステップからなる．
+**命令サイクル**（instruction cycle, fetch-execute cycle）は，CPUが命令を実行するサイクルである．CPUがこのサイクルを繰り返すことで，プログラムが実行される．命令サイクルは，次の3つのステップからなる．
 
 1. **フェッチ（Fetch）**：次の命令を取得する．
 2. **デコード（Decode）**：命令を解読する．
 3. **実行（Execute）**：命令を実行する．
 
 > Sometimes I think the only universal in the computing field is the fetch-execute cycle.
+> 
 > -- Epigrams on Programming, Alan J. Perlis
 
 **練習問題**：
@@ -64,7 +65,7 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 
 ### 記憶装置
 
-**記憶装置**は，データやプログラムを保存するための装置である．
+**記憶装置**は，データやプログラムを保存するための装置である．現在のほとんどのコンピューターには，**主記憶装置**（main memory）と**補助記憶装置**（secondary storage）がある．
 
 ### ソフトウェア
 
