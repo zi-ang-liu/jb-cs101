@@ -27,8 +27,8 @@ parts:
       - file: contents/intro/intro
 
     - caption: 操作編
+      numbered: true
       chapters:
-
       - file: contents/operations/basic/intro
         sections:
         - file: contents/operations/basic/desktop
@@ -60,8 +60,8 @@ parts:
       - file: contents/operations/html/intro
     
     - caption: 理論編
+      numbered: true
       chapters:
-    
       - file: contents/theory/data/intro
         sections:
         - file: contents/theory/data/boolean
@@ -89,6 +89,5 @@ parts:
 
     - caption: Appendix
       chapters:
-
       - file: contents/appendix/powershell
       - file: contents/appendix/vscode
