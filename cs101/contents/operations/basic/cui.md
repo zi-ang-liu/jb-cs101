@@ -26,8 +26,7 @@ PSVersion の値が5.1以下の場合、以下のサイトの手順に従って�
 
 - [https://aka.ms/PSWindows](https://aka.ms/PSWindows)
 
-## Cmdlet について
-
+:::{note}
 PowerShell は、**cmdlet**（コマンドレット）と呼ばれるコマンドを使用します。コマンドレットは、「Verb-Noun」 の形式で構成されます。例えば、`Get-Process` は、「プロセスの情報を取得する」コマンドレットです。
 
 コマンドレットのパラメーターは、`-ParameterName` の形式で指定します。例えば、`Get-Process -Name "explorer"` は、名前が `explorer` のプロセスの情報を取得するコマンドです。
@@ -35,6 +34,7 @@ PowerShell は、**cmdlet**（コマンドレット）と呼ばれるコマン�
 コマンドレットのAlias（エイリアス）とは、コマンドレットの短縮形です。例えば、`Get-Process` のエイリアスは `gps` で、`Get-Process -Name "explorer"` は `gps -Name "explorer"` と書くことができます。
 
 最後に、PowerShell は、基本的に大文字と小文字を区別しません。つまり、`Get-Process` と `get-process` は同じコマンドレットとして扱われます。
+:::
 
 ## 便利な操作
 
