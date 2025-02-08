@@ -17,6 +17,7 @@ root: intro
 parts:
 
     - caption: はじめに
+      numbered: true
       chapters:
       - file: contents/intro/intro
 
