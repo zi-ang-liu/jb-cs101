@@ -76,8 +76,29 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 **出力装置**（output unit）は，コンピューターからデータ処理の結果を出力するための装置である．ディスプレイ，プリンタ，スピーカーなどがある．
 
 **練習問題**：
-1. タッチパネルはどのような装置に分類されるか．
+1. (Trick Question) タッチパネルはどのような装置に分類されるか．
 
+コンピューター本体に周辺装置との入出力のため設けられた接続端子を**ポート**（port）と呼ぶ．次の図は，ThinkPad L13 Gen 4 AMDのポートを示している．
+
+:::{figure-md} thinkpad_ports
+<img src="./image/lenovo-jp-thinkpad-l13-gen4-13-amd-ports-01.avif" alt="ThinkPad Ports" width="300px">
+
+ThinkPad L13 Gen 4 AMD © [Lenovo](https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpad-l-series/thinkpad-l13-gen-4-13-inch-amd/21fn001fjp)
+:::
+
+1. HDMI
+2. USB 3.2 Gen1
+3. USB 3.2 Gen1 Type-C
+4. セキュリティキーホール
+5. SIMカードスロット
+6. USB 3.2 Gen2 Type-C
+7. USB 3.2 Gen1
+8. マイクロホン/ヘッドホン・コンボ・ジャック
+9. スマートカードスロット
+
+**HDMI**は，ディスプレイとパソコン，ゲーム機などを接続するためのインターフェースである．
+
+**USB**は，パソコンと周辺機器を接続するための汎用インターフェース仕様の一つである．マウス，キーボードなどの接続に使われる．**USB Type-C**は，
 ### ソフトウェア
 
 ソフトウェアとは，コンピューターを利用するためのプログラムの総称である．一般的に，ソフトウェアは，システムソフトウェアとアプリケーションソフトウェアに分類される．
