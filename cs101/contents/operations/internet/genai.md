@@ -1,6 +1,6 @@
 # 生成AIの活用
 
-生成AI（generative artificial intelligence）は，テキスト，画像，音声などを生成する人工知能（AI）の一種である．
+**生成AI**（generative artificial intelligence）は，テキスト，画像，音声などを生成する人工知能（AI）の一種である．
 
 ## チャットボット
 
