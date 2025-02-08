@@ -38,8 +38,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CSMeEznxhmVhGDSgSIKE-13" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="90" y="480" width="380" height="190" as="geometry" />
+        <mxCell id="v3q75dmT6Dcz_SHCLGBJ-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="470" width="400" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="v3q75dmT6Dcz_SHCLGBJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="v3q75dmT6Dcz_SHCLGBJ-2">
+          <mxGeometry width="400" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-13" value="" style="group" parent="v3q75dmT6Dcz_SHCLGBJ-2" vertex="1" connectable="0">
+          <mxGeometry x="10" y="10" width="380" height="190" as="geometry" />
         </mxCell>
         <mxCell id="CSMeEznxhmVhGDSgSIKE-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="CSMeEznxhmVhGDSgSIKE-13" vertex="1">
           <mxGeometry x="110" width="160" height="190" as="geometry" />
@@ -49,7 +55,7 @@
             <mxPoint x="290" y="90" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CSMeEznxhmVhGDSgSIKE-5" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;中央処理装置&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="CSMeEznxhmVhGDSgSIKE-13" vertex="1">
+        <mxCell id="CSMeEznxhmVhGDSgSIKE-5" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;中央処理装置&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="CSMeEznxhmVhGDSgSIKE-13" vertex="1">
           <mxGeometry x="130" y="10" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="dzbzUxYn58N69M0T15Pk-3" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;演算装置&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Noto Serif JP;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="CSMeEznxhmVhGDSgSIKE-13" vertex="1">
@@ -82,35 +88,32 @@
     </mxGraphModel>
   </diagram>
   <diagram id="H5UNncQMvnBaXU51fnQ9" name="Page-4">
-    <mxGraphModel dx="2074" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1481" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YdLRnyUvApqXd4PNlbm1-10" value="" style="group;fontFamily=Noto Sans JP;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="310" y="370" width="140" height="230" as="geometry" />
+        <mxCell id="YdLRnyUvApqXd4PNlbm1-9" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;ソフトウェア&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Noto Sans JP;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="310" y="360" width="140" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="YdLRnyUvApqXd4PNlbm1-9" value="ソフトウェア&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Noto Sans JP;" vertex="1" parent="YdLRnyUvApqXd4PNlbm1-10">
-          <mxGeometry width="140" height="170" as="geometry" />
+        <mxCell id="YdLRnyUvApqXd4PNlbm1-1" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;ハードウェア&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Noto Sans JP;" parent="1" vertex="1">
+          <mxGeometry x="320" y="540" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YdLRnyUvApqXd4PNlbm1-1" value="&lt;font&gt;ハードウェア&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Noto Sans JP;" vertex="1" parent="YdLRnyUvApqXd4PNlbm1-10">
-          <mxGeometry x="10" y="190" width="120" height="40" as="geometry" />
+        <mxCell id="YdLRnyUvApqXd4PNlbm1-2" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;システム&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;ソフトウェア&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Noto Sans JP;" parent="1" vertex="1">
+          <mxGeometry x="320" y="460" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YdLRnyUvApqXd4PNlbm1-2" value="&lt;font&gt;システム&lt;/font&gt;&lt;div&gt;&lt;font&gt;ソフトウェア&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Noto Sans JP;" vertex="1" parent="YdLRnyUvApqXd4PNlbm1-10">
-          <mxGeometry x="10" y="110" width="120" height="40" as="geometry" />
+        <mxCell id="YdLRnyUvApqXd4PNlbm1-3" value="&lt;font face=&quot;Noto Sans JP&quot;&gt;アプリケーション&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Noto Sans JP&quot;&gt;ソフトウェア&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Noto Sans JP;" parent="1" vertex="1">
+          <mxGeometry x="320" y="390" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YdLRnyUvApqXd4PNlbm1-3" value="&lt;font&gt;アプリケーション&lt;/font&gt;&lt;div&gt;&lt;font&gt;ソフトウェア&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Noto Sans JP;" vertex="1" parent="YdLRnyUvApqXd4PNlbm1-10">
-          <mxGeometry x="10" y="30" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="YdLRnyUvApqXd4PNlbm1-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Noto Sans JP;" edge="1" parent="YdLRnyUvApqXd4PNlbm1-10" source="YdLRnyUvApqXd4PNlbm1-2" target="YdLRnyUvApqXd4PNlbm1-3">
+        <mxCell id="YdLRnyUvApqXd4PNlbm1-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Noto Sans JP;fontSize=13;" parent="1" source="YdLRnyUvApqXd4PNlbm1-2" target="YdLRnyUvApqXd4PNlbm1-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="230" as="sourcePoint" />
-            <mxPoint x="140" y="180" as="targetPoint" />
+            <mxPoint x="400" y="590" as="sourcePoint" />
+            <mxPoint x="450" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YdLRnyUvApqXd4PNlbm1-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=Noto Sans JP;" edge="1" parent="YdLRnyUvApqXd4PNlbm1-10" source="YdLRnyUvApqXd4PNlbm1-1" target="YdLRnyUvApqXd4PNlbm1-2">
+        <mxCell id="kYodnMjjgBp0swJjP-fb-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Noto Sans JP;fontSize=13;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="YdLRnyUvApqXd4PNlbm1-1" target="YdLRnyUvApqXd4PNlbm1-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="230" as="sourcePoint" />
-            <mxPoint x="140" y="180" as="targetPoint" />
+            <mxPoint x="380" y="540" as="sourcePoint" />
+            <mxPoint x="379.83000000000004" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
