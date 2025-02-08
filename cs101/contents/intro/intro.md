@@ -16,11 +16,6 @@
 
 コンピューターは，**ハードウェア**（hardware）と**ソフトウェア**（software）から構成される．
 
-:::{figure-md} ハードウェアとソフトウェア
-<img src="./image/hardware_software.svg" alt="ハードウェアとソフトウェア" width="150px">
-
-ハードウェアとソフトウェア
-:::
 
 ### ハードウェア
 
@@ -83,9 +78,6 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 
 **出力装置**（output unit）は，コンピューターからデータ処理の結果を出力するための装置である．ディスプレイ，プリンタ，スピーカーなどがある．
 
-**練習問題**：
-1. (Trick Question) タッチパネルはどのような装置に分類されるか．
-
 コンピューター本体に周辺装置との入出力のため設けられた接続端子を**ポート**（port）と呼ぶ．次の図は，ThinkPad L13 Gen 4 AMDのポートを示している．
 
 :::{figure-md} thinkpad_ports
@@ -114,7 +106,14 @@ ThinkPad L13 Gen 4 AMD © [Lenovo](https://www.lenovo.com/jp/ja/p/laptops/thinkp
 
 特定の仕事をするために作成されたソフトウェアを**アプリケーションソフトウェア**（application software）と呼ぶ．ワードプロセッサ，表計算ソフト，電子ゲームなどがアプリケーションソフトウェアの例である．
 
-**システムソフトウェア**（system software）は，コンピューターのハードウェアを制御や管理するためのソフトウェアである．よく知られているシステムソフトウェアとして，**オペレーティングシステム**（operating system, OS）がある．Microsoft Windows，macOS，Linux，Androidなどがオペレーティングシステムの例である．
+**システムソフトウェア**（system software）は，コンピューターのハードウェアを制御や管理するためのソフトウェアである．また，アプリケーションソフトウェアが動作するための環境を提供する．よく知られているシステムソフトウェアとして，**オペレーティングシステム**（operating system, OS）がある．Microsoft Windows，macOS，Linux，Androidなどがオペレーティングシステムの例である．
+
+:::{figure-md} ハードウェアとソフトウェア
+<img src="./image/hardware_software.svg" alt="ハードウェアとソフトウェア" width="150px">
+
+ハードウェアとソフトウェア
+:::
+
 
 ## 用語
 
@@ -125,5 +124,11 @@ ThinkPad L13 Gen 4 AMD © [Lenovo](https://www.lenovo.com/jp/ja/p/laptops/thinkp
 | CU   | Control Unit            | 制御装置                 |
 | OS   | Operating System        | オペレーティングシステム |
 | PC   | Personal Computer       | パーソナルコンピュータ   |
-| RAM  | Random Access Memory    | ランダムアクセスメモリ   |
-| ROM  | Read-Only Memory        | 読み取り専用メモリ       |
+
+## 練習問題
+
+1. ノイマン型コンピューターの構成要素を説明しなさい．
+2. 主記憶装置と補助記憶装置の違いを説明しなさい．
+3. タッチパネルは5大装置のどこに分類されるかを説明しなさい．
+4. システムソフトウェアとアプリケーションソフトウェアの違いを説明しなさい．
+5. 所有しているパソコンのポートを調べ，それぞれのポートの用途を説明しなさい．
