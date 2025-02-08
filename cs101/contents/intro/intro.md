@@ -2,7 +2,7 @@
 
 **コンピューター**（computer）とは，電子回路を用い，指示された通り自動的にデータの貯蔵・検索・加工を行う装置で，**電子計算機**とも呼ばれる．**計算機**という言葉は，狭義では電子計算機を指すが，広義では計算を行う装置全般を指す．
 
-コンピューターには，日常生活で使われるパーソナルコンピュータをはじめ，スーパーコンピューター，スマートフォン，タブレットなどが
+コンピューターには，日常生活で使われるパーソナルコンピュータをはじめ，スーパーコンピューター，スマートフォン，タブレットなどがある．日本のスーパーコンピューター「富岳」は，兵庫県神戸市・ポートアイランドの理化学研究所計算科学研究センターに設置されている．
 
 :::{figure-md} Fugaku
 <img src="./image/RIKEN_R-CCS_Fugaku.jpg" alt="富岳" width="300px">
@@ -10,7 +10,7 @@
 日本のスーパーコンピューター「富岳（ふがく）」 © [Barsaka2](https://commons.wikimedia.org/wiki/File:RIKEN_R-CCS_Fugaku.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 :::
 
-パーソナルコンピュータ（パソコン，PC）は，一般的には，デスクトップPCとノート型PCに分けられる．
+**パーソナルコンピュータ**（パソコン，PC）は，個人が利用するために設計されたコンピューターである．パソコンは，**デスクトップパソコン**と**ノートパソコン**に分けられる．
 
 ## ハードウェアとソフトウェア
 
@@ -57,15 +57,26 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 
 ### 記憶装置
 
-**記憶装置**は，データやプログラムを保存するための装置である．現在のほとんどのコンピューターには，**主記憶装置**（main memory）と**補助記憶装置**（secondary storage）がある．
+**記憶装置**は，データやプログラムを保存するための装置である．現在のほとんどのコンピューターには，主記憶装置と補助記憶装置がある．
 
-主記憶装置は，**RAM**（Random Access Memory）や単に**メモリ**とも呼ばれる．
+**主記憶装置**（main memory）は，CPUが直接アクセスできる記憶装置である．主記憶装置はデータやプログラムを一時的に保存する．電源を切るとデータが消える**揮発性**（volatile）を持つ．
 
+:::{figure-md} main_memory
+<img src="./image/main_memory.jpg" alt="Main Memory" width="300px">
 
-:::{note}
-コンピューターのハードウェアは様々な観点から分類できる．英語圏の教科書では，補助記憶装置を入出力装置として扱うことが多いが，日本語の教科書では，補助記憶装置を記憶装置として扱うことが多い．
+パソコン用の主記憶装置 © [Evan-Amos](https://commons.wikimedia.org/wiki/User:Evan-Amos), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 :::
 
+**補助記憶装置**（secondary storage）は，データやプログラムを永続的に保存するための装置である．電源を切ってもデータが消えない**不揮発性**（non-volatile）を持つ．補助記憶装置は，HDD（Hard Disk Drive），SSD（Solid State Drive），USBメモリ，SDカードなどがある．
+
+### 入力装置と出力装置
+
+**入力装置**（input unit）は，コンピューターにデータやプログラムを入力するための装置である．キーボード，マウス，タッチパッドなどがある．
+
+**出力装置**（output unit）は，コンピューターからデータ処理の結果を出力するための装置である．ディスプレイ，プリンタ，スピーカーなどがある．
+
+**練習問題**：
+1. タッチパネルはどのような装置に分類されるか．
 
 ### ソフトウェア
 
@@ -76,7 +87,7 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 **システムソフトウェア**（system software）は，コンピューターのハードウェアを制御や管理するためのソフトウェアである．よく知られているシステムソフトウェアとして，**オペレーティングシステム**（operating system, OS）がある．Microsoft Windows，macOS，Linux，Androidなどがオペレーティングシステムの例である．
 
 :::{figure-md} ハードウェアとソフトウェア
-<img src="./image/hardware_software.svg" alt="ハードウェアとソフトウェア" width="200px">
+<img src="./image/hardware_software.svg" alt="ハードウェアとソフトウェア" width="150px">
 
 ハードウェアとソフトウェア
 :::
