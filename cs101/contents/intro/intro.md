@@ -62,7 +62,7 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 **主記憶装置**（main memory）は，CPUが直接アクセスできる記憶装置である．主記憶装置はデータやプログラムを一時的に保存する．電源を切るとデータが消える**揮発性**（volatile）を持つ．
 
 :::{figure-md} main_memory
-<img src="./image/main_memory.jpg" alt="Main Memory" width="300px">
+<img src="./image/main_memory.jpg" alt="Main Memory" width="200px">
 
 パソコン用の主記憶装置 © [Evan-Amos](https://commons.wikimedia.org/wiki/User:Evan-Amos), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 :::
@@ -81,7 +81,7 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 コンピューター本体に周辺装置との入出力のため設けられた接続端子を**ポート**（port）と呼ぶ．次の図は，ThinkPad L13 Gen 4 AMDのポートを示している．
 
 :::{figure-md} thinkpad_ports
-<img src="./image/lenovo-jp-thinkpad-l13-gen4-13-amd-ports-01.avif" alt="ThinkPad Ports" width="300px">
+<img src="./image/lenovo-jp-thinkpad-l13-gen4-13-amd-ports-01.avif" alt="ThinkPad Ports" width="500px">
 
 ThinkPad L13 Gen 4 AMD © [Lenovo](https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpad-l-series/thinkpad-l13-gen-4-13-inch-amd/21fn001fjp)
 :::
