@@ -9,11 +9,5 @@ Check out the content pages bundled with this sample book to see more. -->
 
 コンピュータリテラシー(computer literacy)とは，コンピュータを活用能力とコンピュータに関する知識を指す．
 
-## Table of Contents
-
-
-```{tableofcontents}
-```
-
 
   

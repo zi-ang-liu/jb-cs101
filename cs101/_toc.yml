@@ -16,6 +16,11 @@ format: jb-book
 root: intro
 parts:
 
+    - caption: Frontmatter
+      chapters:
+      - file: contents/frontmatter/table-of-contents
+      - file: contents/frontmatter/preface
+
     - caption: はじめに
       numbered: true
       chapters:
