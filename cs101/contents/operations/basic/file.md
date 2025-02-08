@@ -17,7 +17,7 @@
 下の図は、「foo」という名前のフォルダーを作成した例です。このフォルダーを右クリックすると、切り取り、コピー、削除、名前の変更、開くなどの操作を行うことができます。
 
 :::{figure-md} foo
-<img src="./images/new/foo.png" alt="Folder foo" width="600px">
+<img src="./images/file/foo.png" alt="Folder foo" width="600px">
 
 フォルダーの基本操作
 :::
