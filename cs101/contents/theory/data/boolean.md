@@ -12,6 +12,8 @@
 ブール代数は，19世紀の数学者ジョージ・ブール（George Boole）によって考案された。
 :::
 
+ブール演算は，AND，OR，XORの
+
 ## ゲート
 
 | p   | q   | p AND q | p OR q | NOT p | p XOR q |
