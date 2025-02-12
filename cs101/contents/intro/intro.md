@@ -38,7 +38,7 @@
 
 ### 演算装置と制御装置
 
-**演算装置**は，算術論理演算装置（ALU）とも呼ばれ，算術演算や論理演算を行う装置である．**制御装置**は，プログラムの命令を解読して他の装置を制御する．演算装置と制御装置を統合したものを**中央処理装置**（Central Processing Unit, CPU）と呼ぶ．CPUは，コンピューターの中心的な役割を果たし，コンピューターの頭脳とも呼ばれる．以下の図は，2024年10月から発売されているIntel Core UltraシリーズのCPUである．
+**演算装置**は，算術論理演算装置（arithmetic/logic unit, ALU）とも呼ばれ，算術演算や論理演算を行う装置である．**制御装置**（control unit, CU）は，プログラムの命令を解読して他の装置を制御する．演算装置と制御装置を統合したものを**中央処理装置**（Central Processing Unit, CPU）と呼ぶ．CPUは，コンピューターの中心的な役割を果たし，コンピューターの頭脳とも呼ばれる．以下の図は，2024年10月から発売されているIntel Core UltraシリーズのCPUである．
 
 :::{figure-md} intel_ultra
 <img src="./image/intel_ultra.png" alt="Intel Core Ultra" width="300px">
