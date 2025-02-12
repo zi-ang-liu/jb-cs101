@@ -33,12 +33,14 @@
 図に示すように，ノイマン型コンピューターは，演算装置，制御装置，記憶装置，入力装置，出力装置から構成される．これらの装置は，日本では**コンピューターの5大装置**とも呼ばれる．
 
 :::{note}
-ノイマン型では，プログラムをハードウェアから独立して，データと同様に扱う．このような考え方は**プログラム内蔵方式**（stored-program computer）と呼ばれる．数学者ジョン・フォン・ノイマン（John von Neumann）が書かれた報告書「First Draft of a Report on the EDVAC」（1945年）で最初にこのアーキテクチャを公開したことから，ノイマン型と呼ばれる．
+ノイマン型では，プログラムをハードウェアから独立して，データと同様に扱う．このような考え方を**プログラム内蔵方式**（stored-program computer）と呼ぶ．
+
+数学者ジョン・フォン・ノイマン（John von Neumann）が書かれた報告書「First Draft of a Report on the EDVAC」（1945年）で最初にこのアーキテクチャを公開した．
 :::
 
 ### 演算装置と制御装置
 
-**演算装置**は，算術論理演算装置（arithmetic/logic unit, ALU）とも呼ばれ，算術演算や論理演算を行う装置である．**制御装置**（control unit, CU）は，プログラムの命令を解読して他の装置を制御する．演算装置と制御装置を統合したものを**中央処理装置**（Central Processing Unit, CPU）と呼ぶ．CPUは，コンピューターの中心的な役割を果たし，コンピューターの頭脳とも呼ばれる．以下の図は，2024年10月から発売されているIntel Core UltraシリーズのCPUである．
+**演算装置**は，算術論理演算装置（arithmetic/logic unit, ALU）とも呼ばれ，算術演算や論理演算を行う装置である．**制御装置**（control unit, CU）は，プログラムの命令を解読して他の装置を制御する．演算装置と制御装置を統合したものを**中央処理装置**（central processing unit, CPU）と呼ぶ．CPUは，コンピューターの中心的な役割を果たし，コンピューターの頭脳とも呼ばれる．以下の図は，2024年10月から発売されているIntel Core UltraシリーズのCPUである．
 
 :::{figure-md} intel_ultra
 <img src="./image/intel_ultra.png" alt="Intel Core Ultra" width="300px">
@@ -47,7 +49,9 @@ Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 :::
 
 :::{note}
-**命令サイクル**（instruction cycle, fetch-execute cycle）は，CPUが命令を実行するサイクルである．CPUがこのサイクルを繰り返すことで，プログラムが実行される．命令サイクルは，次の3つのステップからなる．
+CPUが命令を実行するサイクルを**命令サイクル**（instruction cycle, fetch-execute cycle）と呼ぶ．
+
+CPUがこのサイクルを繰り返すことで，プログラムが実行される．命令サイクルは，次の3つのステップからなる．
 
 1. **フェッチ（Fetch）**：次の命令を取得する．
 2. **デコード（Decode）**：命令を解読する．
