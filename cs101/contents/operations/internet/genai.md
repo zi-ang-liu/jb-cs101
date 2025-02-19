@@ -3,7 +3,7 @@
 **生成AI**（generative artificial intelligence）は，生成モデル（generative model）を用いて，テキスト，画像，音声などを生成する**人工知能**（AI）の一種である．最も注目されている生成モデルは，テキストを生成する**大規模言語モデル**（large language model，LLM）である．2022年11月に公開されたChatGPTは，GPT-3（Generative Pre-trained Transformer 3）という大規模言語モデルをベースにしている．
 
 :::{note}
-GPT（Generative Pre-trained Transformer）は，OpenAIが開発した大規模言語モデルのシリーズである．GPT-1は，2018年に発表された論文「[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)」で紹介された．
+**GPT**（Generative Pre-trained Transformer）は，OpenAIが開発した大規模言語モデルのシリーズである．GPT-1は，2018年に発表された論文「[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)」で紹介された．
 :::
 
 ## チャットボット
