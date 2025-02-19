@@ -1,16 +1,18 @@
 # 生成AIの活用
 
-**生成AI**（generative artificial intelligence）は，生成モデル（generative model）を用いて，テキスト，画像，音声などを生成する**人工知能**（AI）の一種である．最も注目されている生成モデルは，テキストを生成する**大規模言語モデル**（large language model，LLM）である．2022年11月に公開されたChatGPTは，GPT-3（Generative Pre-trained Transformer 3）という大規模言語モデルをベースにしている．
+**生成AI**（generative artificial intelligence）は，生成モデル（generative model）を用いて，テキスト，画像，音声などを生成する**人工知能**（AI）の一種である．最も注目されている生成モデルは，テキストを生成する**大規模言語モデル**（large language model，LLM）である．2022年11月に公開されたChatGPTは，GPT-3（Generative Pre-trained Transformer 3）という大規模言語モデルを
 
 ## チャットボット
 
-大規模言語モデルの最も代表的な応用例は，**チャットボット**（chatbots）である．チャットボットは，ユーザーからの入力に対してテキストを生成する．ChatGPTが公開されて以降，Microsoft Copilot，Geminiなど多くのチャットボットが登場している．下の表では，これらのチャットボットの情報をまとめている．
+大規模言語モデルの最も代表的な応用例は，**チャットボット**（chatbots）である．チャットボットは，ユーザーからの入力に対してテキストを生成する．ChatGPTが公開されて以降，Microsoft Copilot，Claude，Geminiなど多くのチャットボットが登場している．下の表では，これらのチャットボットの情報をまとめている．
 
 | チャットボット    | 開発元    | 初版       |
 | ----------------- | --------- | ---------- |
 | ChatGPT           | OpenAI    | 2022年11月 |
 | Microsoft Copilot | Microsoft | 2023年2月  |
+| Claude            | Anthropic | 2023年3月  |
 | Gemini            | Google AI | 2023年3月  |
+
 
 チャットボットの本来の目的は，人間的な会話を模倣することである．しかし，現在のチャットボットは，自然な会話を生成するだけでなく，様々なタスクをこなすことができる．以下に，チャットボットの応用例を示す．
 
@@ -37,11 +39,17 @@
 
 ## 画像生成
 
+- [DALL-E 3](https://openai.com/index/dall-e-3/)
+
+
 ## 音声生成
 
 - [Suno](https://suno.ai/)
+- [SOUNDRAW](https://soundraw.io/)
 
 ## 動画生成
+
+- [Sora](https://openai.com/sora/)
 
 ## Coding Assistant
 
