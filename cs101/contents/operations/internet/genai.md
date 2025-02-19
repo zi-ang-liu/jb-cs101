@@ -37,7 +37,11 @@
 
 ## 画像生成
 
+## 音声生成
 
+- [Suno](https://suno.ai/)
+
+## 動画生成
 
 ## Coding Assistant
 
@@ -45,3 +49,11 @@
 - [Cursor](https://www.cursor.com/)
 
 ## 
+
+## 参考情報
+
+- [大学・高専における生成AIの教学面の取扱いについて](https://www.mext.go.jp/b_menu/houdou/2023/mext_01260.html)，文部科学省
+- [AIに関する暫定的な論点整理](https://www8.cao.go.jp/cstp/ai/ronten_honbun.pdf)，内閣府AI戦略会議
+- [生成AIツールに対する基本的考え方](https://www.hoseikyoiku.jp/lf/back_news/view.php?c=topics_view&pk=1687401621)，法政大学
+- [生成AIに関する注意点](https://www.tlsc.osaka-u.ac.jp/project/generative_ai/important_point.html)，大阪大学
+- [生成AIの利用ガイドライン](https://www.jdla.org/document/#ai-guideline)，日本デイープラーニング協会
