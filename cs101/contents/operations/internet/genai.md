@@ -24,3 +24,10 @@
 - 英会話の練習相手
 - TAや教師の代替
 
+- table, flowchart
+- reverse question
+- character setting, format, background
+- few-shot
+- conversation
+- chain of reasoning thought
+- meta-learning， meta-problem
