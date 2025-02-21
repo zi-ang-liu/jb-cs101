@@ -1,23 +1,10 @@
 # 生成AIの活用
 
-**生成AI**（generative artificial intelligence）は，生成モデルを用いて，テキスト，画像，音声などを生成する人工知能の一種である．よく知られている生成モデルは，テキストを生成する**大規模言語モデル**（large language model，LLM）である．大規模言語モデルは，人間からの入力に対して自然なテキストを生成することができる．2022年11月にChatGPTが公開されることにより，生成AIは一般に広く知られるようになった．
+## 生成AIとは
 
-:::{note}
-**GPT**（Generative Pre-trained Transformer）は，OpenAIが開発した大規模言語モデルのシリーズである．ChatGPTの公開当初はGPT-3（Generative Pre-trained Transformer 3）という大規模言語モデルを用いていた．
+**生成AI**（generative artificial intelligence）とは，生成モデルを用いて，テキスト，画像，音声などのコンテンツを自動生成する人工知能の一種である．**生成モデル**（generative model）は，大量のデータを学習し，与えられた入力に対して新しいデータを生成する．
 
-GPT-1は，2018年に発表された論文「[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)」で紹介された．
-:::
-
-様々な観点から生成AIを分類することができる．以下は，生成する内容による生成AIの分類である．
-
-- テキスト生成
-- 画像生成
-- 音声生成
-- 動画生成
-
-## テキスト生成
-
-大規模言語モデルの最も代表的な応用例は，**チャットボット**（chatbots）である．チャットボットは，ユーザーからの入力に対してテキストを生成する．ChatGPTが公開されて以降，Microsoft Copilot，Claude，Geminiなど多くのチャットボットが登場している．下の表では，これらのチャットボットの情報をまとめている．
+2022年11月にChatGPTが公開されたことで，生成AIは急速に普及し，個人や企業，研究機関などで広く利用されるようになった．これに続き，Microsoft Copilot，Claude，Geminiなど多くの生成AIが登場している．
 
 | チャットボット    | 開発元    | 初版       |
 | ----------------- | --------- | ---------- |
@@ -26,20 +13,35 @@ GPT-1は，2018年に発表された論文「[Improving Language Understanding b
 | Claude            | Anthropic | 2023年3月  |
 | Gemini            | Google AI | 2023年3月  |
 
+:::{note}
+**GPT**（Generative Pre-trained Transformer）は，OpenAIが開発した大規模言語モデルのシリーズである．GPT-1は，2018年に発表された論文「[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)」で紹介された．ChatGPTの公開当初はGPT-3（Generative Pre-trained Transformer 3）という大規模言語モデルを用いていた．
+:::
 
-チャットボットの本来の目的は，人間的な会話を模倣することである．しかし，現在のチャットボットは，自然な会話を生成するだけでなく，様々なタスクをこなすことができる．以下に，チャットボットの応用例を示す．
+## 生成AIの分類
+
+生成AIは、出力の形式に基づいて以下のように分類できる。
+
+- テキスト生成
+- 画像生成
+- 音声生成
+- 動画生成
+
+生成AIを活用することで，日常生活，ビジネス，研究，教育などの様々な場面で業務の効率化が可能となる．
+
+## テキスト生成
+
+テキスト生成は，生成AIの中でもよく利用されている分野である．テキスト生成の応用例としては，以下のようなものが挙げられる．
 
 - 要約生成
 - 文章生成
 - 質問応答
 - 翻訳
 - データ分析
-- プログラム生成    
-
-チャットボットをはじめとする生成AIを活用することで，日常生活，ビジネス，研究，教育などの様々な場面で効率的にタスクを遂行することができる．
+- プログラム生成   
 
 **練習問題**
-- [ChatGPT](https://chatgpt.com/)や[Microsoft Copilot](https://copilot.microsoft.com/)にアクセスし，チャットボットと会話してみよう．
+- [ChatGPT](https://chatgpt.com/)にアクセスし，チャットボットと会話してみよう．
+- `Hello, world!`と出力するC言語のプログラムをChatGPTに生成させてみよう．
 
 
 <!-- - table, flowchart
