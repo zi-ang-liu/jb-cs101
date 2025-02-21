@@ -1,12 +1,21 @@
 # 生成AIの活用
 
-**生成AI**（generative artificial intelligence）は，生成モデル（generative model）を用いて，テキスト，画像，音声などを生成する人工知能（AI）の一種である．最も注目されている生成モデルは，テキストを生成する**大規模言語モデル**（large language model，LLM）である．2022年11月に公開されたChatGPTは，GPT-3（Generative Pre-trained Transformer 3）という大規模言語モデルをベースにしている．
+**生成AI**（generative artificial intelligence）は，生成モデルを用いて，テキスト，画像，音声などを生成する人工知能の一種である．よく知られている生成モデルは，テキストを生成する**大規模言語モデル**（large language model，LLM）である．大規模言語モデルは，人間からの入力に対して自然なテキストを生成することができる．2022年11月にChatGPTが公開されることにより，生成AIは一般に広く知られるようになった．
 
 :::{note}
-**GPT**（Generative Pre-trained Transformer）は，OpenAIが開発した大規模言語モデルのシリーズである．GPT-1は，2018年に発表された論文「[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)」で紹介された．
+**GPT**（Generative Pre-trained Transformer）は，OpenAIが開発した大規模言語モデルのシリーズである．ChatGPTの公開当初はGPT-3（Generative Pre-trained Transformer 3）という大規模言語モデルを用いていた．
+
+GPT-1は，2018年に発表された論文「[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)」で紹介された．
 :::
 
-## チャットボット
+様々な観点から生成AIを分類することができる．以下は，生成する内容による生成AIの分類である．
+
+- テキスト生成
+- 画像生成
+- 音声生成
+- 動画生成
+
+## テキスト生成
 
 大規模言語モデルの最も代表的な応用例は，**チャットボット**（chatbots）である．チャットボットは，ユーザーからの入力に対してテキストを生成する．ChatGPTが公開されて以降，Microsoft Copilot，Claude，Geminiなど多くのチャットボットが登場している．下の表では，これらのチャットボットの情報をまとめている．
 
