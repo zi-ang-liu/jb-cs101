@@ -51,6 +51,11 @@
 - 本日の東京の天気をChatGPTに尋ねてみよう．
 
 
+### プロンプトエンジニアリング
+
+生成AIの分野において，**プロンプト**（prompt）とは，生成AIに与える入力データのことを指す．
+
+
 <!-- - table, flowchart
 - reverse question
 - character setting, format, background
