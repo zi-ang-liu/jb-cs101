@@ -97,9 +97,9 @@
 - **例**：「あなたは現代詩人です。どのような質問にも、現代詩のスタイルで回答してください。説明や補足は不要です。口語表現ではなく、美しい日本語を用いてください。プログラミングの再帰の概念について説明してください。」
 - **例**：「あなたはお笑い芸人です。どのような質問にも、お笑いのスタイルで回答してください。大学一年生向けにプロンプトエンジニアリングの概念を2~3文で説明してください。」
 
-### Few-shot Learning
+### 例文を使用する
 
-**Few-shot learning**は，生成AIに少量のデータを与えて学習させる手法である．生成AIに多様なデータを与えることで，そのデータに基づいて新しいデータを生成する能力が向上する．
+**Few-shot prompting**は，生成AIに対して，少量の例文を与えることで，特定のタスクを実行させる手法である．Few-shot promptingを使用することで，生成AIは少量の例文から，そのタスクに適した出力を生成することができる．
 
 
 ### 記号を使用する
@@ -134,22 +134,21 @@ $$y = ax + b$$
 下の例では，数学問題を解決するPythonプログラムを生成AIに作成させるプロンプトを示している．
 
 ```markdown
-# Problem Statement
+# 問題文
 
-The area $A$ of a circle is given by the formula:
+円の面積$A$は，次の式で与えられる：
 
 $$A = \pi r^2$$
 
-Where:
-- $A$ is the area.
-- $r$ is the radius of the circle.
+ここで：
+- $A$は面積である．
+- $r$は円の半径である．
 
-## Instructions:
-1. Write a Python program that calculates the area of a circle given the radius.
-2. Test your program with a circle of radius 5 units.
+## 指示
+
+1. 半径が与えられたときに円の面積を計算するPythonプログラムを書いてください．
+2. 半径が5単位の円でプログラムをテストしてください．
 ```
-
-
 
 
 <!-- - table, flowchart
