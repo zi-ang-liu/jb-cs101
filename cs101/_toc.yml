@@ -43,6 +43,8 @@ parts:
       - file: contents/operations/excel/intro
 
       - file: contents/operations/html/intro
+
+      - file: contents/operations/markdown/intro
     
     - caption: 理論編
       numbered: true
