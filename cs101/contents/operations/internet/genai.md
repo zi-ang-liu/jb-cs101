@@ -99,9 +99,50 @@
 
 ### 記号を使用する
 
-記号を使用することで，生成AIがプロンプトを理解しやすくなる．
+ChatGPTなどの生成AIは，Markdown，LaTeXの書式を理解することができる．これらの記号を使用することで，生成AIがプロンプトを理解しやすくなる．
 
-Markdown
+ここでは，よく使用されるMarkdownの記号を紹介する．
+
+| 記号 | 説明              |
+| ---- | ----------------- |
+| `#`  | 見出し（レベル1） |
+| `##` | 見出し（レベル2） |
+| `-`  | 箇条書き          |
+| `1.` | 番号付き箇条書き  |
+| `**` | 太字              |
+| `*`  | 斜体              |
+
+LaTeXの書式を用いて，数式をプロンプトに含めることもできる．大学の数学の講義では，難解な数式を生成AIに説明させることができる．
+
+LaTeXの書式では，`$`で囲むことで**インライン数式**を記述することができる．例えば，`$y = ax + b$`は，$y = ax + b$と表示される．
+
+`$$`で囲むことで**ディスプレイ数式**を記述することができる．例えば，`$$y = ax + b$$`は，
+
+$$y = ax + b$$
+
+と表示される．
+
+下の例では，二つの数学問題を解決するPythonプログラムを生成AIに作成させるプロンプトを示している．
+
+```markdown
+# Problem 1
+## Problem Statement
+The area $A$ of a circle is given by the formula:
+
+$$A = \pi r^2$$
+
+Where:
+- $A$ is the area.
+- $r$ is the radius of the circle.
+
+## Instructions:
+1. Write a Python program that calculates the area of a circle given the radius.
+2. Test your program with a circle of radius 5 units.
+```
+
+### Few-shot Learning
+
+**Few-shot learning**は，生成AIに少量のデータを与えて学習させる手法である．生成AIに多様なデータを与えることで，そのデータに基づいて新しいデータを生成する能力が向上する．
 
 
 <!-- - table, flowchart
