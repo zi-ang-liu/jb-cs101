@@ -145,6 +145,8 @@ Where:
 **Few-shot learning**は，生成AIに少量のデータを与えて学習させる手法である．生成AIに多様なデータを与えることで，そのデータに基づいて新しいデータを生成する能力が向上する．
 
 
+
+
 <!-- - table, flowchart
 - reverse question
 - character setting, format, background
