@@ -99,8 +99,16 @@
 
 ### 例文を使用する
 
-**Few-shot prompting**は，生成AIに対して，少量の例文を与えることで，特定のタスクを実行させる手法である．Few-shot promptingを使用することで，生成AIは少量の例文から，そのタスクに適した出力を生成することができる．
+的確なプロンプトを設定することが難しい場合，例文を使用することで，生成AIに適切な出力を生成させることができる．この手法を**Few-shot prompting**と呼ぶ．
 
+以下の例では，文を肯定的，中立的，否定的に分類するプロンプトを示している．
+
+```markdown
+これはすごい．//肯定的
+休暇はまずまずでした．//中立的
+昨日の会議はつまらなかった．//否定的
+今日の講義は面白かった．//
+```
 
 ### 記号を使用する
 
@@ -150,33 +158,18 @@ $$A = \pi r^2$$
 2. 半径が5単位の円でプログラムをテストしてください．
 ```
 
+## 様々な生成AI
 
-<!-- - table, flowchart
-- reverse question
-- character setting, format, background
-- few-shot
-- conversation
-- chain of reasoning thought
-- meta-learning， meta-problem -->
-
-## 画像生成
-
-- [DALL-E 3](https://openai.com/index/dall-e-3/)
-
-
-## 音声生成
-
-- [Suno](https://suno.ai/)
-- [SOUNDRAW](https://soundraw.io/)
-
-## 動画生成
-
-- [Sora](https://openai.com/sora/)
-
-## Coding Assistant
-
-- [GitHub Copilot](https://github.com/features/copilot)
-- [Cursor](https://www.cursor.com/)
+- 画像生成
+  - [DALL-E 3](https://openai.com/index/dall-e-3/)
+- 音声生成
+  - [Suno](https://suno.ai/)
+  - [SOUNDRAW](https://soundraw.io/)
+- 動画生成
+  - [Sora](https://openai.com/sora/)
+- Coding Assistant
+  - [GitHub Copilot](https://github.com/features/copilot)
+  - [Cursor](https://www.cursor.com/)
 
 ## 参考情報
 
