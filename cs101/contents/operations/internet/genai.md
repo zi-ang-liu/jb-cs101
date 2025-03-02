@@ -26,6 +26,17 @@
 - 音声生成
 - 動画生成
 
+また，入力と出力の形式によって以下のように分類できる。
+
+- text-to-text
+- text-to-image
+- image-to-image
+- image-to-text
+- image-to-video
+- video-to-video
+
+さらに，**マルチモーダルモデル**（multimodal model）は，テキスト，画像，音声，動画などの複数の形式のデータを入力として受け取り，多様な形式のデータを出力する生成AIである．
+
 生成AIを活用することで，日常生活，ビジネス，研究，教育などの様々な場面で業務の効率化が可能となる．
 
 ## テキスト生成
@@ -47,7 +58,7 @@
 
 **練習問題**
 - [ChatGPT](https://chatgpt.com/)にアクセスし，チャットボットと会話してみよう．
-- `Hello, world!`と出力するC言語のプログラムをChatGPTに生成させてみよう．
+- `Hello, world!`と出力するC言語のプログラムをChatGPTに生成させ，[OnlineGDB](https://www.onlinegdb.com/)で実行してみよう．
 - 本日の東京の天気をChatGPTに尋ねてみよう．
 
 
