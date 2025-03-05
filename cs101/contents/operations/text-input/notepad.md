@@ -43,3 +43,16 @@
    ```
 3. 保存したファイルを再度開いて、ショートカットキーでコピー、切り取り、貼り付けを試してみよう。
 4. ショートカットキーで保存してみよう。
+5. 以下の文字列を入力し、「my_web_page.html」として保存しよう。
+   ```html
+   <!DOCTYPE html>
+   <html>
+   <head>
+     <title>My Web Page</title>
+   </head>
+   <body>
+     <h1>This is a heading</h1>
+       <p>This is a paragraph.</p>
+   </body>
+   </html>
+   ```
