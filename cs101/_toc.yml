@@ -5,6 +5,7 @@ parts:
     - caption: Frontmatter
       chapters:
       - file: contents/frontmatter/preface
+      - file: contents/frontmatter/guide
 
     - caption: はじめに
       numbered: true
