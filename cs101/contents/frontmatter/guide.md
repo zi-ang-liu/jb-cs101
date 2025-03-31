@@ -1,6 +1,5 @@
 # ガイダンス
 
-:::{note}
 [シラバス](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2513953&nendo=2025&gakubueng=AP&t_mode=pc&radd=)と異なることがあるが，このガイダンスに従うこと．
 
 ## 授業について
