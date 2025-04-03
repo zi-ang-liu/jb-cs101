@@ -6,6 +6,7 @@ parts:
       chapters:
       - file: contents/frontmatter/preface
       - file: contents/frontmatter/guide
+      - file: contents/frontmatter/learning
 
     - caption: はじめに
       numbered: true
