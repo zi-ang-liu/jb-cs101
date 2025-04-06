@@ -5,8 +5,14 @@ parts:
     - caption: Frontmatter
       chapters:
       - file: contents/frontmatter/preface
-      - file: contents/frontmatter/guide
-      - file: contents/frontmatter/learning
+      
+
+    - caption: 授業
+      chapters:
+      - file: contents/class/notes
+      - file: contents/class/guide
+      - file: contents/class/learning
+
 
     - caption: はじめに
       numbered: true
