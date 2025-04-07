@@ -2,17 +2,11 @@
 
 [シラバス](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2513953&nendo=2025&gakubueng=AP&t_mode=pc&radd=)と異なることがあるが，このガイダンスに従うこと．
 
-## 授業について
+## スタッフ
 
-- 授業名：計算機実習A
-- スタッフ
-  - 担当教員：劉 子昂（りゅう すごう）
-  - 学務助手：
-  - TA：
-- 曜日：水曜日
-- 時間：1限（9:00-10:40）
-- 教室：西館 W203
-- Google Classroom: [こちら](https://classroom.google.com/c/NzYyMTI5NTMwNjk1?cjc=fhdwwdgz)から参加してください．
+- 担当教員：劉 子昂（りゅう すごう）
+- 学務助手：
+- TA：
 
 ### 授業の概要と目的
 
