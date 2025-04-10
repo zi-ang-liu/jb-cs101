@@ -6,12 +6,11 @@ parts:
       chapters:
       - file: contents/frontmatter/preface
       
-
     - caption: 授業
       chapters:
       - file: contents/class/notes
       - file: contents/class/guide
-      - file: contents/class/learning
+      - file: contents/class/practice
 
     - caption: 操作編
       numbered: true
