@@ -40,6 +40,7 @@ Windowsのパソコンは、スタートメニューから電源の操作を行�
 
 :::{figure-md} power
 <img src="./images/desktop/power.png" alt="電源の操作" width="200px">
+
 電源の操作
 :::
 
