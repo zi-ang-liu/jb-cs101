@@ -105,6 +105,21 @@
 1. ファイルやフォルダーを右クリックして「圧縮先...」を選択します。
 2. 表示されたメニューから「ZIPファイル」を選択します。
 
+:::{figure-md} compress
+<img src="./images/file/compress.png" alt="Compress" width="300px">
+
+圧縮
+:::
+
+すると、圧縮されたファイルが作成されます。「.zip」という拡張子が付加されます。
+
+:::{figure-md} zip
+<img src="./images/file/zip.png" alt="ZIP" width="50px">
+
+ZIPファイル
+:::
+
+
 ### 解凍の手順
 
 1. 圧縮したファイルを右クリックして「すべて展開...」を選択します。
