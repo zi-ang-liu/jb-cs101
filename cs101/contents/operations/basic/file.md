@@ -117,7 +117,7 @@
 :::
 
 :::{figure-md} zip
-<img src="./images/file/zip.png" alt="ZIP" width="200px">
+<img src="./images/file/zip.png" alt="ZIP" width="100px">
 
 作成されたZIPファイル
 :::
