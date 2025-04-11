@@ -106,15 +106,15 @@
 
 ここでは「foo.txt」を例として圧縮の手順を説明します。
 
+1. ファイルやフォルダーを右クリックして「圧縮先...」を選択します。
+2. 「ZIPファイル」を選択します。
+3. 「foo.zip」というファイルが作成されます。
+
 :::{figure-md} compress
 <img src="./images/file/compress.png" alt="Compress" width="300px">
 
 圧縮
 :::
-
-1. ファイルやフォルダーを右クリックして「圧縮先...」を選択します。
-2. 「ZIPファイル」を選択します。
-3. 「foo.zip」というファイルが作成されます。
 
 :::{figure-md} zip
 <img src="./images/file/zip.png" alt="ZIP" width="50px">
