@@ -10,23 +10,49 @@
 
 1. デスクトップ上で右クリックします。
 2. 表示されたメニューから「新規作成」を選択します。
-3. 「新規作成」のメニューから作成したいファイルやフォルダーの種類を選択します。
-4. 選択したファイルやフォルダーの名前を入力します。
-5. <kbd>Enter</kbd> キーを押すと、ファイルやフォルダーが作成されます。
+3. 新規作成のメニューから作成したいファイルやフォルダーの種類を選択します。
 
 :::{figure-md} new
-<img src="./images/file/new.png" alt="Create New Folder" width="600px">
+<img src="./images/file/new.drawio.png" alt="Create New Folder" width="600px">
 
 新規作成のメニュー
 :::
 
 ### フォルダーを作成してみよう
 
-フォルダーを作成する場合は、新規作成のメニューから「フォルダー」を選択します。次に、「foo」という名前を入力して、<kbd>Enter</kbd> キーを押すと、`foo` という名前のフォルダーが作成されます。
+以下の手順で「foo」という名前のフォルダーを作成してみましょう。
+
+1. 新規作成のメニューから「フォルダー」を選択します。
+2. 「foo」という名前を入力して、<kbd>Enter</kbd> キーを押します。
+
+:::{figure-md} new-folder
+<img src="./images/file/new-folder.drawio.png" alt="Create New Folder" width="600px">
+
+新規作成のメニュー
+:::
 
 ### テキストファイルを作成してみよう
 
-新規作成のメニューから「テキストドキュメント」を選択します。次に、「foo」という名前を入力して、<kbd>Enter</kbd> キーを押すと、`foo.txt` という名前のテキストファイルが作成されます。
+以下の手順で「foo.txt」という名前のテキストファイルを作成してみましょう。
+1. 新規作成のメニューから「テキスト ドキュメント」を選択します。
+2. 「foo.txt」という名前を入力して、<kbd>Enter</kbd> キーを押します。
+
+:::note
+テキストファイルを新規作成する場合、自動的に「.txt」が付加されますので、ファイル名を入力する際に「.txt」を入力する必要はありません。
+:::
+
+
+:::{figure-md} new-txt
+<img src="./images/file/new-text.drawio.png" alt="Create New Text File" width="600px">
+新規作成のメニュー
+:::
+
+以上の手順で「foo.txt」と「foo」という名前のフォルダーが作成されます。
+
+:::{figure-md} new-result
+<img src="./images/file/new-result.png" alt="Create New Folder" width="200px">
+新規作成の結果
+:::
 
 ## プロパティの確認
 
