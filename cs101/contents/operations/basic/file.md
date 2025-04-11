@@ -42,6 +42,7 @@
 
 :::{figure-md} new-txt
 <img src="./images/file/new-text.drawio.png" alt="Create New Text File" width="600px">
+
 新規作成のメニュー
 :::
 
@@ -49,6 +50,7 @@
 
 :::{figure-md} new-result
 <img src="./images/file/new-result.png" alt="Create New Folder" width="200px">
+
 新規作成の結果
 :::
 
