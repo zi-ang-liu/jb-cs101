@@ -31,16 +31,16 @@
 1. デスクトップ上で右クリックし、「新規作成」→「テキスト ドキュメント」を選択します。
 2. 「foo.txt」と入力し、<kbd>Enter</kbd> キーを押します。
 
-:::note
-テキストファイルには自動で「.txt」がつきます。手動で「.txt」と入力しても構いませんが、重複しないよう注意しましょう。
-:::
-
-
 :::{figure-md} new-txt
 <img src="./images/file/new-text.drawio.png" alt="Create New Text File" width="600px">
 
 テキストファイルの新規作成
 :::
+
+:::{note}
+テキストファイルには自動で「.txt」がつきます。手動で「.txt」と入力しても構いませんが、重複しないよう注意しましょう。
+:::
+
 
 <!-- 以上の手順で「foo.txt」と「foo」という名前のフォルダーが作成されます。
 
@@ -109,13 +109,13 @@
 3. 「bar.zip」というファイルが作成されます。
 
 :::{figure-md} compress
-<img src="./images/file/compress.png" alt="Compress" width="300px">
+<img src="./images/file/compress-1.png" alt="Compress" width="300px">
 
 圧縮
 :::
 
 :::{figure-md} zip
-<img src="./images/file/zip.png" alt="ZIP" width="50px">
+<img src="./images/file/zip.png" alt="ZIP" width="200px">
 
 作成されたZIPファイル
 :::
@@ -141,5 +141,5 @@
 
 1. デスクトップに「foo」というフォルダーを作成してみよう。
 2. 「foo」フォルダー内に「bar」というフォルダーと「bar.txt」というテキストファイルを作成してみよう。
-3. 「foo」フォルダーを圧縮して、「foo.zip」という名前のZIPファイルを作成してみよう。
-4. 「foo.zip」を解凍して、「foo」フォルダーを復元してみよう。
+3. 「bar.txt」を圧縮してみよう。
+4. 圧縮したファイルを解凍してみよう。
