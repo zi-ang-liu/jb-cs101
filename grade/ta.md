@@ -70,9 +70,6 @@ PS C:\> mkdir exercise
 
 ```
 PS C:\> cd exercise
-```
-
-```
 PS C:\exercise> ni sample.txt
 ```
 
