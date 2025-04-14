@@ -10,7 +10,6 @@ parts:
       chapters:
       - file: contents/class/notes
       - file: contents/class/guide
-      - file: contents/class/practice
 
     - caption: 操作編
       numbered: true
@@ -22,6 +21,7 @@ parts:
         - file: contents/operations/basic/explorer
         - file: contents/operations/basic/screenshot
         - file: contents/operations/basic/cui
+        - file: contents/operations/basic/practice
 
       - file: contents/operations/text-input/intro
         sections:
