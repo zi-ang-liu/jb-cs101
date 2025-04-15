@@ -75,8 +75,8 @@ IMEの設定を変更するには、IMEのアイコン「A」や「あ」を右�
 ## 練習
 1. メモ帳を開いて、好きな日本語の文章を入力してみよう。
 2. 句読点を「，．」に変更してみよう。
-3. 予測候補と変換候補の違いについて説明してみよう。
-4. このサイト（[https://manabi.benesse.ne.jp/gakushu/typing/](https://manabi.benesse.ne.jp/gakushu/typing/)）で、タッチタイピングを練習してみよう。
+3. 予測候補と変換候補を使って、入力してみよう。
+4. このサイト（[https://manabi.benesse.ne.jp/gakushu/typing/](https://manabi.benesse.ne.jp/gakushu/typing/)）で、「ホームポジション練習」を選択し、タッチタイピングを練習してみよう。
 
 
 ## 付録
