@@ -47,36 +47,36 @@ parts:
 
       - file: contents/operations/markdown/intro
     
-    - caption: 理論編
-      numbered: true
-      chapters:
+    # - caption: 理論編
+    #   numbered: true
+    #   chapters:
 
-      - file: contents/theory/intro/intro
+    #   - file: contents/theory/intro/intro
 
-      - file: contents/theory/data/intro
-        sections:
-        - file: contents/theory/data/boolean
-        - file: contents/theory/data/binary
+    #   - file: contents/theory/data/intro
+    #     sections:
+    #     - file: contents/theory/data/boolean
+    #     - file: contents/theory/data/binary
 
-      - file: contents/theory/algorithm/intro
+    #   - file: contents/theory/algorithm/intro
 
-      - file: contents/theory/data-structure/intro
+    #   - file: contents/theory/data-structure/intro
 
-      - file: contents/theory/programming/intro
+    #   - file: contents/theory/programming/intro
 
-      - file: contents/theory/database/intro
+    #   - file: contents/theory/database/intro
         
-      - file: contents/theory/network/intro
-        sections:
-        - file: contents/theory/network/internet
-        - file: contents/theory/network/security
-        - file: contents/theory/network/html
-        - file: contents/theory/network/xml
+    #   - file: contents/theory/network/intro
+    #     sections:
+    #     - file: contents/theory/network/internet
+    #     - file: contents/theory/network/security
+    #     - file: contents/theory/network/html
+    #     - file: contents/theory/network/xml
 
-      - file: contents/theory/artificial-intelligence/intro
-        sections:
-        - file: contents/theory/artificial-intelligence/machine-learning
-        - file: contents/theory/artificial-intelligence/generative-ai
+    #   - file: contents/theory/artificial-intelligence/intro
+    #     sections:
+    #     - file: contents/theory/artificial-intelligence/machine-learning
+    #     - file: contents/theory/artificial-intelligence/generative-ai
 
     - caption: Appendix
       chapters:
