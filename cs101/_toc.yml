@@ -80,5 +80,6 @@ parts:
 
     - caption: Appendix
       chapters:
+      - file: contents/appendix/input-ja
       - file: contents/appendix/powershell
       - file: contents/appendix/vscode
