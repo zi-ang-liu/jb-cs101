@@ -81,8 +81,21 @@ PS C:\exercise> del sample.txt
 
 ## 実習3-1
 
-## 実習3-2
+タッチタイピング
 
+採点は不要です。
 
-Email Address: computer.exercises.a@gmail.com
-Password: Hosei1234
+## 実習3-2（５点）
+
+1. 以下のアカウントに登録し、
+   - Email Address: computer.exercises.a@gmail.com
+   - Password: Hosei1234
+2. 以下の要素が含めるかを確認する。
+   - 件名：テストメール
+   - 宛名：法政花子先生
+   - 本文：テストメールです．
+   - 署名：名前、学生番号、学部、学科、学年を記入すること．
+
+## 実習3-3
+
+採点は不要です。
