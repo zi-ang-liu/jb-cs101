@@ -7,7 +7,7 @@
 
 <!-- ![start-notepad](../how-to-use/images/notepad/start-notepad.png) -->
 :::{figure-md} start-notepad
-<img src="./images/notepad/start-notepad.png" alt="メモ帳の起動" width="600px">
+<img src="./images/notepad/start-notepad.png" alt="メモ帳の起動" width="300px">
 
 メモ帳の起動
 :::
