@@ -81,8 +81,6 @@ PS C:\exercise> del sample.txt
 
 ## 実習3-1
 
-タッチタイピング
-
 採点は不要です。
 
 ## 実習3-2（５点）
@@ -90,7 +88,8 @@ PS C:\exercise> del sample.txt
 1. 以下のアカウントに登録し、
    - Email Address: computer.exercises.a@gmail.com
    - Password: Hosei1234
-2. 以下の要素が含めるかを確認する。
+2. 以下の基準で採点する。（各1点）
+   - メールが送信できたか
    - 件名：テストメール
    - 宛名：法政花子先生
    - 本文：テストメールです．
