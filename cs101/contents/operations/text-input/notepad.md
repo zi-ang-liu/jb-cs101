@@ -7,7 +7,7 @@
 
 <!-- ![start-notepad](../how-to-use/images/notepad/start-notepad.png) -->
 :::{figure-md} start-notepad
-<img src="./images/notepad/start-notepad.png" alt="メモ帳の起動" width="300px">
+<img src="./images/notepad/start-notepad.png" alt="メモ帳の起動" width="200px">
 
 メモ帳の起動
 :::
@@ -53,4 +53,4 @@
    こんにちは、世界！
    ```
 2. 保存したファイルを再度開いて、ショートカットキーで文字列のコピー、切り取り、貼り付けを試してみよう。
-3. ショートカットキーで保存してみよう。
+3. ショートカットキー<kbd>Ctrl</kbd> + <kbd>S</kbd>を押して、保存してみよう。
