@@ -76,3 +76,13 @@ PS C:\exercise> ni sample.txt
 ```
 PS C:\exercise> del sample.txt
 ```
+
+## Week 2
+
+## 実習3-1
+
+## 実習3-2
+
+
+Email Address: computer.exercises.a@gmail.com
+Password: Hosei1234
