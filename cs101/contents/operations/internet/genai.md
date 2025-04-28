@@ -178,6 +178,10 @@ $$A = \pi r^2$$
 - [生成AIツールに対する基本的考え方](https://www.hoseikyoiku.jp/lf/back_news/view.php?c=topics_view&pk=1687401621)，法政大学
 - [生成AIに関する注意点](https://www.tlsc.osaka-u.ac.jp/project/generative_ai/important_point.html)，大阪大学
 - [生成AIの利用ガイドライン](https://www.jdla.org/document/#ai-guideline)，日本デイープラーニング協会
+- [What are the best AI tools for research? Nature’s guide](https://www.nature.com/articles/d41586-025-00437-0?utm_medium=organic_social&utm_source=wechat&utm_campaign=CONR_NAJRN_ATT1_AP_CNCM_002EB_weeklybrf)
+- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+- [lerobot](https://github.com/huggingface/lerobot)
+- [高等学校情報科「情報Ⅱ」教員研修用教材(本編)](https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_00742.html)
 
 ## 実習
 
