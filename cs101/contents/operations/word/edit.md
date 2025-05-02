@@ -159,21 +159,21 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 対象となる図表を選択します。
 
 :::{figure-md} number-1
-<img src="images/edit/number-1.png" alt="対象の図表を選択" width="600px">
+<img src="images/edit/number_1.png" alt="対象の図表を選択" width="600px">
 対象の図表を選択
 :::
 
 「参考資料」タブの「図表」グループから、「図表番号の挿入」を選択します。
 
 :::{figure-md} number-2
-<img src="images/edit/number-2.png" alt="「図表番号の挿入」を選択" width="600px">
+<img src="images/edit/number_2.png" alt="「図表番号の挿入」を選択" width="600px">
 「図表番号の挿入」を選択
 :::
 
 「図表番号の挿入」ダイアログが表示されます。「ラベル」から「図」または「表」を選択し、「OK」をクリックします。
 
 :::{figure-md} number-3
-<img src="images/edit/number-3.png" alt="「図表番号の挿入」ダイアログ" width="600px">
+<img src="images/edit/number_3.png" alt="「図表番号の挿入」ダイアログ" width="600px">
 「図表番号の挿入」ダイアログ
 :::
 
