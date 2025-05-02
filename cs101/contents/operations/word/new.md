@@ -17,7 +17,7 @@ Wordの起動画面
 Wordの起動画面で「白紙の文書」を選択すると、以下のような画面が表示されます。
 
 :::{figure-md} word_blank
-<img src="./images/new/word_blank.png" alt="白紙の文書" width="600px">
+<img src="./images/new/word_blank.drawio.png" alt="白紙の文書" width="600px">
 
 白紙の文書
 :::
@@ -35,7 +35,15 @@ Wordの画面は、以下のように構成されています。
 
 ## 基本的な操作
 
-「ホーム」タブには、「フォント」グループを用いて、文字の装飾を行うことができます。以下の内容をワードの文書に入力して、文字の装飾を試してみましょう。
+「ホーム」タブには、「フォント」グループを用いて、文字の装飾を行うことができます。
+
+:::{figure-md} word_blank
+<img src="./images/new/font_group.drawio.png" alt="「フォント」グループ" width="600px">
+
+「フォント」グループ
+:::
+
+以下の内容をワードの文書に入力して、文字の装飾を試してみましょう。
 
 ```
 遊明朝　サイズ：12　太字
