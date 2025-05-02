@@ -160,6 +160,7 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 
 :::{figure-md} number-1
 <img src="images/edit/number_1.png" alt="対象の図表を選択" width="600px">
+
 対象の図表を選択
 :::
 
@@ -167,6 +168,7 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 
 :::{figure-md} number-2
 <img src="images/edit/number_2.png" alt="「図表番号の挿入」を選択" width="600px">
+
 「図表番号の挿入」を選択
 :::
 
@@ -174,6 +176,7 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 
 :::{figure-md} number-3
 <img src="images/edit/number_3.png" alt="「図表番号の挿入」ダイアログ" width="600px">
+
 「図表番号の挿入」ダイアログ
 :::
 
