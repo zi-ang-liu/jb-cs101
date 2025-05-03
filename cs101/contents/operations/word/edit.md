@@ -164,7 +164,7 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 
 論文やレポートを作成する際には、一般的に表の最上行、最下行、見出し行に罫線を引きます。
 
-::::{figure-md} table-line-ex
+:::{figure-md} table-line-ex
 <img src="images/edit/table_line_ex.png" alt="罫線の例" width="600px">
 
 表の罫線の例
