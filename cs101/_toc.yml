@@ -47,6 +47,7 @@ parts:
         - file: contents/operations/excel/new
         - file: contents/operations/excel/calculate
         - file: contents/operations/excel/graph
+        - file: contents/operations/excel/practice
 
       - file: contents/operations/html/intro
 
