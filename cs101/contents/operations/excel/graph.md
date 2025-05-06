@@ -92,7 +92,13 @@ Excelの「グラフの挿入」ダイアログでは、グラフについての
 
 ここでは、**SVG**形式を選択して保存します。
 
+:::{figure-md} save_graph_svg
+<img src="./images/graph/save_graph_svg.png" alt="SVG形式で保存" width="600px">
 
+SVG形式で保存
+:::
+
+保存された画像ファイルはWordやPowerPointなどに貼り付けることができます。詳細は、[Wordの画像の挿入](../word/edit.md#画像の挿入)を参照してください。
 
 ## グラフの種類
 
