@@ -11,9 +11,7 @@
 - 曜日：水曜日
 - 時間：1限（9:00-10:40）
 - 教室：西館 W203
-- 講義資料：[コンピュータリテラシー](https://zi-ang-liu.github.io/jb-cs101/)
-- 演習課題：[Google Classroom](https://classroom.google.com/c/NzYyMTI5NTMwNjk1?cjc=fhdwwdgz)
-- 担当教員：[劉子昂](https://zi-ang-liu.github.io/ja/)
+
 
 ## 講義資料とGoogle Classroomの使い分け
 
