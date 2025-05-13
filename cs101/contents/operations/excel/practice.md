@@ -32,7 +32,7 @@ Irisデータセットは、研究者R.A. Fisherが1936年の論文「[The use o
 - [iris.xlsx](./data/iris.xlsx)
 
 ### 実習問題
-1. Setosa（標本1～50）の`sepal_length`について、平均値、中央値、最大値、最小値、標準偏差を求めてください。
+1. Setosa（標本1～50）の`sepal_length`について、平均値、中央値、最大値、最小値を求めてください。
 2. Setosa（標本1～50）の`sepal_length`について、`5.0`以上の標本の数を求めてください。
 3. Setosa（標本1～50）の`sepal_length`と`sepal_width`の相関関係を調べてください。
    - ヒント：相関関係を調べるために、散布図を作成し、相関係数を計算してください。
