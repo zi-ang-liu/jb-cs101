@@ -9,7 +9,8 @@
 - 画面共用：[Meet](https://meet.google.com/gxw-nvog-tuh)
 - 講義改善：[Google Form](https://forms.gle/MfVHGFVDyYzuDF9n8)
 
-## Microsoft PowerToys
+## 教員用
 
-- マウスの検索: <kbd>Ctrl</kbd>を2回押す
-- マウス蛍光: <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>
+- Microsoft PowerToys
+  - マウスの検索: <kbd>Ctrl</kbd>を2回押す
+  - マウス蛍光: <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>
