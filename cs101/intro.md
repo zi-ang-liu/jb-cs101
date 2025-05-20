@@ -6,7 +6,8 @@
 
 - 講義資料：[コンピュータリテラシー](https://zi-ang-liu.github.io/jb-cs101/)
 - 演習課題：[Google Classroom](https://classroom.google.com/c/NzYyMTI5NTMwNjk1?cjc=fhdwwdgz)
-  - [Meet](https://meet.google.com/gxw-nvog-tuh)
+- 画面共用：[Meet](https://meet.google.com/gxw-nvog-tuh)
+- 講義改善：[Google Form](https://forms.gle/MfVHGFVDyYzuDF9n8)
 
 ## Microsoft PowerToys
 
