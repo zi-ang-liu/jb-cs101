@@ -9,6 +9,11 @@
 - 画面共用：[Meet](https://meet.google.com/gxw-nvog-tuh)
 - 講義改善：[Google Form](https://forms.gle/MfVHGFVDyYzuDF9n8)
 
+## データ
+
+- [Iris.xlsx](./contents/operations/excel/data/iris.xlsx)
+- [レポートのテンプレート](./contents/operations/excel/data/report_template.docx)
+
 ## 教員用
 
 - Microsoft PowerToys
