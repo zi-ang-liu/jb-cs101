@@ -50,6 +50,8 @@ parts:
         - file: contents/operations/excel/graph
         - file: contents/operations/excel/practice
 
+      - file: contents/operations/report/intro
+
       - file: contents/operations/html/intro
 
       - file: contents/operations/markdown/intro
