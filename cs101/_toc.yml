@@ -46,6 +46,7 @@ parts:
         sections:
         - file: contents/operations/excel/new
         - file: contents/operations/excel/calculate
+        - file: contents/operations/excel/function
         - file: contents/operations/excel/graph
         - file: contents/operations/excel/practice
 
