@@ -51,6 +51,8 @@ parts:
         - file: contents/operations/excel/practice
 
       - file: contents/operations/report/intro
+        sections:
+        - file: contents/operations/report/library
 
       - file: contents/operations/html/intro
 
