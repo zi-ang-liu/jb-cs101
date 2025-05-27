@@ -52,6 +52,7 @@ parts:
 
       - file: contents/operations/report/intro
         sections:
+        - file: contents/operations/report/intro
         - file: contents/operations/report/library
 
       - file: contents/operations/html/intro
