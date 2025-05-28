@@ -56,6 +56,9 @@ parts:
         - file: contents/operations/report/report
 
       - file: contents/operations/html/intro
+        sections:
+        - file: contents/operations/html/element
+        - file: contents/operations/html/attribute
 
       - file: contents/operations/markdown/intro
     
