@@ -19,3 +19,12 @@
 - Microsoft PowerToys
   - マウスの検索: <kbd>Ctrl</kbd>を2回押す
   - マウス蛍光: <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>
+
+<!-- ## 2026 To Do
+
+- Excel演習を記入式にする
+- Word演習のテンプレートを更新する
+- 情報の調べ方
+- Excelグラフの作成を追加する
+- Excel　計算　を更新　問題２、問題３の変更
+- HTMLを完成 -->
