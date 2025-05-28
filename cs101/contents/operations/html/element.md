@@ -34,7 +34,7 @@ HTMLは，**タグ**と呼ばれる特別な記号を使って，文書の構造
   - head要素には、meta要素や文書のタイトルなどを記述します。
     - meta要素は、`<meta 属性名="属性値">`の形式で、文書のメタデータを指定します．
     - title要素は、文書のタイトルを指定します．
-  - body
+  - body要素には、文書の内容を記述します．
 
 :::{note}
 HTMLファイルの先頭には，`<!DOCTYPE html>`を記述します．これは，「HTML Living Standard」という最新のHTML仕様を使用することを示します．ここで注意すべき点は，`<!DOCTYPE html>`はタグではなく，文書型宣言（Document Type Declaration）であるということです．
