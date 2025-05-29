@@ -24,23 +24,24 @@ HTMLは，**タグ**と呼ばれる特別な記号を使って，文書の構造
 </head>
 
 <body>
+  <h1>This is a heading</h1>
   <p>This is a paragraph.</p>
 </body>
 
 </html>
 ```
 
-- html要素はHTML文書の最上位要素を表し、ルート要素と呼ばれます．html要素には、head要素とbody要素が含まれます。
-  - head要素には、meta要素や文書のタイトルなどを記述します。
-    - meta要素は、`<meta 属性名="属性値">`の形式で、文書のメタデータを指定します．
-    - title要素は、文書のタイトルを指定します．
-  - body要素には、文書の内容を記述します．
-
 :::{note}
 HTMLファイルの先頭には，`<!DOCTYPE html>`を記述します．これは，「HTML Living Standard」という最新のHTML仕様を使用することを示します．ここで注意すべき点は，`<!DOCTYPE html>`はタグではなく，文書型宣言（Document Type Declaration）であるということです．
-
-<meta charset="UTF-8">は、文字コードをUTF-8に設定するためのタグです。
 :::
+
+- html要素はHTML文書の最上位要素を表し、ルート要素と呼ばれます．html要素には、head要素とbody要素が含まれます。
+  - head要素には、meta要素や文書のタイトルなどを記述します。
+    - meta要素は、`<meta 属性名="属性値">`の形式で、文書のメタデータを指定します．`<meta charset="UTF-8">`は、文字コードをUTF-8に設定するためのタグです。
+    - title要素は、文書のタイトルを指定します．
+  - body要素には、文書の内容を記述します．
+    - h1要素は、レベル1の見出しを表します．そのほかにも、h2, h3, ... h6までの見出し要素があります．
+    - p要素は、段落を表します．
 
 ## HTMLの基本構造
 
@@ -57,5 +58,35 @@ html
 ├── head
 │   └── title
 └── body
-    ├── p
+    ├── h1
+    └── p
+```
+
+## 練習
+
+任意のHTMLファイルを作成し、以下の要素を含めてみましょう：
+
+- `<!DOCTYPE html>`を記述する
+- `html`要素を作成する
+- `head`要素を作成し、`meta`要素と`title`要素を含める
+- `body`要素を作成し、`h1`要素，`h2`要素，`p`要素を含める
+
+例
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hosei Hanako's Web Page</title>
+</head>
+<body>
+  <h1>Welcome to My Web Page</h1>
+  <h2>About Me</h2>
+  <p>Hello! My name is Hosei Hanako. I am a student at Hosei University.</p>
+  <p>I love programming and web development.</p>
+  <h2>My Hobbies</h2>
+  <p>In my free time, I enjoy reading books, playing video games, and exploring new technologies.</p>
+<body>
+</html>
 ```
