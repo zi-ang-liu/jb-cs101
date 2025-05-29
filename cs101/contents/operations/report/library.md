@@ -18,19 +18,3 @@
 [家で使える図書館サービス](https://www.hosei.ac.jp/library/important/article-20210318171651/)
 
 - [KinoDen](https://kinoden.kinokuniya.co.jp/hosei_u/)
-
-<!-- - AI時代の離散数学
-- Python機械学習プログラミング
-- プログラミングのための確率統計
-- Python言語によるプログラミングイントロダクション
-- ChatGPTと学ぶPython入門
-- 理科系の論文作法
-- 図解でわかる！理工系のためのよい文章の書き方
-- レポート・論文の書き方入門　第４版
-- AI事典　第3版
-- 実践XAI［説明可能なAI］
-- Pythonではじめる数理最適化　第2版
-- 入門　情報リテラシー
-- 情報リテラシー 総合編 -->
-
-

@@ -54,6 +54,7 @@ parts:
         sections:
         - file: contents/operations/report/library
         - file: contents/operations/report/report
+        - file: contents/operations/report/kinoden_list
 
       - file: contents/operations/html/intro
         sections:
