@@ -64,22 +64,19 @@ html
 
 ## 練習
 
-任意のHTMLファイルを作成し、以下の要素を含めてみましょう：
+以上で紹介したHTMLの基本型を参考にして、自己紹介のWebページを作成してみましょう．
 
-- `<!DOCTYPE html>`を記述する
-- `html`要素を作成する
-- `head`要素を作成し、`meta`要素と`title`要素を含める
-- `body`要素を作成し、`h1`要素，`h2`要素，`p`要素を含める
-
-例
+参考例
 
 ```html
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>Hosei Hanako's Web Page</title>
 </head>
+
 <body>
   <h1>Welcome to My Web Page</h1>
   <h2>About Me</h2>
@@ -87,6 +84,7 @@ html
   <p>I love programming and web development.</p>
   <h2>My Hobbies</h2>
   <p>In my free time, I enjoy reading books, playing video games, and exploring new technologies.</p>
-<body>
+</body>
+
 </html>
 ```
