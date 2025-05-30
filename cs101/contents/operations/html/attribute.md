@@ -26,7 +26,10 @@ img要素は、画像を表示するために使用されます。書式は以�
 <img src="画像のURL" alt="代替テキスト">
 ```
 
-`src`属性は、画像のURLを指定するために使用されます。`alt`属性は、画像が表示できない場合に代替テキストを提供するために使用されます。
+- `src`属性は、画像のURLを指定するために使用されます。
+- `alt`属性は、画像が表示できない場合に代替テキストを提供するために使用されます。
+
+
 
 ```html
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png" alt="An example image">      
