@@ -64,9 +64,13 @@ html
 
 ## 練習
 
-以上で紹介したHTMLの基本型を参考にして、自己紹介のWebページを作成してみましょう．
+以上で紹介したHTMLの基本型を参考にして、日本語で自己紹介のWebページを作成してみましょう．
 
-参考例
+下の参考例では，文書の構造を明確にするために、`<header>`要素、`<section>`要素、`<footer>`要素を使用しています．
+
+- header要素は、ページのヘッダー部分を表します。
+- section要素は、ページのセクションを表します。
+- footer要素は、ページのフッター部分を表します。
 
 ```html
 <!DOCTYPE html>
@@ -78,12 +82,24 @@ html
 </head>
 
 <body>
-  <h1>Welcome to My Web Page</h1>
-  <h2>About Me</h2>
-  <p>Hello! My name is Hosei Hanako. I am a student at Hosei University.</p>
-  <p>I love programming and web development.</p>
-  <h2>My Hobbies</h2>
-  <p>In my free time, I enjoy reading books, playing video games, and exploring new technologies.</p>
+  <header>
+    <h1>Welcome to My Web Page</h1>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! My name is Hosei Hanako. I am a student at Hosei University.</p>
+    <p>I love programming and web development.</p>
+  </section>
+
+  <section>
+    <h2>My Hobbies</h2>
+    <p>In my free time, I enjoy reading books, playing video games, and exploring new technologies.</p>
+  </section>
+
+  <footer>
+    <p>Author: Hosei Hanako</p>
+  </footer>
 </body>
 
 </html>
