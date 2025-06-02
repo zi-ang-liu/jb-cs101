@@ -1,4 +1,4 @@
-# よく使うタグ
+# よく使うタグと属性
 
 ## 見出し
 
@@ -15,10 +15,10 @@ HTMLでは、見出しを作成するためにh1からh6までの要素を使用
 
 ## 改行
 
-br要素は改行に使用します．
+`<br>`要素は改行に使用します．
 
 ```html
-<p>これは1行目です。<br>これは2行目です。</p>
+<p>This is a line.<br>This is another line.</p>
 ```
 
 :::{note}
@@ -31,5 +31,44 @@ br要素は改行に使用します．
 ```
 :::
 
-## 強調
+## b要素とstrong要素
 
+`<b>`要素は、テキストを太字にするために使用されます。
+
+```html
+<p>This is normal text and <b>this is bold text</b>.</p>
+```
+
+`<strong>`要素は、テキストを強調するために使用されます。通常、太字で表示されますが、意味的には重要な内容を示すために使用されます。
+
+```html
+<p>This is normal text and <strong>this is emphasized text</strong>.</p>
+```
+
+## i要素とem要素
+
+`<i>`要素は、テキストを斜体にするために使用されます。
+
+```html
+<p>This is normal text and <i>this is italic text</i>.</p>
+```
+
+`<em>`要素は、テキストを強調するために使用されます。通常、斜体で表示されますが、意味的には強調すべき内容を示すために使用されます。
+
+```html
+<p>This is normal text and <em>this is emphasized text</em>.</p>
+```
+
+## small要素
+
+`<small>`要素は、テキストを小さく表示するために使用されます。
+
+```html
+<p>This is normal text and <small>this is small text</small>.</p>
+```
+
+## address要素
+
+`<address>`要素は、連絡先情報を示すために使用されます。
+
+```html
