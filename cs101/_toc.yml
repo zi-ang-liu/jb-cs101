@@ -58,11 +58,10 @@ parts:
 
       - file: contents/operations/html/intro
         sections:
-        - file: contents/operations/html/first_html
         - file: contents/operations/html/element
         - file: contents/operations/html/attribute
         - file: contents/operations/html/advanced
-        - file: contents/operations/html/github_pages
+        - file: contents/operations/html/practice
 
       - file: contents/operations/markdown/intro
     
