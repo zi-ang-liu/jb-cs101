@@ -31,6 +31,47 @@ HTMLでは、見出しを作成するためにh1からh6までの要素を使用
 ```
 :::
 
+## img要素
+
+`<img>`要素は、画像を表示するために使用されます。書式は以下の通りです。
+
+```html
+<img src="画像のURL" alt="代替テキスト">
+```
+
+- `src`属性は、画像のURLを指定するために使用されます。
+- `alt`属性は、画像が表示できない場合に代替テキストを提供するために使用されます。
+- `style`属性は，画像の幅や高さを指定するために使用できます。
+
+### URLでの画像参照
+
+画像をウェブ上のURLから参照する場合、以下のように記述します。
+
+```html
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png" alt="An example image" style="width: 300px; height: auto;">
+```
+
+```{note}
+[Lorem Picsum](https://picsum.photos)は、ダミー画像を提供するサービスです。ダミー画像のサイズが指定できるため、ウェブサイトのデザインやレイアウトのテストに便利です。
+```
+
+### 相対パスでの画像参照
+
+ローカルファイルを参照する場合、相対パスを使用します。例えば、以下のようなフォルダー構成を考えます。
+
+```
+my_website
+├── index.html
+└── images
+    └── example.png
+```
+
+`index.html`から`images/example.png`を参照する場合、以下のように記述します。
+
+```html
+<img src="images/example.png" alt="An example image" style="width: 300px; height: auto;">
+```
+
 ## 文字装飾
 
 ### b要素とstrong要素
@@ -132,3 +173,20 @@ HTMLでは、見出しを作成するためにh1からh6までの要素を使用
   Japan
 </address>
 ```
+
+## Emoji
+
+HTMLでは、Emojiを直接使用することができます。
+
+```html
+<p>Here is a grinning face: 😀</p>
+```
+
+以下ではいくつかの代表的なEmojiとそのコードを示します。
+
+| Emoji | コード      |
+| ----- | ----------- |
+| 😀     | `&#128512;` |
+| 😂     | `&#128514;` |
+| ❤️     | `&#10084;`  |
+| 🎉     | `&#127881;` |

@@ -18,7 +18,7 @@ VS Codeを使ってHTMLファイルを作成するには、以下の手順に従
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 
 <head>
   <meta charset="UTF-8">

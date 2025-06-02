@@ -16,7 +16,7 @@ HTMLは，**タグ**と呼ばれる特別な記号を使って，文書の構造
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 
 <head>
   <meta charset="UTF-8">
