@@ -12,8 +12,7 @@
 
 ## 発展的課題
 
-### Github Pagesを使ってウェブサイトを公開する
-
-Github Pagesを使ってウェブサイトをインターネット上に公開できます。
+Github Pagesを使ってウェブサイトを公開してみましょう。
 
 詳細は[こちら](https://docs.github.com/ja/pages/quickstart)を参照してください。
+わかりにくい場合は、Google，YouTube，ChatGPTなどで調べてみましょう．
