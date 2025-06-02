@@ -31,7 +31,9 @@ HTMLでは、見出しを作成するためにh1からh6までの要素を使用
 ```
 :::
 
-## b要素とstrong要素
+## 文字装飾
+
+### b要素とstrong要素
 
 `<b>`要素は、テキストを太字にするために使用されます。
 
@@ -45,7 +47,7 @@ HTMLでは、見出しを作成するためにh1からh6までの要素を使用
 <p>This is normal text and <strong>this is emphasized text</strong>.</p>
 ```
 
-## i要素とem要素
+### i要素とem要素
 
 `<i>`要素は、テキストを斜体にするために使用されます。
 
@@ -59,7 +61,7 @@ HTMLでは、見出しを作成するためにh1からh6までの要素を使用
 <p>This is normal text and <em>this is emphasized text</em>.</p>
 ```
 
-## small要素
+### small要素
 
 `<small>`要素は、テキストを小さく表示するために使用されます。
 
@@ -67,8 +69,66 @@ HTMLでは、見出しを作成するためにh1からh6までの要素を使用
 <p>This is normal text and <small>this is small text</small>.</p>
 ```
 
-## address要素
+## リスト
+
+### 番号付きリスト
+
+`<ol>`要素は、番号付きリストを作成するために使用されます。各項目は`<li>`要素で表されます。
+
+```html
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ol>
+```
+
+### 箇条書きリスト
+
+`<ul>`要素は、箇条書きリストを作成するために使用されます。各項目は`<li>`要素で表されます。
+
+```html
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ul>
+```
+
+## 引用
+
+### blockquote要素
+
+`<blockquote>`要素は、引用を示すために使用されます。
+
+```html
+法政大学の目的は、以下のとおりである。
+
+<blockquote cite="https://www.hosei.ac.jp/hosei/daigakugaiyo/rinen/rinen/">
+    <ol>
+        <li>「自由と進歩」の精神と公正な判断力をもって、主体的、自立的かつ創造的に、新しい時代を構築する市民を育てる。</li>
+        <li>学問の自由に基づき、真理の探究と「進取の気象」によって、学術の発展に寄与する。</li>
+        <li>多様化する地球規模の課題を解決し、「持続可能な地球社会の構築」に貢献する。</li>
+    </ol>
+</blockquote>
+```
+
+### q要素
+
+`<q>`要素は、短い引用を示すために使用されます。通常、引用符で囲まれます。
+
+```html
+<p><q>Anyone who has never made a mistake has never tried anything new.</q> - Albert Einstein</p>
+```
+
+### address要素
 
 `<address>`要素は、連絡先情報を示すために使用されます。
 
 ```html
+<address>
+  3-7-2 Kajino-cho<br>
+  Koganei-shi, Tokyo 184-8584<br>
+  Japan
+</address>
+```
