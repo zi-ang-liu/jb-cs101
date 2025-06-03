@@ -99,6 +99,11 @@ my_website
         └── video_game.png
 ```
 
+book.pngとvideo_game.pngは、以下のリンクからダウンロードできます。
+
+- [書籍の画像](https://www.pexels.com/ja-jp/photo/415071/)
+- [ビデオゲームの画像](https://www.pexels.com/ja-jp/photo/2263816/)
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -126,3 +131,4 @@ my_website
 
 </html>
 ```
+
