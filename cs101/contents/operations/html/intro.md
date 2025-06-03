@@ -54,5 +54,5 @@ Visual Studio Code（VS Code）はMicrosoftが開発している統合開発環�
 以下のリンクからHTMLの基本を体系的に学べます。
 
 - [MDN HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [W3C HTML](https://www.w3schools.com/html)
+- [W3Schools HTML](https://www.w3schools.com/html)
 

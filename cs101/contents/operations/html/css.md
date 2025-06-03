@@ -4,7 +4,43 @@ HTMLで作成されたウェブページのスタイルを定義するために�
 
 「Separation of content and presentation」という考え方があり、HTMLとCSSはその代表例です。HTMLはウェブページの内容を記述し、CSSはその見た目を定義します。
 
-##
+- [W3Schools CSS](https://www.w3schools.com/css/)
+
+## CSSの構文
+
+```css
+selector {
+  property_1: value_1;
+  property_2: value_2;
+  ...
+  property_n: value_n;
+}
+```
+
+- `selector`: HTML要素を指定。
+- `property`: スタイルのプロパティを指定（例: `color`, `font-size`）。
+- `value`: プロパティに適用する値を指定（例: `red`, `16px`）。
+
+次の例では、`h1`要素の文字色を青に、フォントサイズを24ピクセルに設定しています。`color`、`font-size`はプロパティで、`blue`、`24px`はそれぞれの値です。
+
+```css
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+```
+
+### Selectorsの種類
+
+| Selector Type      | Description                  | Example       |
+| ------------------ | ---------------------------- | ------------- |
+| Element Selector   | 特定のHTML要素を選択         | `h1`, `p`     |
+| Class Selector     | 特定のクラスを持つ要素を選択 | `.class-name` |
+| ID Selector        | 特定のIDを持つ要素を選択     | `#id-name`    |
+| Universal Selector | すべての要素を選択           | `*`           |
+| Grouping Selector  | 複数のセレクタをまとめて指定 | `h1, p`       |
+
+## CSSの使用
 
 CSSは、以下の三つの方法でHTMLに適用できます。
 
@@ -88,5 +124,21 @@ h1 {
 }
 p {
   color: red;
+}
+```
+
+## 練習
+
+以下の内容を`styles.css`ファイルに入力し、`index.html`ファイルで読み込んで、ブラウザで表示して、結果を確認しましょう。
+
+```css
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 24px;
+}
+p {
+  color: red;
+  font-size: 16px;
 }
 ```
