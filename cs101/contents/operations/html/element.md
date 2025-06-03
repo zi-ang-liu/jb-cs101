@@ -66,6 +66,34 @@ html
 
 以上で紹介したHTMLの基本型を参考にして、日本語で自己紹介のWebページを作成してみましょう．
 
+### 参考例1
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hosei Hanako's Web Page</title>
+</head>
+
+<body>
+  <h1>Welcome to My Web Page</h1>
+
+  <h2>About Me</h2>
+  <p>Hello! My name is Hosei Hanako. I am a student at Hosei University.</p>
+  <p>I love programming and web development.</p>
+
+  <h2>My Hobbies</h2>
+  <p>In my free time, I enjoy reading books, playing video games, and exploring new technologies.</p>
+
+  <p>Author: Hosei Hanako</p>
+</body>
+
+</html>
+```
+
+### 参考例2
 下の参考例では，文書の構造を明確にするために、`<header>`要素、`<section>`要素、`<footer>`要素を使用しています．
 
 - `<header>`要素は、ページのヘッダー部分を表します。

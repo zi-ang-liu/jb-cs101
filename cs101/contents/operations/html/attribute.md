@@ -40,7 +40,7 @@
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 
 <head>
   <meta charset="UTF-8">
@@ -48,25 +48,17 @@
 </head>
 
 <body>
-  <header>
-    <h1>Welcome to My Web Page</h1>
-  </header>
+  <h1>Welcome to My Web Page</h1>
 
-  <section>
-    <h2>About Me</h2>
-    <p>Hello! My name is Hosei Hanako. I am a student at <a href="https://www.hosei.ac.jp">Hosei University</a>.</p>
-    <p>I love programming and web development.</p>
-  </section>
+  <h2>About Me</h2>
+  <p>Hello! My name is Hosei Hanako. I am a student at <a href="https://www.hosei.ac.jp">Hosei University</a>.</p>
+  <p>I love programming and web development.</p>
 
-  <section>
-    <h2>My Hobbies</h2>
-    <p>In my free time, I enjoy reading books, playing video games, and exploring new technologies.</p>
-  </section>
+  <h2>My Hobbies</h2>
+  <p>In my free time, I enjoy reading books, playing video games, and exploring new technologies.</p>
 
-  <footer>
-    <p>Author: Hosei Hanako</p>
-    <p>Email: <a href="mailto:hanako@example.com">hanako@example.com</a></p>
-  </footer>
+  <p>Author: Hosei Hanako</p>
+  <p>Email: <a href="mailto:hanako@example.com">hanako@example.com</a></p>
 </body>
 
 </html>

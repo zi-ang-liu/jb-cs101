@@ -60,6 +60,7 @@ parts:
         sections:
         - file: contents/operations/html/element
         - file: contents/operations/html/attribute
+        - file: contents/operations/html/path
         - file: contents/operations/html/advanced
         - file: contents/operations/html/practice
         - file: contents/operations/html/css
