@@ -40,5 +40,5 @@ html:
 sphinx:
   extra_extensions:
     - sphinx_proof
-  extra_extensions:
-    - sphinx_multitoc_numbering
+  # extra_extensions:
+  #   - sphinx_multitoc_numbering
