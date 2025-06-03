@@ -1,5 +1,7 @@
 # よく使うタグ
 
+HTMLでWebページを作成する際に頻繁に使うタグを紹介します。
+
 ## 見出し
 
 HTMLでは、見出しを作成するためにh1からh6までの要素を使用します。hは"heading"の略で、数字が小さいほど見出しのレベルが高くなります。
@@ -15,7 +17,7 @@ HTMLでは、見出しを作成するためにh1からh6までの要素を使用
 
 ## 改行
 
-`<br>`要素は改行に使用します．
+`<br>`要素はテキストの途中で改行したいときに使用します。
 
 ```html
 <p>This is a line.<br>This is another line.</p>
@@ -23,7 +25,7 @@ HTMLでは、見出しを作成するためにh1からh6までの要素を使用
 
 :::{note}
 
-段落分けのためには、p要素を使用します。
+段落を分けたい場合はp要素を使用しましょう。
 
 ```html
 <p>これは1つ目の段落です。</p>
@@ -33,40 +35,19 @@ HTMLでは、見出しを作成するためにh1からh6までの要素を使用
 
 ## 文字装飾
 
-### b要素とstrong要素
+| タグ       | 説明 | 見た目 |
+| ---------- | ---- | ------ |
+| `<b>`      | 太字 | 太字   |
+| `<strong>` | 強調 | 太字   |
+| `<i>`      | 斜体 | 斜体   |
+| `<em>`     | 強調 | 斜体   |
 
-`<b>`要素は、テキストを太字にするために使用されます。
-
-```html
-<p>This is normal text and <b>this is bold text</b>.</p>
-```
-
-`<strong>`要素は、テキストを強調するために使用されます。通常、太字で表示されますが、意味的には重要な内容を示すために使用されます。
 
 ```html
-<p>This is normal text and <strong>this is emphasized text</strong>.</p>
-```
-
-### i要素とem要素
-
-`<i>`要素は、テキストを斜体にするために使用されます。
-
-```html
-<p>This is normal text and <i>this is italic text</i>.</p>
-```
-
-`<em>`要素は、テキストを強調するために使用されます。通常、斜体で表示されますが、意味的には強調すべき内容を示すために使用されます。
-
-```html
-<p>This is normal text and <em>this is emphasized text</em>.</p>
-```
-
-### small要素
-
-`<small>`要素は、テキストを小さく表示するために使用されます。
-
-```html
-<p>This is normal text and <small>this is small text</small>.</p>
+<p>This is <b>bold</b> text.</p>
+<p>This is <strong>strong</strong> text.</p>
+<p>This is <i>italic</i> text.</p>
+<p>This is <em>emphasized</em> text.</p>
 ```
 
 ## リスト
@@ -139,6 +120,7 @@ HTMLでは、Emojiを直接使用することができます。
 
 ```html
 <p>Here is a grinning face: 😀</p>
+<p>Here is a grinning face: &#128512;</p>
 ```
 
 以下ではいくつかの代表的なEmojiとそのコードを示します。
