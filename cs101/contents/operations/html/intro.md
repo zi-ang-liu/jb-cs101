@@ -2,6 +2,11 @@
 
 **HTML**（HyperText Markup Language）は，ハイパーテキストを記述するためのマークアップ言語です．ウェブページを表示するために用いられます．HTMLで記述されたファイルは，`*.html`という拡張子を持ちます．
 
+以下のリンクからHTMLの基本的な情報を学ぶことができます。
+
+- [MDN HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [W3C HTML](https://www.w3schools.com/html)
+
 :::{note}
 さて，ハイパーテキストとマークアップ言語とは何でしょうか？
 
