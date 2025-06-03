@@ -12,7 +12,7 @@ parts:
       - file: contents/class/guide
 
     - caption: 操作編
-      numbered: true
+      # numbered: true
       chapters:
       - file: contents/operations/basic/intro
         sections:
