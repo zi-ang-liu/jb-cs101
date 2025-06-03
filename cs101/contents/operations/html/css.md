@@ -4,6 +4,8 @@ HTMLで作成されたウェブページのスタイルを定義するために�
 
 「Separation of content and presentation」という考え方があり、HTMLとCSSはその代表例です。HTMLはウェブページの内容を記述し、CSSはその見た目を定義します。
 
+##
+
 CSSは、以下の三つの方法でHTMLに適用できます。
 
 - **Inline**: HTML要素の`style`属性を使用して、直接スタイルを指定します。
