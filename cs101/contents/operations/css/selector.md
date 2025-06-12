@@ -130,3 +130,16 @@ HTML文書では、そのクラスを持つ要素にスタイルが適用され�
 - クラスは、CSSで`.class-name`の形式で、`.`で始まります。
 :::
 
+## 練習
+
+以上で紹介したセレクタを使って、以下のHTML文書にスタイルを適用してみましょう。
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors Practice</title>
+    <style>
+        /* ここにCSSを記述 */
+    </style>
+</head>
