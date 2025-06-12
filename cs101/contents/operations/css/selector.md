@@ -12,3 +12,18 @@
 
 ## Element Selector
 
+Element Selectorは、指定したHTML要素にスタイルを適用します。
+
+以下の例では、`h1`, `p`要素にスタイルを適用しています。
+
+```css
+h1 {
+    color: blue;
+    font-size: 24px;
+    background-color: lightgray;
+}
+p {
+    color: red;
+    font-size: 16px;
+}
+```
