@@ -68,6 +68,9 @@ parts:
         sections:
         - file: contents/operations/css/basic
         - file: contents/operations/css/selector
+        - file: contents/operations/css/color
+        - file: contents/operations/css/box
+
 
       - file: contents/operations/markdown/intro
     
