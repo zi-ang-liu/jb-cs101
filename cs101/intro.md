@@ -19,6 +19,10 @@
 - Microsoft PowerToys
   - マウスの検索: <kbd>Ctrl</kbd>を2回押す
   - マウス蛍光: <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>
+- Magnifier
+  - Zoom in:
+  - Zoom out: 
+
 
 <!-- ## 2026 To Do
 
