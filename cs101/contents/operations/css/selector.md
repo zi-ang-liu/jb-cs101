@@ -6,9 +6,9 @@
 | ------------------ | ---------------------------- | ------------- |
 | Universal Selector | すべての要素を選択           | `*`           |
 | Element Selector   | 特定のHTML要素を選択         | `h1`, `p`     |
+| Grouping Selector  | 複数のセレクタをまとめて指定 | `h1, p`       |
 | ID Selector        | 特定のIDを持つ要素を選択     | `#id-name`    |
 | Class Selector     | 特定のクラスを持つ要素を選択 | `.class-name` |
-| Grouping Selector  | 複数のセレクタをまとめて指定 | `h1, p`       |
 
 ## Universal Selector
 
@@ -55,6 +55,32 @@ HTML文書では、`h1`と`p`要素にスタイルが適用されます。
 <p>This is a paragraph.</p>
 ```
 
+## Grouping Selector
+
+Grouping Selectorは、複数のセレクタをまとめて指定し、同じスタイルを適用します。
+
+以下の例では、`h1`と`p`要素に同じスタイルを適用しています。
+
+```css
+h1, p {
+    color: green;
+    font-family: Verdana;
+}
+```
+
+以下の書き方でも同じ効果があります。
+
+```css
+h1 {
+    color: green;
+    font-family: Verdana;
+}
+p {
+    color: green;
+    font-family: Verdana;
+}
+```
+
 ## id Selector
 
 id Selectorは、特定のIDを持つ要素にスタイルを適用します。
@@ -97,3 +123,10 @@ HTML文書では、そのクラスを持つ要素にスタイルが適用され�
 <p class="warning">This is a warning paragraph</p>
 <p>This is a normal paragraph.</p>
 ```
+
+:::{note}
+- クラスはHTML文書内で複数回使用できます。
+- クラスの最初の文字は英字でなければなりません。
+- クラスは、CSSで`.class-name`の形式で、`.`で始まります。
+:::
+
