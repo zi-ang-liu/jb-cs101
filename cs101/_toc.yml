@@ -65,7 +65,9 @@ parts:
         - file: contents/operations/html/practice
 
       - file: contents/operations/css/intro
+        sections:
         - file: contents/operations/css/selector
+
       - file: contents/operations/markdown/intro
     
     # - caption: 理論編
