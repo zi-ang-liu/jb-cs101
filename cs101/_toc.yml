@@ -63,8 +63,9 @@ parts:
         - file: contents/operations/html/path
         - file: contents/operations/html/advanced
         - file: contents/operations/html/practice
-        - file: contents/operations/html/css
 
+      - file: contents/operations/css/intro
+        - file: contents/operations/css/selector
       - file: contents/operations/markdown/intro
     
     # - caption: 理論編

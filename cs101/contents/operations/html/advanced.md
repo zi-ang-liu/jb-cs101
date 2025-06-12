@@ -131,3 +131,24 @@ HTMLでは、Emojiを直接使用することができます。
 | 😂     | `&#128514;` |
 | ❤️     | `&#10084;`  |
 | 🎉     | `&#127881;` |
+
+## div要素
+
+`<div>`要素は、HTMLの要素の一つで、他のHTML要素をグループ化するために使用されます。`style`属性を使用して、背景色や文字色などを指定することができます。
+
+```html
+<div style="background-color:yellow;">
+    <h2>Paris</h2>
+    <p>Paris is a city in France.</p>
+</div>
+
+<div style=" background-color:rebeccapurple; color:white;">
+    <h2>New York</h2>
+    <p>New York is a city in the United States.</p>
+</div>
+
+<div style="background-color:lightblue; color:black;">
+    <h2>Tokyo</h2>
+    <p>Tokyo is a city in Japan.</p>
+</div>
+```
