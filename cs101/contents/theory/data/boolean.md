@@ -77,7 +77,7 @@ $p$と$q$を真理値とするとき，$p$と$q$の**論理積**（logical conju
 論理和の演算を行うANDゲートは次のようにMIL記号で表現される．
 
 :::{figure-md} and_gate
-<img src="./image/and_gate.png" alt="AND Gate" width="200px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/AND_ANSI_Labelled.svg" alt="AND Gate" width="200px">
 
 ANDゲート
 :::
