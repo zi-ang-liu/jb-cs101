@@ -53,6 +53,7 @@ parts:
       - file: contents/operations/report/intro
         sections:
         - file: contents/operations/report/library
+        - file: contents/operations/report/search
         - file: contents/operations/report/report
         - file: contents/operations/report/kinoden_list
 
