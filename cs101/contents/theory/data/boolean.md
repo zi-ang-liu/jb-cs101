@@ -56,7 +56,7 @@ $p$と$q$を真理値とするとき，$p$と$q$の論理和（logical disjuncti
 論理和の演算を行うORゲートは次のようにMIL記号で表現される．
 
 :::{figure-md} or_gate
-<img src="./image/or_gate.png" alt="OR Gate" width="200px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/16/OR_ANSI_Labelled.svg" alt="OR Gate" width="200px">
 
 ORゲート
 :::
@@ -96,14 +96,14 @@ $p$を真理値とするとき，$p$の**否定**（negation）は，$\lnot p$�
 否定の演算を行うNOTゲートは次のようにMIL記号で表現される．
 
 :::{figure-md} not_gate
-<img src="./image/not_gate.png" alt="NOT Gate" width="200px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/60/NOT_ANSI_Labelled.svg" alt="NOT Gate" width="200px">
 
 NOTゲート
 :::
 
 ### XORゲート
 
-
+$p$と$q$を真理値とするとき，$p$と$q$の**排他的論理和**（exclusive disjunction）は，$p \oplus q$と書く．その真理値表は以下の通りである．
 
 
 | p   | q   | p AND q | p OR q | NOT p | p XOR q |
