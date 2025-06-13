@@ -74,18 +74,18 @@ parts:
 
       - file: contents/operations/markdown/intro
     
-    # - caption: 理論編
-    #   numbered: true
-    #   chapters:
+    - caption: 理論編
+      # numbered: true
+      chapters:
 
-    #   - file: contents/theory/intro/intro
+      - file: contents/theory/intro/intro
 
-    #   - file: contents/theory/data/intro
-    #     sections:
-    #     - file: contents/theory/data/boolean
-    #     - file: contents/theory/data/binary
+      - file: contents/theory/data/intro
+        sections:
+        - file: contents/theory/data/boolean
+        - file: contents/theory/data/binary
 
-    #   - file: contents/theory/algorithm/intro
+      - file: contents/theory/algorithm/intro
 
     #   - file: contents/theory/data-structure/intro
 
