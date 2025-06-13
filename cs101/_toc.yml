@@ -93,12 +93,12 @@ parts:
 
     #   - file: contents/theory/database/intro
         
-    #   - file: contents/theory/network/intro
-    #     sections:
-    #     - file: contents/theory/network/internet
-    #     - file: contents/theory/network/security
-    #     - file: contents/theory/network/html
-    #     - file: contents/theory/network/xml
+      - file: contents/theory/network/intro
+        sections:
+        - file: contents/theory/network/internet
+        - file: contents/theory/network/security
+        - file: contents/theory/network/html
+        - file: contents/theory/network/xml
 
     #   - file: contents/theory/artificial-intelligence/intro
     #     sections:
