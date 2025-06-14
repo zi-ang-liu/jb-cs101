@@ -107,28 +107,52 @@ HTML文書では、そのIDを持つ要素にスタイルが適用されます�
 
 ## Class Selector
 
-Class Selectorは、特定のクラスを持つ要素にスタイルを適用します。
+Class Selectorは、書式は`要素名.クラス名`の形式で、特定のクラスを持つ要素にスタイルを適用します。`.クラス名`で書くと、すべての要素に適用されます。
 
 ```css
-.warning {
+/* .alertクラスを持つp要素に適用 */
+p.alert {
     color: orange;
     font-weight: bold;
 }
+
+/* すべての.warningクラスを持つ要素に適用 */
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+/* すべての.warningクラスを持つ要素内のp要素に適用 */
+.note p {
+    color: blue;
+    font-style: italic;
+} 
 ```
 
 HTML文書では、そのクラスを持つ要素にスタイルが適用されます。
 
 ```html
-<h1 class="warning">This is a warning header</h1>
-<p class="warning">This is a warning paragraph</p>
 <p>This is a normal paragraph.</p>
+
+<!-- p.alert -->
+<p class="alert">This is an alert paragraph.</p>
+
+<!-- .warningクラスを持つh1とp要素 -->
+<h1 class="warning">This is a warning heading</h1>
+<p class="warning">This is a warning paragraph</p>
+
+<!-- .noteクラスを持つdiv内のp要素 -->
+<div class="note">
+    <p>This is a note paragraph.</p>
+</div>
 ```
 
 :::{note}
 - クラスはHTML文書内で複数回使用できます。
 - クラスの最初の文字は英字でなければなりません。
-- クラスは、CSSで`.class-name`の形式で、`.`で始まります。
 :::
+
+
 
 ## 練習
 

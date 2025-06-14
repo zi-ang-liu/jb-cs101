@@ -15,12 +15,13 @@ selector {
 - `property`: スタイルのプロパティを指定（例: `color`, `font-size`）。
 - `value`: プロパティに適用する値を指定（例: `red`, `16px`）。
 
-次の例では、`h1`要素の文字色を青に、フォントサイズを24ピクセルに設定しています。`color`、`font-size`はプロパティで、`blue`、`24px`はそれぞれの値です。
+次の例では、`h1`要素の文字色を青に、フォントサイズを24pxに設定し、中央揃えにしています。`color`、`font-size`，`text-align`がそれぞれのプロパティで、`blue`、`24px`，`center`がそれぞれの値です。
 
 ```css
 h1 {
   color: blue;
   font-size: 24px;
+  text-align: center;
 }
 ```
 

@@ -1,4 +1,4 @@
-# ボックスモデル
+# CSSボックスモデル
 
 ボックスモデル（box model）は、HTML要素のレイアウトを理解するための基本的な概念です。すべてのHTML要素は、ボックスとして表現され、以下の4つの部分で構成されています。
 
@@ -6,6 +6,13 @@
 - **パディング（padding）**: コンテンツとボーダーの間のスペース。
 - **ボーダー（border）**: パディングとマージンの間にある線。
 - **マージン（margin）**: ボックスの外側のスペース。
+
+:::{figure-md} CSS Box Model
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png" alt="CSS Box Model" width="300px">
+
+CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+:::
+
 
 ## ボーダー
 
@@ -134,24 +141,81 @@
 }
 ```
 
-## heightとwidth
+## ボックスサイズ
 
-`height`と`width`は、要素の高さと幅を指定するプロパティです。これらは、ピクセル単位やパーセント単位などで指定できます。
+デフォルトでは、要素の`width`と`height`は、コンテンツの幅と高さを指定します。
+
+`box-sizing: border-box;`を指定すると、`width`と`height`にボーダーとパディングのサイズが含まれるようになります。
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Box Model Example</title>
+    <style>
+        #box1 {
+            width: 500px; /* 幅 */
+            height: 50px; /* 高さ */
+            background-color: lightblue; /* 背景色 */
+            border-width: 0px; /* ボーダーの太さ */
+            padding: 0px; /* パディング */
+            margin: 0px; /* マージン */
+        }
+        #box2 {
+            width: 500px; /* 幅 */
+            height: 50px; /* 高さ */
+            background-color: lightgreen; /* 背景色 */
+            border: 2px solid red; /* ボーダーのスタイル */
+            padding: 20px; /* パディング */
+            margin: 0px; /* マージン */
+        }
+        #box3 {
+            box-sizing: border-box; /* ボックスサイズをborder-boxに設定 */
+            width: 500px; /* 幅 */
+            height: 50px; /* 高さ */
+            background-color: lightcoral; /* 背景色 */
+            border: 2px solid blue; /* ボーダーのスタイル */
+            padding: 20px; /* パディング */
+            margin: 0px; /* マージン */
+        }
+    </style>
+</head>
+<body>
+    <p>The boxs below demonstrate the box model.</p>
+    <div id="box1">
+        This is box 1.
+    <div id="box2">
+        This is box 2 with a border and padding.
+    </div>
+    <div id="box3">
+        This is box 3 with box-sizing set to border-box.
+    </div>
+</body>
+</html>
+```
+
+ボックス全体のサイズは`width + padding + border`で計算されます。
+
+- `box1`
+  - 幅: 500
+  - 高さ: 50
+- `box2`: 
+  - 幅: 500 + 20 (左パディング) + 20 (右パディング) + 2 (左ボーダー) + 2 (右ボーダー) = 544
+  - 高さ: 50 + 20 (上パディング) + 20 (下パディング) + 2 (上ボーダー) + 2 (下ボーダー) = 94
+- `box3`:
+  - 幅: 500 
+  - 高さ: 50 
+
+`box-sizing: border-box;`を指定すると、要素の全体的なサイズを簡単に制御できるため，下記のようなコードがよく使われます。
 
 ```css
-#box {
-    width: 200px; /* 幅 */
-    height: 100px; /* 高さ */
-    background-color: lightblue; /* 背景色 */
+* {
+    box-sizing: border-box; 
+    padding: 0; 
+    margin: 0; 
 }
 ```
 
-```html
-<p>The box below has a width of 200 pixels and a height of 100 pixels.</p>
-<div id="box">
-    This is a box with a width of 200 pixels and a height of 100 pixels.
-</div>
-```
 
 ## ボックスモデルの例
 
