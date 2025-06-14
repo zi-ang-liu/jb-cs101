@@ -134,7 +134,7 @@ HTMLでは、Emojiを直接使用することができます。
 
 ## div要素
 
-`<div>`要素は、HTMLの要素の一つで、他のHTML要素をグループ化するために使用されます。`style`属性を使用して、背景色や文字色などを指定することができます。
+`<div>`要素は、他のHTML要素をグループ化するために使用されます。`style`属性を使用して、背景色や文字色などを指定することができます。
 
 ```html
 <div style="background-color:yellow;">
@@ -151,4 +151,21 @@ HTMLでは、Emojiを直接使用することができます。
     <h2>Tokyo</h2>
     <p>Tokyo is a city in Japan.</p>
 </div>
+```
+
+## span要素
+
+`<span>`要素は、テキストの一部をスタイル付けするために使用されます。`style`属性を使用して、文字色や背景色などを指定することができます。
+
+:::{note}
+
+`<div>`要素と`<span>`要素はよく似ていますが、`<div>`要素はブロックレベル要素（block-level element）である。一方、`<span>`要素は、インライン要素（inline element）であり、テキストの一部をスタイル付けするために使用されます。
+
+:::
+
+```html
+<p>This is a <span style="color: red;">red</span> word.</p>
+<p>This is a <span style="background-color: yellow;">highlighted</span> word.</p>
+<p>This is a <span style="font-weight: bold;">bold</span> word.</p>
+<p>This is a <span style="font-style: italic;">italic</span> word.</p>
 ```
