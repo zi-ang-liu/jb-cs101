@@ -151,19 +151,3 @@ HTML文書では、そのクラスを持つ要素にスタイルが適用され�
 - クラスはHTML文書内で複数回使用できます。
 - クラスの最初の文字は英字でなければなりません。
 :::
-
-
-
-## 練習
-
-以上で紹介したセレクタを使って、以下のHTML文書にスタイルを適用してみましょう。
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>CSS Selectors Practice</title>
-    <style>
-        /* ここにCSSを記述 */
-    </style>
-</head>
