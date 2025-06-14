@@ -6,19 +6,31 @@
 
 - HTMLファイルとCSSファイルを別々に作成すること
 - HTMLファイルには、`<a>`，`<h1>`，`<h2>`，`<p>`などの基本的なHTML要素を使用すること
-- CSSファイルには、`universal selector`，`class selector`を使用して、HTML要素にスタイルを適用すること
+- CSSファイルには、`universal selector`，`class selector`などを使用して、HTML要素にスタイルを適用すること
+- 個人情報が含まれる場合は、プライバシーに配慮し、個人を特定できないようにすること
+  
+作成したウェブページは、フォルダー`my_website`に保存し、以下の構成に従ってください．
 
-## 参考例（テンプレート）
+```plain text
+my_website/
+├── index.html
+└── assets/
+    └── images/
+├── css/
+    └── styles.css
+```
+
+### 参考例（テンプレート）
 
 参考例に基づくサイトを作成する場合は，HTMLの内容，CSSのスタイルを適宜変更して、個人の情報や関心のあるテーマに合わせてください．
 
 最低限、以下の要件を満たすようにしてください．
 
 - 画像を1つ以上使用すること．内容は自由で，テーマに合わせばよい．
-- `skill`と`social`のセクション以外，もう一つセクションを追加すること．
 - htmlファイルの内容を適宜変更すること．
+- レイアウト，背景色，フォントなどをCSSで調整すること．
 
-### 参考例の構成
+#### 参考例の構成
 
 ```plain text
 my_website/
@@ -30,10 +42,10 @@ my_website/
     └── styles.css
 ```
 
-### CSSファイル
+#### CSSファイル
 
 ```css
-/* style.css */
+/* styles.css */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -92,16 +104,17 @@ h1 {
 
 .skills ul {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    padding: 0;
+    margin: 0;
 }
 
 .skills li {
+    display: inline-block;
     background: #e6f2fb;
     padding: 8px 14px;
+    margin: 5px;
     border-radius: 20px;
-    font-size: 0.95rem;
+    font-size: 14px;
 }
 
 .social a {
@@ -118,11 +131,11 @@ h1 {
 }
 ```
 
-### HTMLファイル
+#### HTMLファイル
 
 ```html
 <!-- index.html -->
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
@@ -141,21 +154,28 @@ h1 {
         </div>
 
         <div class="section">
+            <h2>学歴</h2>
+        </div>
+
+        <div class="section">
+            <h2>趣味</h2>
+        </div>
+
+        <div class="section">
             <h2>スキル</h2>
             <div class="skills">
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
+                    <li>C</li>
                 </ul>
             </div>
         </div>
 
         <div class="section">
-            <h2>リンク</h2>
+            <h2>連絡先</h2>
             <div class="social">
-                <a href="#">Email</a>
+                Email: <a href="#">you@example.com</a>
             </div>
         </div>
     </div>
