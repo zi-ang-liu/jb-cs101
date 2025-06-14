@@ -11,6 +11,7 @@ HTML/CSSでは，[140種類の色名](https://www.w3schools.com/colors/colors_na
 以下は、色名を使用して色を指定する例です。
 
 ```css
+/* style.css */
 h1 {
   background-color: Tomato; 
   color: White;
@@ -38,8 +39,9 @@ p {
 [RGB Calculator](https://www.w3schools.com/colors/colors_rgb.asp)を使って，色を調整してみましょう。
 
 以下は、RGBを使用して色を指定する例です。
-
+<!-- index.html --><!-- index.html -->
 ```css
+/* style.css */
 h1 {
     background-color: rgb(0, 191, 255);
     color: rgb(255, 255, 255);
@@ -66,6 +68,7 @@ p {
 以下は、HEXを使用して色を指定する例です。
 
 ```css
+/* style.css */
 .DIC161 {
     color: #FF710A;
 }

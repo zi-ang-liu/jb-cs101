@@ -17,6 +17,7 @@ Universal Selectorは、すべてのHTML要素にスタイルを適用します�
 以下の例では、すべての要素に赤色の文字とArialフォントを適用しています。
 
 ```css
+/* style.css */
 * {
     color: red;
     font-family: Arial;
@@ -26,6 +27,7 @@ Universal Selectorは、すべてのHTML要素にスタイルを適用します�
 HTML文書では、すべての要素にスタイルが適用されます。
 
 ```html
+<!-- index.html -->
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
 ```
@@ -37,6 +39,7 @@ Element Selectorは、指定したHTML要素にスタイルを適用します。
 以下の例では、`h1`, `p`要素にスタイルを適用しています。
 
 ```css
+/* style.css */
 h1 {
     color: blue;
     font-size: 24px;
@@ -51,6 +54,7 @@ p {
 HTML文書では、`h1`と`p`要素にスタイルが適用されます。
 
 ```html
+<!-- index.html -->
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
 ```
@@ -62,6 +66,7 @@ Grouping Selectorは、複数のセレクタをまとめて指定し、同じス
 以下の例では、`h1`と`p`要素に同じスタイルを適用しています。
 
 ```css
+/* style.css */
 h1, p {
     color: green;
     font-family: Verdana;
@@ -71,6 +76,7 @@ h1, p {
 以下の書き方でも同じ効果があります。
 
 ```css
+/* style.css */
 h1 {
     color: green;
     font-family: Verdana;
@@ -86,6 +92,7 @@ p {
 id Selectorは、特定のIDを持つ要素にスタイルを適用します。
 
 ```css
+/* style.css */
 #header {
     color: green;
     font-size: 20px;
@@ -95,6 +102,7 @@ id Selectorは、特定のIDを持つ要素にスタイルを適用します。
 HTML文書では、そのIDを持つ要素にスタイルが適用されます。
 
 ```html
+<!-- index.html -->
 <h1 id="header">This is a header</h1>
 <p>This is a paragraph.</p>
 ```
@@ -110,6 +118,8 @@ HTML文書では、そのIDを持つ要素にスタイルが適用されます�
 Class Selectorは、書式は`要素名.クラス名`の形式で、特定のクラスを持つ要素にスタイルを適用します。`.クラス名`で書くと、すべての要素に適用されます。
 
 ```css
+/* style.css */
+
 /* .alertクラスを持つp要素に適用 */
 p.alert {
     color: orange;
@@ -132,6 +142,8 @@ p.alert {
 HTML文書では、そのクラスを持つ要素にスタイルが適用されます。
 
 ```html
+<!-- index.html -->
+
 <p>This is a normal paragraph.</p>
 
 <!-- p.alert -->

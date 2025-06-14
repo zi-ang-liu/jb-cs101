@@ -87,6 +87,7 @@ my_website/
 ```
 
 ```html
+<!-- index.html -->
 <!DOCTYPE html>
 <html>
 
@@ -104,6 +105,7 @@ my_website/
 ```
 
 ```css
+/* styles.css */
 h1 {
   color: blue;
 }
@@ -117,6 +119,7 @@ p {
 以下の内容を`styles.css`ファイルに入力し、`index.html`ファイルで読み込んで、ブラウザで表示して、結果を確認しましょう。
 
 ```css
+/* styles.css */
 h1 {
   text-align: center;
   color: blue;

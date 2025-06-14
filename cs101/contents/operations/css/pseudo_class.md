@@ -5,6 +5,8 @@
 `<a>`要素の擬似クラスを例にとって説明します。
 
 ```css
+/* styles.css */
+
 a:link {
     color: blue; /* リンクの色 */
 }
@@ -23,6 +25,7 @@ a:active {
 ## 例
 
 ```html
+<!-- index.html -->
 <!DOCTYPE html>
 <html>
 <head>

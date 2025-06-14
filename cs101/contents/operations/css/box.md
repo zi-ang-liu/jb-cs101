@@ -8,7 +8,7 @@
 - **マージン（margin）**: ボックスの外側のスペース。
 
 :::{figure-md} CSS Box Model
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png" alt="CSS Box Model" width="300px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png" alt="CSS Box Model" width="500px">
 
 CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 :::
@@ -37,6 +37,7 @@ CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/b
 以下の例では、ボーダーのスタイル、太さ、色と角の丸みを指定しています。
 
 ```css
+/* style.css */
 #box {
     border-style: solid; /* ボーダーのスタイル */
     border-width: 2px; /* ボーダーの太さ */
@@ -46,6 +47,7 @@ CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/b
 ```
 
 ```html
+<!-- index.html -->
 <p>The box below has a solid blue border with a width of 2 pixels and rounded corners.</p>
 <div id="box" style="width: 200px; height: 100px;">
     This is a box with a solid blue border.
@@ -59,6 +61,7 @@ CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/b
 また，`border: border-width border-style border-color`のように、ボーダーのスタイル、太さ、色を一度に指定することもできます。
 
 ```css
+/* style.css */
 #box {
     border: 2px solid blue; /* ボーダーのスタイル、太さ、色を一度に指定 */
 }
@@ -73,6 +76,7 @@ CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/b
 `margin`は、以下のように指定できます。
 
 ```css
+/* style.css */
 #box {
     /* マージンの指定 */
     margin: 20px;
@@ -84,6 +88,7 @@ CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/b
 ```
 
 ```html
+<!-- index.html -->
 <p>The box below has a margin of 20 pixels.</p>
 <div id="box" style="width: 200px; height: 100px;">
     This is a box with a margin of 20 pixels.
@@ -93,6 +98,7 @@ CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/b
 マージンは、個別に指定することもできます。例えば、`margin-top`は上のマージン，`margin-right`は右のマージン，`margin-bottom`は下のマージン，`margin-left`は左のマージンを指定します。
 
 ```css
+/* style.css */
 #box {
     margin-top: 10px; /* 上のマージン */
     margin-right: 20px; /* 右のマージン */
@@ -108,6 +114,7 @@ CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/b
 `padding`は、以下のように指定できます。
 
 ```css
+/* style.css */
 #box {
     /* パディングの指定 */
     padding: 20px;
@@ -119,6 +126,7 @@ CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/b
 ```
 
 ```html
+<!-- index.html -->
 <p>The box below has a padding of 20 pixels.</p>
 <div id="box" style="width: 200px; height: 100px;">
     This is a box with a padding of 20 pixels.
@@ -133,6 +141,7 @@ CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/b
 - `padding-left`: 左のパディング
 
 ```css
+/* style.css */
 #box {
     padding-top: 10px; /* 上のパディング */
     padding-right: 20px; /* 右のパディング */
@@ -148,6 +157,7 @@ CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/b
 `box-sizing: border-box;`を指定すると、`width`と`height`にボーダーとパディングのサイズが含まれるようになります。
 
 ```html
+<!-- index.html -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -220,6 +230,7 @@ CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/b
 ## ボックスモデルの例
 
 ```html
+<!-- index.html -->
 <!DOCTYPE html>
 <html>
 <head>
