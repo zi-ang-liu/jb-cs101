@@ -14,6 +14,10 @@
 - [Iris.xlsx](./contents/operations/excel/data/iris.xlsx)
 - [レポートのテンプレート](./contents/operations/excel/data/report_template.docx)
 
+## 2026年度用
+
+- 出席状況に関する問い合わせにはお答えできません。
+
 ## 授業受講のルールとマナー
 
 ## 対面授業
@@ -53,13 +57,3 @@
 - Magnifier
   - Zoom in:
   - Zoom out: 
-
-
-<!-- ## 2026 To Do
-
-- Excel演習を記入式にする
-- Word演習のテンプレートを更新する
-- 情報の調べ方
-- Excelグラフの作成を追加する
-- Excel　計算　を更新　問題２、問題３の変更
-- HTMLを完成 -->
