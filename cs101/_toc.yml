@@ -86,10 +86,12 @@ parts:
         sections:
         - file: contents/theory/data/number
         - file: contents/theory/data/text
-        # - file: contents/theory/data/boolean
-        # - file: contents/theory/data/binary
+      
+      - file: contents/theory/hardware/intro
+        sections:
+        - file: contents/theory/hardware/gate
 
-      - file: contents/theory/algorithm/intro
+      # - file: contents/theory/algorithm/intro
 
     #   - file: contents/theory/data-structure/intro
 
@@ -97,12 +99,12 @@ parts:
 
     #   - file: contents/theory/database/intro
         
-      - file: contents/theory/network/intro
-        sections:
-        - file: contents/theory/network/internet
-        - file: contents/theory/network/security
-        - file: contents/theory/network/html
-        - file: contents/theory/network/xml
+      # - file: contents/theory/network/intro
+      #   sections:
+      #   - file: contents/theory/network/internet
+      #   - file: contents/theory/network/security
+      #   - file: contents/theory/network/html
+      #   - file: contents/theory/network/xml
 
     #   - file: contents/theory/artificial-intelligence/intro
     #     sections:
