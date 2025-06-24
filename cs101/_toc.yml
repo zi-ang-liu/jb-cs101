@@ -84,7 +84,6 @@ parts:
       - file: contents/theory/data/intro
         sections:
         - file: contents/theory/data/number
-        - file: contents/theory/data/bit
         - file: contents/theory/data/text
         # - file: contents/theory/data/boolean
         # - file: contents/theory/data/binary
