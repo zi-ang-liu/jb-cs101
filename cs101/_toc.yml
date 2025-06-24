@@ -8,7 +8,6 @@ parts:
       
     - caption: 授業
       chapters:
-      - file: contents/class/notes
       - file: contents/class/guide
 
     - caption: 操作編
