@@ -90,6 +90,7 @@ parts:
       - file: contents/theory/hardware/intro
         sections:
         - file: contents/theory/hardware/gate
+        - file: contents/theory/hardware/circuits
 
       # - file: contents/theory/algorithm/intro
 

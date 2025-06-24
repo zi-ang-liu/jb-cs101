@@ -1,4 +1,4 @@
-# コンピューターサイエンス
+# CS概論
 
 <!-- research has shown that students understand concrete examples more easily than abstract ones, even when the students themselves are abstract thinkers.  -->
 
@@ -87,14 +87,20 @@ A computer system is like an onion, made up of many layers.
 - データ分析
 - モデリング
 
-が用いられる。これらの手法を用いて、現代社会の問題解決を行うために、アルゴリズム、データ構造、プログラミングなどのコンピューターサイエンスの知識が必要となる。
+が用いられる。
+
+経営システム工学の研究対象は，生産システム、物流システム、社会システムなど多岐にわたる。これらのシステムは、多数の要素が相互に作用し、複雑なシステムになっているため，分析や最適化を行うためには、大規模な計算が必要となる。
 
 以下では、いくつかの経営工学において有名な問題と手法を紹介し、なぜコンピューターサイエンスの知識が必要なのかを説明する。
 
 - [巡回セールスマン問題](https://ja.wikipedia.org/wiki/%E5%B7%A1%E5%9B%9E%E3%82%BB%E3%83%BC%E3%83%AB%E3%82%B9%E3%83%9E%E3%83%B3%E5%95%8F%E9%A1%8C)
+<!-- - [ナップサック問題](https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%83%E3%83%97%E3%82%B5%E3%83%83%E3%82%AF%E5%95%8F%E9%A1%8C)
+- [最短経路問題](https://ja.wikipedia.org/wiki/最短経路問題) -->
 - [モンテカルロ法](https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%83%86%E3%82%AB%E3%83%AB%E3%83%AD%E6%B3%95)
+- [モンテカルロ木探索](https://ja.wikipedia.org/wiki/モンテカルロ木探索)
 - [回帰分析](https://ja.wikipedia.org/wiki/%E5%9B%9E%E5%B8%B0%E5%88%86%E6%9E%90)
 - [安定結婚問題](https://ja.wikipedia.org/wiki/%E5%AE%89%E5%AE%9A%E7%B5%90%E5%A9%9A%E5%95%8F%E9%A1%8C)
+<!-- - [数値解析](https://ja.wikipedia.org/wiki/%E6%95%B0%E5%80%A4%E8%A7%A3%E6%9E%90) -->
 
 **調べてみよう**: 経営システム工学科の[カリキュラム](https://ise-hp.ws.hosei.ac.jp/study/)を調べ、コンピューターサイエンスのどの分野が特に経営システム工学において重要であるかを考えてみよう。
 
