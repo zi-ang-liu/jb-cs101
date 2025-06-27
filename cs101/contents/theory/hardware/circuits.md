@@ -79,3 +79,17 @@ SRラッチの動作は次の通りである．
 
 ## 集積回路
 
+集積回路（IC: Integrated Circuit）は、多数の論理ゲートを一つに集約したものである．集積回路は、論理ゲートの数に応じて、次のように分類される．
+
+| 略語 | Full Name                    | Number of Gates   |
+| ---- | ---------------------------- | ----------------- |
+| SSI  | Small-Scale Integration      | 1-10 gates        |
+| MSI  | Medium-Scale Integration     | 10-100 gates      |
+| LSI  | Large-Scale Integration      | 100-100,000 gates |
+| VLSI | Very Large-Scale Integration | 100,000+ gates    |
+
+（N. Dale and J. Lewis, Computer science illuminated, 7th ed. Sudbury, MA: Jones and Bartlett, 2024.）
+
+## CPU
+
+コンピューターにおいて、最も重要な集積回路は**中央処理装置**（CPU: Central Processing Unit）である．
