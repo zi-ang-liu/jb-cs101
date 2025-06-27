@@ -108,11 +108,15 @@ SRラッチの動作は次の通りである．
 
 :::{figure-md} logic_circuit
 <img src="./image/circuit-1.drawio.svg" alt="Logic Circuit 1" width="300px">
+
+問題1
 :::
 
 2. 以下の図に示す論理回路の真理値表を作成せよ．
 
 :::{figure-md} logic_circuit_2
 <img src="./image/circuit-2.drawio.svg" alt="Logic Circuit 2" width="300px">
+
+問題2
 :::
 
