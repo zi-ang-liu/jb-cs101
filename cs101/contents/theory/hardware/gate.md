@@ -28,22 +28,20 @@
 
 これらのゲートをの紹介には，論理式，真理値表，記号を使う．
 
-**論理式**（Boolean expressions）は，数学記号を使って，数式で真理値の演算を表現する．
-
-**真理値表**（truth table）は，ゲートのすべての入力組み合わせに対して，出力の真理値を示す表である．
-
-**記号**（MIL symbols）は，論理ゲートを図で表現するための記号である．
+- **論理式**（Boolean expressions）は，数学記号を使って，数式で真理値の演算を表現する．
+- **真理値表**（truth table）は，ゲートのすべての入力組み合わせに対して，出力の真理値を示す表である．
+- **記号**（MIL symbols）は，論理ゲートを図で表現するための記号である．
 
 ### ORゲート
 
-$p$と$q$を真理値とするとき，$p$と$q$の論理和（logical disjunction）は，$p \lor q$と書く．
+$A$と$B$を真理値とするとき，$A$と$B$の論理和（logical disjunction）は，$A \lor B$と書く．
 
-$p$と$q$の少なくとも一方が$1$のとき，$p \lor q = 1$となる．
+$A$と$B$の少なくとも一方が$1$のとき，$A \lor B = 1$となる．
 
 
 論理和の真理値表は以下の通りである．
 
-| $p$ | $q$ | $p \lor q$ |
+| $A$ | $B$ | $A \lor B$ |
 | --- | --- | ---------- |
 | 0   | 0   | 0          |
 | 0   | 1   | 1          |
@@ -60,13 +58,13 @@ ORゲート
 
 ### ANDゲート
 
-$p$と$q$を真理値とするとき，$p$と$q$の**論理積**（logical conjunction）は，$p \land q$と書く．
+$A$と$B$を真理値とするとき，$A$と$B$の**論理積**（logical conjunction）は，$A \land B$と書く．
 
-$p$と$q$の両方が$1$のとき，$p \land q = 1$となる．
+$A$と$B$の両方が$1$のとき，$A \land B = 1$となる．
 
 論理積の真理値表は以下の通りである．
 
-| $p$ | $q$ | $p \land q$ |
+| $A$ | $B$ | $A \land B$ |
 | --- | --- | ----------- |
 | 0   | 0   | 0           |
 | 0   | 1   | 0           |
@@ -83,18 +81,18 @@ ANDゲート
 
 ### NOTゲート
 
-$p$を真理値とするとき，$p$の**否定**（logical negation）は，$\lnot p$と書く．
+$A$を真理値とするとき，$A$の**否定**（logical negation）は，$\lnot p$と書く．
 
-$p$が$1$のとき，$\lnot p = 0$となり，$p$が$0$のとき，$\lnot p = 1$となる．
+$A$が$1$のとき，$\lnot A = 0$となり，$A$が$0$のとき，$\lnot A = 1$となる．
 
 否定の真理値表は以下の通りである．
 
-| $p$ | $\lnot p$ |
+| $A$ | $\lnot p$ |
 | --- | --------- |
 | 0   | 1         |
 | 1   | 0         |
 
-否定の演算を行うNOTゲートは次のようにMIL記号で表現される．
+否定の演算を行うNOTゲートは次の記号で表現される．
 
 :::{figure-md} not_gate
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/NOT_ANSI_Labelled.svg" alt="NOT Gate" width="200px">
@@ -104,20 +102,20 @@ NOTゲート
 
 ### XORゲート
 
-$p$と$q$を真理値とするとき，$p$と$q$の**排他的論理和**（exclusive or）は，$p \oplus q$と書く．
+$A$と$B$を真理値とするとき，$A$と$B$の**排他的論理和**（exclusive or）は，$A \oplus B$と書く．
 
-$p$と$q$のうち一方だけが$1$のとき，$p \oplus q = 1$となる．
+$A$と$B$のうち一方だけが$1$のとき，$A \oplus B = 1$となる．
 
 排他的論理和の真理値表は以下の通りである．
 
-| p   | q   | p XOR q |
+| A   | B   | A XOR B |
 | --- | --- | ------- |
 | 0   | 0   | 0       |
 | 0   | 1   | 1       |
 | 1   | 0   | 1       |
 | 1   | 1   | 0       |
 
-排他的論理和の演算を行うXORゲートは次のようにMIL記号で表現される．
+排他的論理和の演算を行うXORゲートは次の記号で表現される．
 
 :::{figure-md} xor_gate
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/XOR_ANSI_Labelled.svg" alt="XOR Gate" width="200px">
@@ -125,56 +123,77 @@ $p$と$q$のうち一方だけが$1$のとき，$p \oplus q = 1$となる．
 XORゲート
 :::
 
-## まとめ
+### NANDゲート
 
-ゲートは，入力信号を受け取り，それらの信号を処理して出力信号を生成する．
+$A$と$B$を真理値とするとき、$A$と$B$の**否定論理積**は、$A \uparrow B$と書書く。NANDはNot ANDの略で、ANDゲートの出力を否定したものである。
+
+$$
+A \uparrow B = \lnot (A \land B)
+$$
+
+否定論理積の真理値表は以下の通りである。
+
+| $A$ | $B$ | $A \uparrow B$ |
+| --- | --- | -------------- |
+| 0   | 0   | 1              |
+| 0   | 1   | 1              |
+| 1   | 0   | 1              |
+| 1   | 1   | 0              |
+
+否定論理積の演算を行うNANDゲートは次の記号で表現される。
+
+:::{figure-md} nand_gate
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/NAND_ANSI_Labelled.svg" alt="NAND Gate" width="200px">
+
+NANDゲート
+:::
+
+### NORゲート
+
+$A$と$B$を真理値とするとき、$A$と$B$の**否定論理和**は、$A \downarrow B$と書く。NORはNot ORの略で、ORゲートの出力を否定したものである。
+
+$$
+A \downarrow B = \lnot (A \lor B)
+$$
+
+否定論理和の真理値表は以下の通りである。
+
+| $A$ | $B$ | $A \downarrow B$ |
+| --- | --- | ---------------- |
+| 0   | 0   | 1                |
+| 0   | 1   | 0                |
+| 1   | 0   | 0                |
+| 1   | 1   | 0                |
+
+否定論理和の演算を行うNORゲートは次の記号で表現される。
+
+:::{figure-md} nor_gate
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/NOR_ANSI_Labelled.svg" alt="NOR Gate" width="200px">
+
+NORゲート
+:::
+
+## まとめ
 
 - ANDゲートは、両方の入力が1のときに出力が1になる。
 - ORゲートは、少なくとも一方の入力が1のときに出力が1になる。
 - NOTゲートは、入力が1のときに出力が0になり、入力が0のときに出力が1になる。
 - XORゲートは、入力のうち一方だけが1のときに出力が1になる。
+- NANDゲートは、ANDゲートの出力を否定したもので、両方の入力が1のときに出力が0になる。
+- NORゲートは、ORゲートの出力を否定したもので、両方の入力が0のときに出力が1になる。
 
-プログラミング言語では，論理演算を行うための演算子が用意されている。下は、C言語とPythonでの論理演算子を示す．
+| ゲート |       記号       |
+| :----: | :--------------: |
+|  AND   |   $A \land B$    |
+|   OR   |    $A \lor B$    |
+|  NOT   |    $\lnot A$     |
+|  XOR   |   $A \oplus B$   |
+|  NAND  |  $A \uparrow B$  |
+|  NOR   | $A \downarrow B$ |
 
-| 記号     | 意味 | C言語演算子 | Python演算子 |
-| -------- | ---- | ----------- | ------------ |
-| $\land$  | AND  | `&&`        | `and`        |
-| $\lor$   | OR   | `\|\|`      | `or`         |
-| $\lnot$  | NOT  | `!`         | `not`        |
-| $\oplus$ | XOR  | `^`         | `^`          |
+## C言語での論理演算
 
-
-<!-- 
-### やってみよう
-
-ユーザーから2つの真理値（0または1）を入力として受け取り、AND、OR、NOT、XORの演算結果を表示するC言語のプログラムを作成してみよう。
-
-#### 解答例
-
-```c
-#include <stdio.h>
-
-int main() {
-    int p, q;
-    printf("Please enter p and q, where p and q are either 0 or 1.\n");
-    printf("Enter p: ");
-    scanf("%d", &p);
-    printf("Enter q: ");
-    scanf("%d", &q);
-    printf("p = %d, q = %d\n", p, q);
-
-    printf("*** Logical Operations ***\n");
-    printf("p AND q = %d\n", p && q);
-    printf("p OR q = %d\n", p || q);
-    printf("NOT p = %d\n", !p);
-    printf("p XOR q = %d\n", p ^ q);
-    return 0;
-}
-```
-
-## フリップフロップ
-
-## 練習問題
+C言語では、真理値は整数型で表現され、`0`は偽（False）、`1`は真（True）として扱われる。
 
 以下のC言語のコードは，`2 > 1`が真であり、`1`を出力する．`2 < 1`が偽であり、`0`を出力する．
 
@@ -188,44 +207,93 @@ int main() {
 }
 ```
 
+C言語では、論理和の演算は`||`演算子を使って表現される．例えば、`A || B`は、$A$または$B$のいずれかが真である場合に真を返す．
+
+```c
+#include <stdio.h>
+int main() {
+    int A = 1; // 真
+    int B = 0; // 偽
+    printf("A OR B = %d\n", A || B); // 出力: 1
+    return 0;
+}
+```
+
+C言語では、論理積の演算は`&&`演算子を使って表現される．例えば、`A && B`は、$A$と$B$の両方が真である場合に真を返す．
+
+```c
+#include <stdio.h>
+int main() {
+    int A = 1; // 真
+    int B = 0; // 偽
+    printf("A AND B = %d\n", A && B); // 出力: 0
+    return 0;
+}
+```
+
+C言語では、否定の演算は`!`演算子を使って表現される．例えば、`!A`は、$A$が真である場合に偽を返し、$A$が偽である場合に真を返す．
+
+```c
+#include <stdio.h>
+int main() {
+    int A = 1; // 真
+    printf("NOT A = %d\n", !A); // 出力: 0
+    return 0;
+}
+```
+
+### やってみよう
+
+ユーザーから2つの真理値（0または1）を入力として受け取り、AND、OR、NOT、XORの演算結果を表示するC言語のプログラムを作成してみよう。
+
+作成したプログラムを実行すると、次のような出力が得られる。`Enter A`と`Enter B`の後に、0または1を入力することができる。
+
+```plain
+Please enter A and B, where A and B are either 0 or 1.
+Enter A: __1__
+Enter B: __0__
+A = 1, B = 0
+
+*** Logical Operations ***
+A AND B = 0
+A OR B = 1
+NOT A = 0
+A XOR B = 1
+```
+
+#### 解答例
+
+```c
+#include <stdio.h>
+
+int main() {
+    int A, B;
+    printf("Please enter A and B, where A and B are either 0 or 1.\n");
+    printf("Enter A: ");
+    scanf("%d", &A);
+    printf("Enter B: ");
+    scanf("%d", &B);
+    printf("A = %d, B = %d\n", A, B);
+
+    printf("*** Logical Operations ***\n");
+    printf("A AND B = %d\n", A && B);
+    printf("A OR B = %d\n", A || B);
+    printf("NOT A = %d\n", !A);
+    printf("A XOR B = %d\n", A ^ B);
+    return 0;
+}
+```
+
+<!-- ## フリップフロップ
+
+## 練習問題
+
+
+
 Pythonでは，`True`と`False`を使って真理値を表現する．
 
 ```python
 print(2 > 1)  # True
 print(2 < 1)  # False
 ```
-
-C言語では、論理和の演算は`||`演算子を使って表現される．例えば、`p || q`は、$p$または$q$のいずれかが真である場合に真を返す．
-
-```c
-#include <stdio.h>
-int main() {
-    int p = 1; // 真
-    int q = 0; // 偽
-    printf("p OR q = %d\n", p || q); // 出力: 1
-    return 0;
-}
-```
-
-C言語では、論理積の演算は`&&`演算子を使って表現される．例えば、`p && q`は、$p$と$q$の両方が真である場合に真を返す．
-
-```c
-#include <stdio.h>
-int main() {
-    int p = 1; // 真
-    int q = 0; // 偽
-    printf("p AND q = %d\n", p && q); // 出力: 0
-    return 0;
-}
-```
-
-C言語では、否定の演算は`!`演算子を使って表現される．例えば、`!p`は、$p$が真である場合に偽を返し、$p$が偽である場合に真を返す．
-
-```c
-#include <stdio.h>
-int main() {
-    int p = 1; // 真
-    printf("NOT p = %d\n", !p); // 出力: 0
-    return 0;
-}
-``` -->
+ -->
