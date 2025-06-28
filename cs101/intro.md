@@ -15,6 +15,7 @@
 - 演習課題：[Google Classroom](https://classroom.google.com/c/NzYyMTI5NTMwNjk1?cjc=fhdwwdgz)
 - 画面共用：[Meet](https://meet.google.com/gxw-nvog-tuh)
 - 講義改善：[Google Form](https://forms.gle/MfVHGFVDyYzuDF9n8)
+- 公欠申請：[Google Form](https://forms.gle/8b1d7c5f2a9g3Z4i6)
 
 ## データ
 
