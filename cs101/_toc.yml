@@ -93,11 +93,13 @@ parts:
         - file: contents/theory/hardware/circuits
         - file: contents/theory/hardware/computer
 
+      - file: contents/theory/programming/intro
+
       # - file: contents/theory/algorithm/intro
 
     #   - file: contents/theory/data-structure/intro
 
-    #   - file: contents/theory/programming/intro
+
 
     #   - file: contents/theory/database/intro
         
