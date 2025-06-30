@@ -1,4 +1,4 @@
-# HTMLによるウェブページ作成
+# HTMLによるWebページの作成
 
 **HTML**（HyperText Markup Language）は，ハイパーテキストを記述するためのマークアップ言語です．
 
