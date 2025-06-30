@@ -94,6 +94,10 @@ parts:
         - file: contents/theory/hardware/computer
 
       - file: contents/theory/programming/intro
+        sections:
+        - file: contents/theory/programming/machine_language
+        - file: contents/theory/programming/assembly_language
+        - file: contents/theory/programming/high_level_language
 
       # - file: contents/theory/algorithm/intro
 
