@@ -89,7 +89,7 @@ CPUがこのサイクルを繰り返すことで，プログラムが実行さ�
 
 現在のCPUは、演算装置、制御装置、**レジスタ**（register）と呼ばれる高速な記憶装置を持つ．レジスタは、CPU内部でデータを一時的に保存するための記憶装置である．レジスタは、CPUが直接アクセスできるため、主記憶装置よりも高速にデータを読み書きできる．CPUは、**バス**（bus）と呼ばれる回線を通じて、記憶装置とデータをやり取りする．
 
-::::{figure-md} cpu_registers
+:::{figure-md} cpu_registers
 <img src="./image/cpu.drawio.svg" alt="CPU Registers" width="300px">
 
 CPUと主記憶装置
