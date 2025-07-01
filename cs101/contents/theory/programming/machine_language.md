@@ -48,7 +48,7 @@ Pep/9の命令セットには40種類の命令がある。
 また、命令部だけで構成される命令もある。これらの命令は、オペランド部を持たないため、8ビットで表現される。
 
 :::{figure-md} pep9_instruction_format
-<img src="./image/pep9_instruction_format.drawio.svg" alt="Pep/9 Instruction Format" width="300px">
+<img src="./image/pep9_instruction_format.drawio.svg" alt="Pep/9 Instruction Format" width="500px">
 
 Pep/9の命令
 :::
@@ -78,7 +78,7 @@ Pep/9の命令
 ここで示した他の命令は、4ビットのオペコードと、1ビットのレジスタ指定子、3ビットのアドレス指定方式を持つ。
 
 :::{figure-md} pep9_instruction
-<img src="./image/pep9_ins.drawio.svg" alt="Pep/9 Instruction" width="300px">
+<img src="./image/pep9_ins.drawio.svg" alt="Pep/9 Instruction" width="500px">
 
 Pep/9のinstruction specifier
 :::
