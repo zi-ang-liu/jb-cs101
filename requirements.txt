@@ -4,3 +4,4 @@ numpy
 ghp-import
 sphinx-proof
 sphinx_multitoc_numbering
+sphinxcontrib-mermaid
