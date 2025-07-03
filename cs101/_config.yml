@@ -40,6 +40,6 @@ html:
 sphinx:
   extra_extensions:
     - sphinx_proof
-    - sphinxcontrib-mermaid
+    - sphinxcontrib.mermaid
   # extra_extensions:
   #   - sphinx_multitoc_numbering
