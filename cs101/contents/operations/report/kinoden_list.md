@@ -2,6 +2,20 @@
 
 - [KinoDen](https://kinoden.kinokuniya.co.jp/hosei_u/)
 
+## Python入門
+
+- [Python言語によるプログラミングイントロダクション　第2版 (2017)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00012323)
+- [ChatGPTと学ぶPython入門](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00101216)
+- [よくわかる Python入門](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00070311)
+- [スッキリわかるPython入門](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00020952)
+- [ゼロからやさしくはじめるPython入門](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00074160)
+- [マンガでざっくり学ぶPython（パイソン）](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00036441)
+
+
+## CS
+
+- [Python版 コンピュータ科学とプログラミング入門](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00042743)
+
 ## グラフ理論
 
 - [グラフ理論入門(原書第4版) (2001)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00016566)
@@ -13,6 +27,8 @@
 ## 機械学習
 
 - [Python機械学習プログラミング (2022)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00074705)
+- [スッキリわかるPythonによる機械学習入門](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00033550)
+- [いちばんやさしいPython機械学習の教本](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00020950)
 
 ### XAI
 
@@ -39,11 +55,6 @@
 - [アルゴリズムイントロダクション　第4版　2 (2024)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00080844)
 - [データ構造とアルゴリズム (2017)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00026089)
 
-
-## プログラミング
-
-- [Python言語によるプログラミングイントロダクション　第2版 (2017)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00012323)
-
 ## データサイエンス
 
 - [Pythonによる実務で役立つデータサイエンス練習問題 200+ 1 (2023)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00080843)
@@ -64,8 +75,7 @@
 
 ## 確認中．．．
 - プログラミングのための確率統計
-- Python言語によるプログラミングイントロダクション
-- ChatGPTと学ぶPython入門
+- 
 - 理科系の論文作法
 - レポート・論文の書き方入門　第４版
 - AI事典　第3版
