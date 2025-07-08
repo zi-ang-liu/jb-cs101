@@ -98,6 +98,7 @@ parts:
         - file: contents/theory/programming/machine_language
         - file: contents/theory/programming/assembly_language
         - file: contents/theory/programming/high_level_language
+      - file: contents/theory/programming/algorithm
 
       # - file: contents/theory/algorithm/intro
 
