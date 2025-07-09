@@ -42,7 +42,9 @@ CPUが実行する命令サイクルは、3つの基本的なステップから�
 > -- N. Dale and J. Lewis, Computer science illuminated, 7th ed. Sudbury, MA: Jones and Bartlett, 2024.
 
   
+## アルゴリズムの表現
 
+アルゴリズムは、さまざまな方法で表現できる。代表的な方法には、フローチャート、擬似コードがある。
 
 ## 擬似コード
 
