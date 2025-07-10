@@ -11,10 +11,32 @@
 - [ゼロからやさしくはじめるPython入門](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00074160)
 - [マンガでざっくり学ぶPython（パイソン）](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00036441)
 
-
-## CS
+## CS入門
 
 - [Python版 コンピュータ科学とプログラミング入門](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00042743)
+
+## Pythonシミュレーション
+
+- [Python コンピュータシミュレーション入門 (2021)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00045049)
+
+## Python最適化
+
+- [Pythonではじめる数理最適化　第2版 (2024)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00096408)
+- [Pythonによる実務で役立つ最適化問題100+ 1 (2022)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00075057)
+- [Pythonによる数理最適化入門 (2018)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00019214)
+- [あたらしい数理最適化 (2012)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00012255)
+- [ベイズ最適化 (2023)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00083705)
+- [近似アルゴリズム (2019)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00041752)
+
+## Python機械学習
+
+- [Python機械学習プログラミング (2022)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00074705)
+- [スッキリわかるPythonによる機械学習入門](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00033550)
+- [いちばんやさしいPython機械学習の教本](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00020950)
+
+## データサイエンス
+
+- [Pythonによる実務で役立つデータサイエンス練習問題 200+ 1 (2023)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00080843)
 
 ## グラフ理論
 
@@ -23,12 +45,6 @@
 ## 離散数学
 
 - [AI時代の離散数学 (2020)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00032062)
-
-## 機械学習
-
-- [Python機械学習プログラミング (2022)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00074705)
-- [スッキリわかるPythonによる機械学習入門](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00033550)
-- [いちばんやさしいPython機械学習の教本](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00020950)
 
 ### XAI
 
@@ -41,28 +57,10 @@
 - [強化学習アルゴリズム入門 (2019)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00024416)
 - [現場で使える！Python深層強化学習入門 (2019)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00034524)
 
-## 最適化
-
-- [Pythonではじめる数理最適化　第2版 (2024)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00096408)
-- [Pythonによる実務で役立つ最適化問題100+ 1 (2022)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00075057)
-- [Pythonによる数理最適化入門 (2018)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00019214)
-- [あたらしい数理最適化 (2012)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00012255)
-- [ベイズ最適化 (2023)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00083705)
-- [近似アルゴリズム (2019)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00041752)
-
 ## アルゴリズム
 - [アルゴリズムイントロダクション　第4版　1 (2024)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00087879)
 - [アルゴリズムイントロダクション　第4版　2 (2024)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00080844)
 - [データ構造とアルゴリズム (2017)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00026089)
-
-## データサイエンス
-
-- [Pythonによる実務で役立つデータサイエンス練習問題 200+ 1 (2023)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00080843)
-
-
-## シミュレーション
-
-- [Python コンピュータシミュレーション入門 (2021)](https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00045049)
 
 ## その他
 
