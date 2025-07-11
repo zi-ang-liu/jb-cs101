@@ -36,7 +36,7 @@ CPUが実行する命令サイクルは、3つの基本的なステップから�
 > An algorithm is an ordered set of unambiguous, executable steps that defines a terminating process.
 > 
 > -- G. Brookshear and D. Brylow, Computer Science: An Overview, 13th ed. Pearson, 2018.
->
+
 > (An algorithm is a set of) unambiguous instructions for solving a problem or subproblem in a finite amount of time using a finite amount of data.
 > 
 > -- N. Dale and J. Lewis, Computer science illuminated, 7th ed. Sudbury, MA: Jones and Bartlett, 2024.
