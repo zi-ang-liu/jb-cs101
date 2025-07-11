@@ -50,31 +50,29 @@ CPUが実行する命令サイクルは、3つの基本的なステップから�
 
 擬似コード（Pseudocode）は、アルゴリズムを記述するための表記法である。厳密な構文はないが、自然言語より明確にアルゴリズムを表現できる。
 
+ここでは、曖昧さのない一般的に使われる擬似コードの表記法を紹介する。
+
 ### 代入
 
-代入（assignment）とは、変数に値を設定する操作である。擬似コードでは、以下のように表現される：
+代入（assignment）とは、変数に値を設定する操作である。代入の擬似コードは以下の通りである。
 
-$$
-\texttt{sum} \gets 0
-$$
+$$\texttt{variable} \gets \texttt{expression}$$
 
-変数$\texttt{sum}$に0を代入することを意味する。
+例えば、給与とボーナスの合計を計算する場合、擬似コードは以下のようになる。
 
-他には、以下のように表現することもできる：
+$$\texttt{sum} \gets \texttt{salary} + \texttt{bonus}$$
 
-$$
-\texttt{sum} = 0
-$$
+さらに、給与とボーナスを入力として、合計を出力するアルゴリズムは以下のように表現できる。
 
-$$
-\text{Set } \texttt{sum} \text{ to } 0
-$$
+```{prf:algorithm} assignment-example
+:label: assignment-example
+**Input**: salary, bonus   
+**Output**: sum
 
-式を代入することもできる：
+1. **sum** $\gets$ **salary** + **bonus**
+```
 
-$$
-\texttt{sum} \gets \texttt{salary} + \texttt{bonus}
-$$
+以下は、PythonとC言語での実装例である。
 
 ```python
 salary = 400
