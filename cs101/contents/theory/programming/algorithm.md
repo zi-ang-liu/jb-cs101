@@ -99,10 +99,10 @@ int main() {
 ```{prf:algorithm} selection-structure
 :label: selection-structure
 
-**if** condition **then**
-   activity
-**else**
-   activity
+**if** condition **then**   
+   activity   
+**else**   
+   activity   
 ```
 
 例えば、
