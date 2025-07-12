@@ -69,7 +69,7 @@ $$\texttt{sum} \gets \texttt{salary} + \texttt{bonus}$$
 **Input**: salary, bonus   
 **Output**: sum
 
-1. **sum** $\gets$ **salary** + **bonus**
+**sum** $\gets$ **salary** + **bonus**
 ```
 
 以下は、PythonとC言語での実装例である。
@@ -99,10 +99,10 @@ int main() {
 ```{prf:algorithm} selection-structure
 :label: selection-structure
 
-1. **if** condition **then**
-   1. activity
-2. **else**
-   1. activity
+**if** condition **then**
+   activity
+**else**
+   activity
 ```
 
 例えば、
