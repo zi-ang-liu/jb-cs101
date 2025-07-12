@@ -69,7 +69,7 @@ $$\texttt{sum} \gets \texttt{salary} + \texttt{bonus}$$
 **Input**: salary, bonus   
 **Output**: sum
 
-**sum** $\gets$ **salary** + **bonus**
+$\texttt{sum} \gets \texttt{salary} + \texttt{bonus}$
 ```
 
 以下は、PythonとC言語での実装例である。
