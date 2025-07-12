@@ -110,10 +110,10 @@ int main() {
 ```{prf:algorithm} score-evaluation
 :label: score-evaluation
 
-1. **if** score >= 60 **then**
-    1. print("合格")
-2. **else**
-    1. print("不合格")
+**if** score >= 60 **then**   
+    print("合格")   
+**else**   
+    print("不合格")   
 ```
 
 ```python
