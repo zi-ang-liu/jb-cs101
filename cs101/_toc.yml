@@ -78,8 +78,8 @@ parts:
     
     - caption: 理論編
       # numbered: true
-      # chapters:
-      -file: contents/theory/update
+      chapters:
+      - file: contents/theory/update
       # - file: contents/theory/intro/intro
 
       # - file: contents/theory/data/intro
