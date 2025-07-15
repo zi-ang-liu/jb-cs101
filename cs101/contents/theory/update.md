@@ -1,4 +1,4 @@
-# ✨Update
+# Update
 
 Jupyter bookの更新により、理論編の内容が以下のurlに移動しました。
 
