@@ -76,22 +76,22 @@ parts:
 
       - file: contents/operations/markdown/intro
     
-    - caption: 理論編
-      # numbered: true
-      chapters:
-      # - file: contents/theory/update
-      - file: contents/theory/intro/intro
+    # - caption: 理論編
+    #   # numbered: true
+    #   chapters:
+    #   # - file: contents/theory/update
+    #   - file: contents/theory/intro/intro
 
-      - file: contents/theory/data/intro
-        sections:
-        - file: contents/theory/data/number
-        - file: contents/theory/data/text
+    #   - file: contents/theory/data/intro
+    #     sections:
+    #     - file: contents/theory/data/number
+    #     - file: contents/theory/data/text
       
-      - file: contents/theory/hardware/intro
-        sections:
-        - file: contents/theory/hardware/gate
-        - file: contents/theory/hardware/circuits
-        - file: contents/theory/hardware/computer
+    #   - file: contents/theory/hardware/intro
+    #     sections:
+    #     - file: contents/theory/hardware/gate
+    #     - file: contents/theory/hardware/circuits
+    #     - file: contents/theory/hardware/computer
 
       # - file: contents/theory/programming/intro
       #   sections:
